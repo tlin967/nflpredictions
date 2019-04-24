@@ -26,6 +26,7 @@ for index, row in df.iterrows():
     #set where we want to save
     doc_ref = db.collection(u'predicted_results').document()
     dataObject = {
+        u'schedule_date': row.schedule_date.strip().decode(),
         u'schedule_season': row.schedule_season,
         u'schedule_week': row.schedule_week,
         u'schedule_playoff': row.schedule_playoff,

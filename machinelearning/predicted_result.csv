@@ -1,268 +1,268 @@
-,schedule_season,schedule_week,schedule_playoff,full_result,spread_favorite,stadium_neutral,weather_temperature,weather_wind_mph,predicted_result,team_home,team_away,team_favorite_id
-0,2018,1,0,1,-1.0,0,81.0,8.0,1,Philadelphia Eagles,Atlanta Falcons,PHI
-1,2018,1,0,0,-2.0,0,72.0,0.0,1,Arizona Cardinals,Washington Redskins,ARI
-2,2018,1,0,1,-7.5,0,61.0,12.0,1,Baltimore Ravens,Buffalo Bills,BAL
-3,2018,1,0,1,-2.5,0,81.0,9.0,1,Carolina Panthers,Dallas Cowboys,CAR
-4,2018,1,0,0,-3.5,0,58.0,11.0,0,Cleveland Browns,Pittsburgh Steelers,PIT
-5,2018,1,0,1,-3.0,0,84.0,5.0,1,Denver Broncos,Seattle Seahawks,DEN
-6,2018,1,0,1,-6.5,0,62.0,10.0,1,Green Bay Packers,Chicago Bears,GB
-7,2018,1,0,0,-1.0,0,72.0,0.0,0,Indianapolis Colts,Cincinnati Bengals,CIN
-8,2018,1,0,0,-3.5,0,84.0,8.0,0,Los Angeles Chargers,Kansas City Chiefs,LAC
-9,2018,1,0,1,-1.0,0,89.0,7.0,0,Miami Dolphins,Tennessee Titans,TEN
-10,2018,1,0,1,-6.0,0,72.0,0.0,1,Minnesota Vikings,San Francisco 49ers,MIN
-11,2018,1,0,1,-6.0,0,62.0,10.0,1,New England Patriots,Houston Texans,NE
-12,2018,1,0,0,-10.0,0,72.0,0.0,1,New Orleans Saints,Tampa Bay Buccaneers,NO
-13,2018,1,0,0,-2.5,0,59.0,7.0,0,New York Giants,Jacksonville Jaguars,JAX
-14,2018,1,0,0,-7.0,0,72.0,0.0,1,Detroit Lions,New York Jets,DET
-15,2018,1,0,0,-6.5,0,69.0,10.0,0,Oakland Raiders,Los Angeles Rams,LAR
-16,2018,2,0,1,-1.0,0,82.0,3.0,1,Cincinnati Bengals,Baltimore Ravens,CIN
-17,2018,2,0,1,-5.5,0,72.0,0.0,1,Atlanta Falcons,Carolina Panthers,ATL
-18,2018,2,0,0,-7.5,0,83.0,6.0,0,Buffalo Bills,Los Angeles Chargers,LAC
-19,2018,2,0,1,-3.0,0,72.0,0.0,1,Dallas Cowboys,New York Giants,DAL
-20,2018,2,0,1,-5.5,0,92.0,4.0,1,Denver Broncos,Oakland Raiders,DEN
-21,2018,2,0,0,-2.0,0,80.0,5.0,0,Green Bay Packers,Minnesota Vikings,MIN
-22,2018,2,0,1,-2.0,0,97.0,15.0,0,Jacksonville Jaguars,New England Patriots,NE
-23,2018,2,0,1,-13.5,0,86.0,2.0,1,Los Angeles Rams,Arizona Cardinals,LAR
-24,2018,2,0,1,-10.0,0,72.0,0.0,1,New Orleans Saints,Cleveland Browns,NO
-25,2018,2,0,0,-3.0,0,80.0,4.0,1,New York Jets,Miami Dolphins,NYJ
-26,2018,2,0,0,-4.5,0,80.0,10.0,1,Pittsburgh Steelers,Kansas City Chiefs,PIT
-27,2018,2,0,1,-6.0,0,73.0,12.0,1,San Francisco 49ers,Detroit Lions,SF
-28,2018,2,0,1,-3.0,0,91.0,9.0,0,Tampa Bay Buccaneers,Philadelphia Eagles,PHI
-29,2018,2,0,1,-3.5,0,81.0,12.0,0,Tennessee Titans,Houston Texans,HOU
-30,2018,2,0,0,-6.0,0,71.0,5.0,1,Washington Redskins,Indianapolis Colts,WAS
-31,2018,2,0,1,-4.5,0,79.0,2.0,1,Chicago Bears,Seattle Seahawks,CHI
-32,2018,3,0,1,-3.0,0,83.0,11.0,0,Cleveland Browns,New York Jets,CLE
-33,2018,3,0,0,-5.5,0,72.0,0.0,0,Arizona Cardinals,Chicago Bears,CHI
-34,2018,3,0,0,-1.5,0,72.0,0.0,1,Atlanta Falcons,New Orleans Saints,ATL
-35,2018,3,0,1,-5.5,0,61.0,5.0,1,Baltimore Ravens,Denver Broncos,BAL
-36,2018,3,0,1,-2.5,0,80.0,3.0,1,Carolina Panthers,Cincinnati Bengals,CAR
-37,2018,3,0,1,-7.0,0,72.0,0.0,0,Detroit Lions,New England Patriots,NE
-38,2018,3,0,0,-6.5,0,72.0,0.0,0,Houston Texans,New York Giants,HOU
-39,2018,3,0,0,-10.0,0,89.0,10.0,1,Jacksonville Jaguars,Tennessee Titans,JAX
-40,2018,3,0,1,-5.5,0,70.0,4.0,1,Kansas City Chiefs,San Francisco 49ers,KC
-41,2018,3,0,1,-7.5,0,80.0,5.0,0,Los Angeles Rams,Los Angeles Chargers,LAR
-42,2018,3,0,1,-3.0,0,90.0,7.0,1,Miami Dolphins,Oakland Raiders,MIA
-43,2018,3,0,0,-16.5,0,72.0,0.0,1,Minnesota Vikings,Buffalo Bills,MIN
-44,2018,3,0,1,-6.5,0,61.0,5.0,1,Philadelphia Eagles,Indianapolis Colts,PHI
-45,2018,3,0,1,-1.0,0,61.0,4.0,1,Seattle Seahawks,Dallas Cowboys,SEA
-46,2018,3,0,1,-2.5,0,62.0,6.0,0,Washington Redskins,Green Bay Packers,GB
-47,2018,3,0,0,-1.0,0,77.0,5.0,0,Tampa Bay Buccaneers,Pittsburgh Steelers,PIT
-48,2018,4,0,1,-7.5,0,75.0,3.0,0,Los Angeles Rams,Minnesota Vikings,LAR
-49,2018,4,0,0,-3.5,0,72.0,0.0,0,Arizona Cardinals,Seattle Seahawks,SEA
-50,2018,4,0,0,-3.5,0,72.0,0.0,1,Atlanta Falcons,Cincinnati Bengals,ATL
-51,2018,4,0,1,-3.0,0,66.0,5.0,1,Chicago Bears,Tampa Bay Buccaneers,CHI
-52,2018,4,0,1,-2.5,0,72.0,0.0,1,Dallas Cowboys,Detroit Lions,DAL
-53,2018,4,0,1,-8.5,0,49.0,9.0,1,Green Bay Packers,Buffalo Bills,GB
-54,2018,4,0,0,-1.0,0,72.0,0.0,1,Indianapolis Colts,Houston Texans,IND
-55,2018,4,0,1,-7.5,0,86.0,10.0,1,Jacksonville Jaguars,New York Jets,JAX
-56,2018,4,0,1,-10.5,0,78.0,9.0,0,Los Angeles Chargers,San Francisco 49ers,LAC
-57,2018,4,0,1,-6.5,0,65.0,6.0,1,New England Patriots,Miami Dolphins,NE
-58,2018,4,0,0,-3.5,0,71.0,7.0,0,New York Giants,New Orleans Saints,NO
-59,2018,4,0,1,-2.5,0,71.0,8.0,1,Oakland Raiders,Cleveland Browns,OAK
-60,2018,4,0,0,-3.0,0,69.0,2.0,1,Pittsburgh Steelers,Baltimore Ravens,PIT
-61,2018,4,0,1,-3.0,0,80.0,4.0,0,Tennessee Titans,Philadelphia Eagles,PHI
-62,2018,4,0,0,-3.5,0,65.0,5.0,0,Denver Broncos,Kansas City Chiefs,KC
-63,2018,5,0,1,-10.5,0,66.0,6.0,1,New England Patriots,Indianapolis Colts,NE
-64,2018,5,0,1,-6.0,0,62.0,8.0,0,Buffalo Bills,Tennessee Titans,TEN
-65,2018,5,0,1,-7.0,0,80.0,3.0,1,Carolina Panthers,New York Giants,CAR
-66,2018,5,0,1,-6.5,0,87.0,4.0,1,Cincinnati Bengals,Miami Dolphins,CIN
-67,2018,5,0,1,-3.0,0,72.0,5.0,0,Cleveland Browns,Baltimore Ravens,BAL
-68,2018,5,0,1,-1.0,0,72.0,0.0,0,Detroit Lions,Green Bay Packers,GB
-69,2018,5,0,1,-3.5,0,72.0,0.0,0,Houston Texans,Dallas Cowboys,HOU
-70,2018,5,0,1,-3.0,0,58.0,5.0,1,Kansas City Chiefs,Jacksonville Jaguars,KC
-71,2018,5,0,1,-5.0,0,75.0,10.0,0,Los Angeles Chargers,Oakland Raiders,LAC
-72,2018,5,0,1,-1.0,0,77.0,7.0,1,New York Jets,Denver Broncos,NYJ
-73,2018,5,0,0,-3.5,0,79.0,6.0,1,Philadelphia Eagles,Minnesota Vikings,PHI
-74,2018,5,0,1,-3.5,0,83.0,5.0,1,Pittsburgh Steelers,Atlanta Falcons,PIT
-75,2018,5,0,0,-3.0,0,79.0,15.0,1,San Francisco 49ers,Arizona Cardinals,SF
-76,2018,5,0,0,-7.5,0,53.0,5.0,0,Seattle Seahawks,Los Angeles Rams,LAR
-77,2018,5,0,1,-5.5,0,72.0,0.0,1,New Orleans Saints,Washington Redskins,NO
-78,2018,6,0,0,-1.5,0,70.0,3.0,0,New York Giants,Philadelphia Eagles,PHI
-79,2018,6,0,1,-3.0,0,72.0,0.0,1,Atlanta Falcons,Tampa Bay Buccaneers,ATL
-80,2018,6,0,0,-1.5,0,51.0,6.0,0,Cincinnati Bengals,Pittsburgh Steelers,CIN
-81,2018,6,0,0,-1.0,0,57.0,12.0,0,Cleveland Browns,Los Angeles Chargers,CLE
-82,2018,6,0,1,-3.0,0,72.0,0.0,0,Dallas Cowboys,Jacksonville Jaguars,JAX
-83,2018,6,0,0,-7.0,0,25.0,6.0,0,Denver Broncos,Los Angeles Rams,LAR
-84,2018,6,0,1,-10.5,0,72.0,0.0,1,Houston Texans,Buffalo Bills,HOU
-85,2018,6,0,1,-7.5,0,89.0,8.0,0,Miami Dolphins,Chicago Bears,CHI
-86,2018,6,0,1,-10.0,0,72.0,0.0,1,Minnesota Vikings,Arizona Cardinals,MIN
-87,2018,6,0,1,-3.5,0,45.0,0.0,1,New England Patriots,Kansas City Chiefs,NE
-88,2018,6,0,1,-2.5,0,60.0,7.0,1,New York Jets,Indianapolis Colts,NYJ
-89,2018,6,0,0,-3.0,1,50.0,12.0,0,Oakland Raiders,Seattle Seahawks,SEA
-90,2018,6,0,0,-2.5,0,66.0,4.0,0,Tennessee Titans,Baltimore Ravens,BAL
-91,2018,6,0,1,-1.0,0,52.0,0.0,0,Washington Redskins,Carolina Panthers,CAR
-92,2018,6,0,1,-9.0,0,37.0,5.0,1,Green Bay Packers,San Francisco 49ers,GB
-93,2018,7,0,0,-1.0,0,72.0,0.0,0,Arizona Cardinals,Denver Broncos,DEN
-94,2018,7,0,0,-2.5,0,54.0,15.0,1,Baltimore Ravens,New Orleans Saints,BAL
-95,2018,7,0,0,-1.0,0,44.0,9.0,0,Chicago Bears,New England Patriots,NE
-96,2018,7,0,1,-7.0,0,72.0,0.0,1,Indianapolis Colts,Buffalo Bills,IND
-97,2018,7,0,0,-3.5,0,68.0,15.0,1,Jacksonville Jaguars,Houston Texans,JAX
-98,2018,7,0,1,-6.5,0,59.0,10.0,1,Kansas City Chiefs,Cincinnati Bengals,KC
-99,2018,7,0,1,-6.5,1,66.0,6.0,0,Los Angeles Chargers,Tennessee Titans,LAC
-100,2018,7,0,0,-3.0,0,89.0,8.0,0,Miami Dolphins,Detroit Lions,DET
-101,2018,7,0,0,-3.5,0,46.0,16.0,0,New York Jets,Minnesota Vikings,MIN
-102,2018,7,0,0,-5.0,0,49.0,19.0,1,Philadelphia Eagles,Carolina Panthers,PHI
-103,2018,7,0,0,-8.0,0,62.0,5.0,0,San Francisco 49ers,Los Angeles Rams,LAR
-104,2018,7,0,1,-3.5,0,79.0,7.0,1,Tampa Bay Buccaneers,Cleveland Browns,TB
-105,2018,7,0,1,-1.0,0,52.0,12.0,0,Washington Redskins,Dallas Cowboys,DAL
-106,2018,7,0,1,-4.0,0,72.0,0.0,1,Atlanta Falcons,New York Giants,ATL
-107,2018,8,0,1,-7.5,0,72.0,0.0,0,Houston Texans,Miami Dolphins,HOU
-108,2018,8,0,1,-2.5,0,72.0,0.0,1,Arizona Cardinals,San Francisco 49ers,ARI
-109,2018,8,0,1,-2.5,0,61.0,10.0,0,Carolina Panthers,Baltimore Ravens,BAL
-110,2018,8,0,1,-8.5,0,48.0,18.0,1,Chicago Bears,New York Jets,CHI
-111,2018,8,0,1,-3.5,0,55.0,7.0,1,Cincinnati Bengals,Tampa Bay Buccaneers,CIN
-112,2018,8,0,0,-3.0,0,72.0,0.0,1,Detroit Lions,Seattle Seahawks,DET
-113,2018,8,0,0,-3.5,1,48.0,12.0,0,Jacksonville Jaguars,Philadelphia Eagles,PHI
-114,2018,8,0,1,-8.5,0,56.0,12.0,1,Kansas City Chiefs,Denver Broncos,KC
-115,2018,8,0,1,-7.5,0,82.0,1.0,0,Los Angeles Rams,Green Bay Packers,LAR
-116,2018,8,0,0,-2.5,0,72.0,0.0,1,Minnesota Vikings,New Orleans Saints,MIN
-117,2018,8,0,0,-1.0,0,51.0,11.0,0,New York Giants,Washington Redskins,WAS
-118,2018,8,0,0,-3.5,0,69.0,8.0,0,Oakland Raiders,Indianapolis Colts,IND
-119,2018,8,0,1,-8.5,0,47.0,11.0,1,Pittsburgh Steelers,Cleveland Browns,PIT
-120,2018,8,0,0,-13.5,0,46.0,16.0,0,Buffalo Bills,New England Patriots,NE
-121,2018,9,0,1,-1.5,0,82.0,8.0,0,San Francisco 49ers,Oakland Raiders,OAK
-122,2018,9,0,0,-1.5,0,55.0,6.0,1,Baltimore Ravens,Pittsburgh Steelers,BAL
-123,2018,9,0,0,-10.5,0,49.0,12.0,0,Buffalo Bills,Chicago Bears,CHI
-124,2018,9,0,1,-6.0,0,62.0,8.0,1,Carolina Panthers,Tampa Bay Buccaneers,CAR
-125,2018,9,0,0,-7.5,0,53.0,16.0,0,Cleveland Browns,Kansas City Chiefs,KC
-126,2018,9,0,0,-1.0,0,53.0,3.0,1,Denver Broncos,Houston Texans,DEN
-127,2018,9,0,1,-3.0,0,87.0,16.0,1,Miami Dolphins,New York Jets,MIA
-128,2018,9,0,1,-4.5,0,72.0,0.0,1,Minnesota Vikings,Detroit Lions,MIN
-129,2018,9,0,1,-5.0,0,40.0,2.0,1,New England Patriots,Green Bay Packers,NE
-130,2018,9,0,1,-1.5,0,72.0,0.0,0,New Orleans Saints,Los Angeles Rams,LAR
-131,2018,9,0,0,-1.0,0,56.0,4.0,1,Seattle Seahawks,Los Angeles Chargers,SEA
-132,2018,9,0,0,-1.5,0,55.0,5.0,1,Washington Redskins,Atlanta Falcons,WAS
-133,2018,9,0,0,-4.5,0,72.0,0.0,1,Dallas Cowboys,Tennessee Titans,DAL
-134,2018,10,0,1,-3.5,0,40.0,4.0,1,Pittsburgh Steelers,Carolina Panthers,PIT
-135,2018,10,0,1,-7.5,0,37.0,12.0,1,Chicago Bears,Detroit Lions,CHI
-136,2018,10,0,0,-6.0,0,39.0,6.0,0,Cincinnati Bengals,New Orleans Saints,NO
-137,2018,10,0,1,-5.5,0,36.0,9.0,0,Cleveland Browns,Atlanta Falcons,ATL
-138,2018,10,0,1,-11.0,0,33.0,6.0,1,Green Bay Packers,Miami Dolphins,GB
-139,2018,10,0,1,-3.0,0,72.0,0.0,1,Indianapolis Colts,Jacksonville Jaguars,IND
-140,2018,10,0,1,-16.5,0,43.0,5.0,1,Kansas City Chiefs,Arizona Cardinals,KC
-141,2018,10,0,1,-10.0,0,75.0,1.0,0,Los Angeles Rams,Seattle Seahawks,LAR
-142,2018,10,0,0,-7.0,0,46.0,10.0,1,New York Jets,Buffalo Bills,NYJ
-143,2018,10,0,0,-10.5,0,69.0,16.0,0,Oakland Raiders,Los Angeles Chargers,LAC
-144,2018,10,0,0,-7.5,0,38.0,5.0,1,Philadelphia Eagles,Dallas Cowboys,PHI
-145,2018,10,0,0,-3.5,0,82.0,3.0,0,Tampa Bay Buccaneers,Washington Redskins,TB
-146,2018,10,0,1,-6.5,0,46.0,4.0,0,Tennessee Titans,New England Patriots,NE
-147,2018,10,0,0,-3.0,0,62.0,0.0,1,San Francisco 49ers,New York Giants,SF
-148,2018,11,0,1,-3.0,0,54.0,6.0,1,Seattle Seahawks,Green Bay Packers,SEA
-149,2018,11,0,0,-4.5,0,72.0,0.0,1,Arizona Cardinals,Oakland Raiders,ARI
-150,2018,11,0,0,-3.5,0,72.0,0.0,1,Atlanta Falcons,Dallas Cowboys,ATL
-151,2018,11,0,1,-6.5,0,48.0,8.0,1,Baltimore Ravens,Cincinnati Bengals,BAL
-152,2018,11,0,1,-2.5,0,33.0,6.0,1,Chicago Bears,Minnesota Vikings,CHI
-153,2018,11,0,1,-4.0,0,72.0,0.0,0,Detroit Lions,Carolina Panthers,CAR
-154,2018,11,0,1,-1.0,0,72.0,0.0,1,Indianapolis Colts,Tennessee Titans,IND
-155,2018,11,0,0,-4.0,0,73.0,8.0,0,Jacksonville Jaguars,Pittsburgh Steelers,PIT
-156,2018,11,0,0,-7.5,0,69.0,4.0,0,Los Angeles Chargers,Denver Broncos,LAC
-157,2018,11,0,1,-7.0,0,72.0,0.0,1,New Orleans Saints,Philadelphia Eagles,NO
-158,2018,11,0,1,-3.0,0,42.0,1.0,1,New York Giants,Tampa Bay Buccaneers,NYG
-159,2018,11,0,0,-3.0,0,48.0,6.0,0,Washington Redskins,Houston Texans,HOU
-160,2018,11,0,1,-3.0,0,69.0,1.0,0,Los Angeles Rams,Kansas City Chiefs,LAR
-161,2018,12,0,1,-7.0,0,72.0,0.0,1,Dallas Cowboys,Washington Redskins,DAL
-162,2018,12,0,0,-3.0,0,72.0,0.0,0,Detroit Lions,Chicago Bears,CHI
-163,2018,12,0,1,-11.5,0,72.0,0.0,1,New Orleans Saints,Atlanta Falcons,NO
-164,2018,12,0,1,-13.0,0,60.0,7.0,1,Baltimore Ravens,Oakland Raiders,BAL
-165,2018,12,0,1,-3.0,0,44.0,12.0,0,Buffalo Bills,Jacksonville Jaguars,JAX
-166,2018,12,0,0,-3.0,0,57.0,1.0,1,Carolina Panthers,Seattle Seahawks,CAR
-167,2018,12,0,0,-1.0,0,44.0,4.0,0,Cincinnati Bengals,Cleveland Browns,CLE
-168,2018,12,0,1,-3.0,0,41.0,7.0,0,Denver Broncos,Pittsburgh Steelers,PIT
-169,2018,12,0,1,-9.0,0,72.0,0.0,1,Indianapolis Colts,Miami Dolphins,IND
-170,2018,12,0,1,-14.0,0,74.0,3.0,1,Los Angeles Chargers,Arizona Cardinals,LAC
-171,2018,12,0,1,-3.5,0,72.0,0.0,1,Minnesota Vikings,Green Bay Packers,MIN
-172,2018,12,0,0,-13.0,0,54.0,8.0,0,New York Jets,New England Patriots,NE
-173,2018,12,0,1,-4.5,0,56.0,10.0,1,Philadelphia Eagles,New York Giants,PHI
-174,2018,12,0,1,-1.5,0,77.0,7.0,1,Tampa Bay Buccaneers,San Francisco 49ers,TB
-175,2018,12,0,1,-3.5,0,72.0,0.0,1,Houston Texans,Tennessee Titans,HOU
-176,2018,13,0,1,-7.5,0,72.0,0.0,0,Dallas Cowboys,New Orleans Saints,NO
-177,2018,13,0,0,-2.5,0,72.0,0.0,1,Atlanta Falcons,Baltimore Ravens,ATL
-178,2018,13,0,0,-4.0,0,63.0,12.0,0,Cincinnati Bengals,Denver Broncos,DEN
-179,2018,13,0,0,-10.5,0,72.0,0.0,0,Detroit Lions,Los Angeles Rams,LAR
-180,2018,13,0,0,-13.5,0,34.0,20.0,1,Green Bay Packers,Arizona Cardinals,GB
-181,2018,13,0,1,-5.0,0,72.0,0.0,1,Houston Texans,Cleveland Browns,HOU
-182,2018,13,0,1,-4.0,0,78.0,13.0,0,Jacksonville Jaguars,Indianapolis Colts,IND
-183,2018,13,0,1,-3.5,0,86.0,15.0,1,Miami Dolphins,Buffalo Bills,MIA
-184,2018,13,0,1,-6.0,0,53.0,6.0,1,New England Patriots,Minnesota Vikings,NE
-185,2018,13,0,1,-4.0,0,52.0,3.0,0,New York Giants,Chicago Bears,CHI
-186,2018,13,0,0,-14.0,0,57.0,6.0,0,Oakland Raiders,Kansas City Chiefs,KC
-187,2018,13,0,0,-3.0,0,57.0,8.0,0,Pittsburgh Steelers,Los Angeles Chargers,PIT
-188,2018,13,0,1,-10.0,0,45.0,2.0,1,Seattle Seahawks,San Francisco 49ers,SEA
-189,2018,13,0,1,-3.5,0,81.0,15.0,0,Tampa Bay Buccaneers,Carolina Panthers,CAR
-190,2018,13,0,1,-10.5,0,70.0,13.0,1,Tennessee Titans,New York Jets,TEN
-191,2018,13,0,1,-5.5,0,36.0,15.0,1,Philadelphia Eagles,Washington Redskins,PHI
-192,2018,14,0,1,-5.5,0,44.0,5.0,1,Tennessee Titans,Jacksonville Jaguars,TEN
-193,2018,14,0,0,-2.5,0,72.0,0.0,1,Arizona Cardinals,Detroit Lions,DET
-194,2018,14,0,0,-4.5,0,31.0,12.0,1,Buffalo Bills,New York Jets,BUF
-195,2018,14,0,1,-3.0,0,29.0,4.0,0,Chicago Bears,Los Angeles Rams,LAR
-196,2018,14,0,1,-1.0,0,28.0,4.0,0,Cleveland Browns,Carolina Panthers,CAR
-197,2018,14,0,1,-3.5,0,72.0,0.0,0,Dallas Cowboys,Philadelphia Eagles,DAL
-198,2018,14,0,1,-4.0,0,25.0,10.0,1,Green Bay Packers,Atlanta Falcons,GB
-199,2018,14,0,0,-4.0,0,72.0,0.0,0,Houston Texans,Indianapolis Colts,HOU
-200,2018,14,0,1,-6.5,0,27.0,0.0,1,Kansas City Chiefs,Baltimore Ravens,KC
-201,2018,14,0,1,-17.0,0,70.0,1.0,1,Los Angeles Chargers,Cincinnati Bengals,LAC
-202,2018,14,0,1,-9.5,0,82.0,13.0,0,Miami Dolphins,New England Patriots,NE
-203,2018,14,0,1,-10.5,0,55.0,8.0,0,Oakland Raiders,Pittsburgh Steelers,PIT
-204,2018,14,0,1,-3.0,0,54.0,3.0,0,San Francisco 49ers,Denver Broncos,DEN
-205,2018,14,0,0,-10.0,0,71.0,7.0,0,Tampa Bay Buccaneers,New Orleans Saints,NO
-206,2018,14,0,0,-3.0,0,33.0,6.0,0,Washington Redskins,New York Giants,NYG
-207,2018,14,0,1,-3.0,0,48.0,9.0,1,Seattle Seahawks,Minnesota Vikings,SEA
-208,2018,15,0,0,-3.5,0,39.0,5.0,0,Kansas City Chiefs,Los Angeles Chargers,KC
-209,2018,15,0,0,-1.0,0,46.0,0.0,1,Denver Broncos,Cleveland Browns,DEN
-210,2018,15,0,0,-7.0,0,51.0,8.0,0,New York Jets,Houston Texans,HOU
-211,2018,15,0,1,-10.0,0,72.0,0.0,1,Atlanta Falcons,Arizona Cardinals,ATL
-212,2018,15,0,1,-8.5,0,43.0,10.0,1,Baltimore Ravens,Tampa Bay Buccaneers,BAL
-213,2018,15,0,1,-2.5,0,39.0,7.0,1,Buffalo Bills,Detroit Lions,BUF
-214,2018,15,0,1,-5.5,0,45.0,10.0,1,Chicago Bears,Green Bay Packers,CHI
-215,2018,15,0,1,-3.0,0,43.0,2.0,1,Cincinnati Bengals,Oakland Raiders,CIN
-216,2018,15,0,1,-3.0,0,72.0,0.0,1,Indianapolis Colts,Dallas Cowboys,IND
-217,2018,15,0,0,-7.5,0,64.0,12.0,1,Jacksonville Jaguars,Washington Redskins,JAX
-218,2018,15,0,0,-13.5,0,60.0,5.0,0,Los Angeles Rams,Philadelphia Eagles,LAR
-219,2018,15,0,1,-7.5,0,72.0,0.0,1,Minnesota Vikings,Miami Dolphins,MIN
-220,2018,15,0,0,-2.5,0,40.0,6.0,0,New York Giants,Tennessee Titans,TEN
-221,2018,15,0,1,-2.5,0,42.0,5.0,0,Pittsburgh Steelers,New England Patriots,NE
-222,2018,15,0,1,-3.5,0,61.0,11.0,0,San Francisco 49ers,Seattle Seahawks,SEA
-223,2018,15,0,0,-6.0,0,48.0,3.0,0,Carolina Panthers,New Orleans Saints,NO
-224,2018,16,0,0,-4.0,0,60.0,5.0,0,Los Angeles Chargers,Baltimore Ravens,LAC
-225,2018,16,0,1,-11.5,0,51.0,9.0,1,Tennessee Titans,Washington Redskins,TEN
-226,2018,16,0,0,-14.5,0,72.0,0.0,0,Arizona Cardinals,Los Angeles Rams,LAR
-227,2018,16,0,0,-3.0,0,52.0,7.0,0,Carolina Panthers,Atlanta Falcons,ATL
-228,2018,16,0,1,-10.0,0,37.0,9.0,0,Cleveland Browns,Cincinnati Bengals,CLE
-229,2018,16,0,1,-7.5,0,72.0,0.0,1,Dallas Cowboys,Tampa Bay Buccaneers,DAL
-230,2018,16,0,0,-6.5,0,72.0,0.0,0,Detroit Lions,Minnesota Vikings,MIN
-231,2018,16,0,1,-10.0,0,72.0,0.0,1,Indianapolis Colts,New York Giants,IND
-232,2018,16,0,0,-3.0,0,73.0,9.0,1,Miami Dolphins,Jacksonville Jaguars,MIA
-233,2018,16,0,1,-13.5,0,40.0,12.0,1,New England Patriots,Buffalo Bills,NE
-234,2018,16,0,1,-6.5,0,72.0,0.0,1,New Orleans Saints,Pittsburgh Steelers,NO
-235,2018,16,0,0,-3.0,0,43.0,8.0,0,New York Jets,Green Bay Packers,GB
-236,2018,16,0,1,-1.0,0,44.0,5.0,1,Philadelphia Eagles,Houston Texans,PHI
-237,2018,16,0,0,-4.0,0,50.0,5.0,0,San Francisco 49ers,Chicago Bears,CHI
-238,2018,16,0,1,-1.0,0,43.0,8.0,0,Seattle Seahawks,Kansas City Chiefs,KC
-239,2018,16,0,1,-2.5,0,58.0,14.0,0,Oakland Raiders,Denver Broncos,DEN
-240,2018,17,0,1,-7.0,0,48.0,2.0,1,Baltimore Ravens,Cleveland Browns,BAL
-241,2018,17,0,1,-5.5,0,33.0,9.0,1,Buffalo Bills,Miami Dolphins,BUF
-242,2018,17,0,0,-7.0,0,51.0,6.0,0,Denver Broncos,Los Angeles Chargers,LAC
-243,2018,17,0,0,-7.5,0,26.0,15.0,1,Green Bay Packers,Detroit Lions,GB
-244,2018,17,0,1,-7.0,0,72.0,0.0,1,Houston Texans,Jacksonville Jaguars,HOU
-245,2018,17,0,1,-14.5,0,45.0,15.0,1,Kansas City Chiefs,Oakland Raiders,KC
-246,2018,17,0,1,-10.5,0,65.0,3.0,0,Los Angeles Rams,San Francisco 49ers,LAR
-247,2018,17,0,0,-6.0,0,72.0,0.0,1,Minnesota Vikings,Chicago Bears,MIN
-248,2018,17,0,1,-14.5,0,33.0,2.0,1,New England Patriots,New York Jets,NE
-249,2018,17,0,0,-8.0,0,72.0,0.0,1,New Orleans Saints,Carolina Panthers,NO
-250,2018,17,0,0,-7.5,0,37.0,2.0,1,New York Giants,Dallas Cowboys,NYG
-251,2018,17,0,1,-14.0,0,42.0,9.0,1,Pittsburgh Steelers,Cincinnati Bengals,PIT
-252,2018,17,0,1,-14.0,0,45.0,5.0,1,Seattle Seahawks,Arizona Cardinals,SEA
-253,2018,17,0,0,-2.5,0,80.0,5.0,0,Tampa Bay Buccaneers,Atlanta Falcons,ATL
-254,2018,17,0,0,-5.5,0,53.0,4.0,0,Tennessee Titans,Indianapolis Colts,IND
-255,2018,17,0,0,-6.0,0,46.0,3.0,0,Washington Redskins,Philadelphia Eagles,PHI
-256,2018,18,1,0,-1.0,0,72.0,0.0,1,Houston Texans,Indianapolis Colts,HOU
-257,2018,18,1,1,-2.0,0,72.0,0.0,1,Dallas Cowboys,Seattle Seahawks,DAL
-258,2018,18,1,0,-6.0,0,37.0,11.0,1,Chicago Bears,Philadelphia Eagles,CHI
-259,2018,18,1,0,-3.0,0,43.0,12.0,1,Baltimore Ravens,Los Angeles Chargers,BAL
-260,2018,19,1,1,-4.5,0,34.0,9.0,1,Kansas City Chiefs,Indianapolis Colts,KAN
-261,2018,19,1,1,-7.0,0,60.0,0.0,0,Los Angeles Rams,Dallas Cowboys,LAR
-262,2018,19,1,1,-4.0,0,30.0,2.0,1,New England Patriots,Los Angeles Chargers,NE
-263,2018,19,1,1,-8.5,0,48.0,6.0,1,New Orleans Saints,Philadelphia Eagles,NO
-264,2018,20,1,0,-3.0,0,53.0,6.0,1,New Orleans Saints,Los Angeles Rams,NO
-265,2018,20,1,0,-3.0,0,24.0,9.0,1,Kansas City Chiefs,New England Patriots,KAN
-266,2018,21,1,0,-2.5,1,65.0,1.0,0,Los Angeles Rams,New England Patriots,NE
+,schedule_season,schedule_week,schedule_playoff,full_result,spread_favorite,stadium_neutral,weather_temperature,weather_wind_mph,predicted_result,schedule_date,team_home,team_away,team_favorite_id
+0,2018,1,0,1,-1.0,0,81.0,8.0,1,9/6/18,Philadelphia Eagles,Atlanta Falcons,PHI
+1,2018,1,0,0,-2.0,0,72.0,0.0,1,9/9/18,Arizona Cardinals,Washington Redskins,ARI
+2,2018,1,0,1,-7.5,0,61.0,12.0,1,9/9/18,Baltimore Ravens,Buffalo Bills,BAL
+3,2018,1,0,1,-2.5,0,81.0,9.0,1,9/9/18,Carolina Panthers,Dallas Cowboys,CAR
+4,2018,1,0,0,-3.5,0,58.0,11.0,0,9/9/18,Cleveland Browns,Pittsburgh Steelers,PIT
+5,2018,1,0,1,-3.0,0,84.0,5.0,1,9/9/18,Denver Broncos,Seattle Seahawks,DEN
+6,2018,1,0,1,-6.5,0,62.0,10.0,1,9/9/18,Green Bay Packers,Chicago Bears,GB
+7,2018,1,0,0,-1.0,0,72.0,0.0,0,9/9/18,Indianapolis Colts,Cincinnati Bengals,CIN
+8,2018,1,0,0,-3.5,0,84.0,8.0,1,9/9/18,Los Angeles Chargers,Kansas City Chiefs,LAC
+9,2018,1,0,1,-1.0,0,89.0,7.0,0,9/9/18,Miami Dolphins,Tennessee Titans,TEN
+10,2018,1,0,1,-6.0,0,72.0,0.0,1,9/9/18,Minnesota Vikings,San Francisco 49ers,MIN
+11,2018,1,0,1,-6.0,0,62.0,10.0,1,9/9/18,New England Patriots,Houston Texans,NE
+12,2018,1,0,0,-10.0,0,72.0,0.0,1,9/9/18,New Orleans Saints,Tampa Bay Buccaneers,NO
+13,2018,1,0,0,-2.5,0,59.0,7.0,0,9/9/18,New York Giants,Jacksonville Jaguars,JAX
+14,2018,1,0,0,-7.0,0,72.0,0.0,1,9/10/18,Detroit Lions,New York Jets,DET
+15,2018,1,0,0,-6.5,0,69.0,10.0,0,9/10/18,Oakland Raiders,Los Angeles Rams,LAR
+16,2018,2,0,1,-1.0,0,82.0,3.0,1,9/13/18,Cincinnati Bengals,Baltimore Ravens,CIN
+17,2018,2,0,1,-5.5,0,72.0,0.0,1,9/16/18,Atlanta Falcons,Carolina Panthers,ATL
+18,2018,2,0,0,-7.5,0,83.0,6.0,0,9/16/18,Buffalo Bills,Los Angeles Chargers,LAC
+19,2018,2,0,1,-3.0,0,72.0,0.0,1,9/16/18,Dallas Cowboys,New York Giants,DAL
+20,2018,2,0,1,-5.5,0,92.0,4.0,1,9/16/18,Denver Broncos,Oakland Raiders,DEN
+21,2018,2,0,0,-2.0,0,80.0,5.0,0,9/16/18,Green Bay Packers,Minnesota Vikings,MIN
+22,2018,2,0,1,-2.0,0,97.0,15.0,0,9/16/18,Jacksonville Jaguars,New England Patriots,NE
+23,2018,2,0,1,-13.5,0,86.0,2.0,0,9/16/18,Los Angeles Rams,Arizona Cardinals,LAR
+24,2018,2,0,1,-10.0,0,72.0,0.0,1,9/16/18,New Orleans Saints,Cleveland Browns,NO
+25,2018,2,0,0,-3.0,0,80.0,4.0,1,9/16/18,New York Jets,Miami Dolphins,NYJ
+26,2018,2,0,0,-4.5,0,80.0,10.0,1,9/16/18,Pittsburgh Steelers,Kansas City Chiefs,PIT
+27,2018,2,0,1,-6.0,0,73.0,12.0,1,9/16/18,San Francisco 49ers,Detroit Lions,SF
+28,2018,2,0,1,-3.0,0,91.0,9.0,0,9/16/18,Tampa Bay Buccaneers,Philadelphia Eagles,PHI
+29,2018,2,0,1,-3.5,0,81.0,12.0,0,9/16/18,Tennessee Titans,Houston Texans,HOU
+30,2018,2,0,0,-6.0,0,71.0,5.0,1,9/16/18,Washington Redskins,Indianapolis Colts,WAS
+31,2018,2,0,1,-4.5,0,79.0,2.0,0,9/17/18,Chicago Bears,Seattle Seahawks,CHI
+32,2018,3,0,1,-3.0,0,83.0,11.0,1,9/20/18,Cleveland Browns,New York Jets,CLE
+33,2018,3,0,0,-5.5,0,72.0,0.0,0,9/23/18,Arizona Cardinals,Chicago Bears,CHI
+34,2018,3,0,0,-1.5,0,72.0,0.0,1,9/23/18,Atlanta Falcons,New Orleans Saints,ATL
+35,2018,3,0,1,-5.5,0,61.0,5.0,1,9/23/18,Baltimore Ravens,Denver Broncos,BAL
+36,2018,3,0,1,-2.5,0,80.0,3.0,1,9/23/18,Carolina Panthers,Cincinnati Bengals,CAR
+37,2018,3,0,1,-7.0,0,72.0,0.0,0,9/23/18,Detroit Lions,New England Patriots,NE
+38,2018,3,0,0,-6.5,0,72.0,0.0,1,9/23/18,Houston Texans,New York Giants,HOU
+39,2018,3,0,0,-10.0,0,89.0,10.0,1,9/23/18,Jacksonville Jaguars,Tennessee Titans,JAX
+40,2018,3,0,1,-5.5,0,70.0,4.0,1,9/23/18,Kansas City Chiefs,San Francisco 49ers,KC
+41,2018,3,0,1,-7.5,0,80.0,5.0,0,9/23/18,Los Angeles Rams,Los Angeles Chargers,LAR
+42,2018,3,0,1,-3.0,0,90.0,7.0,1,9/23/18,Miami Dolphins,Oakland Raiders,MIA
+43,2018,3,0,0,-16.5,0,72.0,0.0,1,9/23/18,Minnesota Vikings,Buffalo Bills,MIN
+44,2018,3,0,1,-6.5,0,61.0,5.0,1,9/23/18,Philadelphia Eagles,Indianapolis Colts,PHI
+45,2018,3,0,1,-1.0,0,61.0,4.0,1,9/23/18,Seattle Seahawks,Dallas Cowboys,SEA
+46,2018,3,0,1,-2.5,0,62.0,6.0,0,9/23/18,Washington Redskins,Green Bay Packers,GB
+47,2018,3,0,0,-1.0,0,77.0,5.0,0,9/24/18,Tampa Bay Buccaneers,Pittsburgh Steelers,PIT
+48,2018,4,0,1,-7.5,0,75.0,3.0,0,9/27/18,Los Angeles Rams,Minnesota Vikings,LAR
+49,2018,4,0,0,-3.5,0,72.0,0.0,0,9/30/18,Arizona Cardinals,Seattle Seahawks,SEA
+50,2018,4,0,0,-3.5,0,72.0,0.0,1,9/30/18,Atlanta Falcons,Cincinnati Bengals,ATL
+51,2018,4,0,1,-3.0,0,66.0,5.0,1,9/30/18,Chicago Bears,Tampa Bay Buccaneers,CHI
+52,2018,4,0,1,-2.5,0,72.0,0.0,1,9/30/18,Dallas Cowboys,Detroit Lions,DAL
+53,2018,4,0,1,-8.5,0,49.0,9.0,1,9/30/18,Green Bay Packers,Buffalo Bills,GB
+54,2018,4,0,0,-1.0,0,72.0,0.0,1,9/30/18,Indianapolis Colts,Houston Texans,IND
+55,2018,4,0,1,-7.5,0,86.0,10.0,1,9/30/18,Jacksonville Jaguars,New York Jets,JAX
+56,2018,4,0,1,-10.5,0,78.0,9.0,1,9/30/18,Los Angeles Chargers,San Francisco 49ers,LAC
+57,2018,4,0,1,-6.5,0,65.0,6.0,1,9/30/18,New England Patriots,Miami Dolphins,NE
+58,2018,4,0,0,-3.5,0,71.0,7.0,0,9/30/18,New York Giants,New Orleans Saints,NO
+59,2018,4,0,1,-2.5,0,71.0,8.0,1,9/30/18,Oakland Raiders,Cleveland Browns,OAK
+60,2018,4,0,0,-3.0,0,69.0,2.0,1,9/30/18,Pittsburgh Steelers,Baltimore Ravens,PIT
+61,2018,4,0,1,-3.0,0,80.0,4.0,0,9/30/18,Tennessee Titans,Philadelphia Eagles,PHI
+62,2018,4,0,0,-3.5,0,65.0,5.0,0,10/1/18,Denver Broncos,Kansas City Chiefs,KC
+63,2018,5,0,1,-10.5,0,66.0,6.0,1,10/4/18,New England Patriots,Indianapolis Colts,NE
+64,2018,5,0,1,-6.0,0,62.0,8.0,0,10/7/18,Buffalo Bills,Tennessee Titans,TEN
+65,2018,5,0,1,-7.0,0,80.0,3.0,1,10/7/18,Carolina Panthers,New York Giants,CAR
+66,2018,5,0,1,-6.5,0,87.0,4.0,1,10/7/18,Cincinnati Bengals,Miami Dolphins,CIN
+67,2018,5,0,1,-3.0,0,72.0,5.0,0,10/7/18,Cleveland Browns,Baltimore Ravens,BAL
+68,2018,5,0,1,-1.0,0,72.0,0.0,0,10/7/18,Detroit Lions,Green Bay Packers,GB
+69,2018,5,0,1,-3.5,0,72.0,0.0,0,10/7/18,Houston Texans,Dallas Cowboys,HOU
+70,2018,5,0,1,-3.0,0,58.0,5.0,1,10/7/18,Kansas City Chiefs,Jacksonville Jaguars,KC
+71,2018,5,0,1,-5.0,0,75.0,10.0,1,10/7/18,Los Angeles Chargers,Oakland Raiders,LAC
+72,2018,5,0,1,-1.0,0,77.0,7.0,1,10/7/18,New York Jets,Denver Broncos,NYJ
+73,2018,5,0,0,-3.5,0,79.0,6.0,1,10/7/18,Philadelphia Eagles,Minnesota Vikings,PHI
+74,2018,5,0,1,-3.5,0,83.0,5.0,1,10/7/18,Pittsburgh Steelers,Atlanta Falcons,PIT
+75,2018,5,0,0,-3.0,0,79.0,15.0,1,10/7/18,San Francisco 49ers,Arizona Cardinals,SF
+76,2018,5,0,0,-7.5,0,53.0,5.0,0,10/7/18,Seattle Seahawks,Los Angeles Rams,LAR
+77,2018,5,0,1,-5.5,0,72.0,0.0,1,10/8/18,New Orleans Saints,Washington Redskins,NO
+78,2018,6,0,0,-1.5,0,70.0,3.0,0,10/11/18,New York Giants,Philadelphia Eagles,PHI
+79,2018,6,0,1,-3.0,0,72.0,0.0,1,10/14/18,Atlanta Falcons,Tampa Bay Buccaneers,ATL
+80,2018,6,0,0,-1.5,0,51.0,6.0,0,10/14/18,Cincinnati Bengals,Pittsburgh Steelers,CIN
+81,2018,6,0,0,-1.0,0,57.0,12.0,0,10/14/18,Cleveland Browns,Los Angeles Chargers,CLE
+82,2018,6,0,1,-3.0,0,72.0,0.0,0,10/14/18,Dallas Cowboys,Jacksonville Jaguars,JAX
+83,2018,6,0,0,-7.0,0,25.0,6.0,0,10/14/18,Denver Broncos,Los Angeles Rams,LAR
+84,2018,6,0,1,-10.5,0,72.0,0.0,1,10/14/18,Houston Texans,Buffalo Bills,HOU
+85,2018,6,0,1,-7.5,0,89.0,8.0,0,10/14/18,Miami Dolphins,Chicago Bears,CHI
+86,2018,6,0,1,-10.0,0,72.0,0.0,1,10/14/18,Minnesota Vikings,Arizona Cardinals,MIN
+87,2018,6,0,1,-3.5,0,45.0,0.0,1,10/14/18,New England Patriots,Kansas City Chiefs,NE
+88,2018,6,0,1,-2.5,0,60.0,7.0,1,10/14/18,New York Jets,Indianapolis Colts,NYJ
+89,2018,6,0,0,-3.0,1,50.0,12.0,0,10/14/18,Oakland Raiders,Seattle Seahawks,SEA
+90,2018,6,0,0,-2.5,0,66.0,4.0,0,10/14/18,Tennessee Titans,Baltimore Ravens,BAL
+91,2018,6,0,1,-1.0,0,52.0,0.0,0,10/14/18,Washington Redskins,Carolina Panthers,CAR
+92,2018,6,0,1,-9.0,0,37.0,5.0,1,10/15/18,Green Bay Packers,San Francisco 49ers,GB
+93,2018,7,0,0,-1.0,0,72.0,0.0,0,10/18/18,Arizona Cardinals,Denver Broncos,DEN
+94,2018,7,0,0,-2.5,0,54.0,15.0,1,10/21/18,Baltimore Ravens,New Orleans Saints,BAL
+95,2018,7,0,0,-1.0,0,44.0,9.0,0,10/21/18,Chicago Bears,New England Patriots,NE
+96,2018,7,0,1,-7.0,0,72.0,0.0,1,10/21/18,Indianapolis Colts,Buffalo Bills,IND
+97,2018,7,0,0,-3.5,0,68.0,15.0,1,10/21/18,Jacksonville Jaguars,Houston Texans,JAX
+98,2018,7,0,1,-6.5,0,59.0,10.0,1,10/21/18,Kansas City Chiefs,Cincinnati Bengals,KC
+99,2018,7,0,1,-6.5,1,66.0,6.0,1,10/21/18,Los Angeles Chargers,Tennessee Titans,LAC
+100,2018,7,0,0,-3.0,0,89.0,8.0,0,10/21/18,Miami Dolphins,Detroit Lions,DET
+101,2018,7,0,0,-3.5,0,46.0,16.0,0,10/21/18,New York Jets,Minnesota Vikings,MIN
+102,2018,7,0,0,-5.0,0,49.0,19.0,1,10/21/18,Philadelphia Eagles,Carolina Panthers,PHI
+103,2018,7,0,0,-8.0,0,62.0,5.0,0,10/21/18,San Francisco 49ers,Los Angeles Rams,LAR
+104,2018,7,0,1,-3.5,0,79.0,7.0,1,10/21/18,Tampa Bay Buccaneers,Cleveland Browns,TB
+105,2018,7,0,1,-1.0,0,52.0,12.0,0,10/21/18,Washington Redskins,Dallas Cowboys,DAL
+106,2018,7,0,1,-4.0,0,72.0,0.0,1,10/22/18,Atlanta Falcons,New York Giants,ATL
+107,2018,8,0,1,-7.5,0,72.0,0.0,1,10/25/18,Houston Texans,Miami Dolphins,HOU
+108,2018,8,0,1,-2.5,0,72.0,0.0,1,10/28/18,Arizona Cardinals,San Francisco 49ers,ARI
+109,2018,8,0,1,-2.5,0,61.0,10.0,0,10/28/18,Carolina Panthers,Baltimore Ravens,BAL
+110,2018,8,0,1,-8.5,0,48.0,18.0,1,10/28/18,Chicago Bears,New York Jets,CHI
+111,2018,8,0,1,-3.5,0,55.0,7.0,1,10/28/18,Cincinnati Bengals,Tampa Bay Buccaneers,CIN
+112,2018,8,0,0,-3.0,0,72.0,0.0,1,10/28/18,Detroit Lions,Seattle Seahawks,DET
+113,2018,8,0,0,-3.5,1,48.0,12.0,0,10/28/18,Jacksonville Jaguars,Philadelphia Eagles,PHI
+114,2018,8,0,1,-8.5,0,56.0,12.0,1,10/28/18,Kansas City Chiefs,Denver Broncos,KC
+115,2018,8,0,1,-7.5,0,82.0,1.0,0,10/28/18,Los Angeles Rams,Green Bay Packers,LAR
+116,2018,8,0,0,-2.5,0,72.0,0.0,1,10/28/18,Minnesota Vikings,New Orleans Saints,MIN
+117,2018,8,0,0,-1.0,0,51.0,11.0,0,10/28/18,New York Giants,Washington Redskins,WAS
+118,2018,8,0,0,-3.5,0,69.0,8.0,0,10/28/18,Oakland Raiders,Indianapolis Colts,IND
+119,2018,8,0,1,-8.5,0,47.0,11.0,1,10/28/18,Pittsburgh Steelers,Cleveland Browns,PIT
+120,2018,8,0,0,-13.5,0,46.0,16.0,1,10/29/18,Buffalo Bills,New England Patriots,NE
+121,2018,9,0,1,-1.5,0,82.0,8.0,0,11/1/18,San Francisco 49ers,Oakland Raiders,OAK
+122,2018,9,0,0,-1.5,0,55.0,6.0,1,11/4/18,Baltimore Ravens,Pittsburgh Steelers,BAL
+123,2018,9,0,0,-10.5,0,49.0,12.0,0,11/4/18,Buffalo Bills,Chicago Bears,CHI
+124,2018,9,0,1,-6.0,0,62.0,8.0,1,11/4/18,Carolina Panthers,Tampa Bay Buccaneers,CAR
+125,2018,9,0,0,-7.5,0,53.0,16.0,0,11/4/18,Cleveland Browns,Kansas City Chiefs,KC
+126,2018,9,0,0,-1.0,0,53.0,3.0,1,11/4/18,Denver Broncos,Houston Texans,DEN
+127,2018,9,0,1,-3.0,0,87.0,16.0,0,11/4/18,Miami Dolphins,New York Jets,MIA
+128,2018,9,0,1,-4.5,0,72.0,0.0,1,11/4/18,Minnesota Vikings,Detroit Lions,MIN
+129,2018,9,0,1,-5.0,0,40.0,2.0,1,11/4/18,New England Patriots,Green Bay Packers,NE
+130,2018,9,0,1,-1.5,0,72.0,0.0,0,11/4/18,New Orleans Saints,Los Angeles Rams,LAR
+131,2018,9,0,0,-1.0,0,56.0,4.0,1,11/4/18,Seattle Seahawks,Los Angeles Chargers,SEA
+132,2018,9,0,0,-1.5,0,55.0,5.0,1,11/4/18,Washington Redskins,Atlanta Falcons,WAS
+133,2018,9,0,0,-4.5,0,72.0,0.0,1,11/5/18,Dallas Cowboys,Tennessee Titans,DAL
+134,2018,10,0,1,-3.5,0,40.0,4.0,1,11/8/18,Pittsburgh Steelers,Carolina Panthers,PIT
+135,2018,10,0,1,-7.5,0,37.0,12.0,1,11/11/18,Chicago Bears,Detroit Lions,CHI
+136,2018,10,0,0,-6.0,0,39.0,6.0,0,11/11/18,Cincinnati Bengals,New Orleans Saints,NO
+137,2018,10,0,1,-5.5,0,36.0,9.0,0,11/11/18,Cleveland Browns,Atlanta Falcons,ATL
+138,2018,10,0,1,-11.0,0,33.0,6.0,1,11/11/18,Green Bay Packers,Miami Dolphins,GB
+139,2018,10,0,1,-3.0,0,72.0,0.0,1,11/11/18,Indianapolis Colts,Jacksonville Jaguars,IND
+140,2018,10,0,1,-16.5,0,43.0,5.0,1,11/11/18,Kansas City Chiefs,Arizona Cardinals,KC
+141,2018,10,0,1,-10.0,0,75.0,1.0,0,11/11/18,Los Angeles Rams,Seattle Seahawks,LAR
+142,2018,10,0,0,-7.0,0,46.0,10.0,1,11/11/18,New York Jets,Buffalo Bills,NYJ
+143,2018,10,0,0,-10.5,0,69.0,16.0,0,11/11/18,Oakland Raiders,Los Angeles Chargers,LAC
+144,2018,10,0,0,-7.5,0,38.0,5.0,1,11/11/18,Philadelphia Eagles,Dallas Cowboys,PHI
+145,2018,10,0,0,-3.5,0,82.0,3.0,0,11/11/18,Tampa Bay Buccaneers,Washington Redskins,TB
+146,2018,10,0,1,-6.5,0,46.0,4.0,0,11/11/18,Tennessee Titans,New England Patriots,NE
+147,2018,10,0,0,-3.0,0,62.0,0.0,1,11/12/18,San Francisco 49ers,New York Giants,SF
+148,2018,11,0,1,-3.0,0,54.0,6.0,1,11/15/18,Seattle Seahawks,Green Bay Packers,SEA
+149,2018,11,0,0,-4.5,0,72.0,0.0,1,11/18/18,Arizona Cardinals,Oakland Raiders,ARI
+150,2018,11,0,0,-3.5,0,72.0,0.0,1,11/18/18,Atlanta Falcons,Dallas Cowboys,ATL
+151,2018,11,0,1,-6.5,0,48.0,8.0,1,11/18/18,Baltimore Ravens,Cincinnati Bengals,BAL
+152,2018,11,0,1,-2.5,0,33.0,6.0,1,11/18/18,Chicago Bears,Minnesota Vikings,CHI
+153,2018,11,0,1,-4.0,0,72.0,0.0,0,11/18/18,Detroit Lions,Carolina Panthers,CAR
+154,2018,11,0,1,-1.0,0,72.0,0.0,1,11/18/18,Indianapolis Colts,Tennessee Titans,IND
+155,2018,11,0,0,-4.0,0,73.0,8.0,0,11/18/18,Jacksonville Jaguars,Pittsburgh Steelers,PIT
+156,2018,11,0,0,-7.5,0,69.0,4.0,1,11/18/18,Los Angeles Chargers,Denver Broncos,LAC
+157,2018,11,0,1,-7.0,0,72.0,0.0,1,11/18/18,New Orleans Saints,Philadelphia Eagles,NO
+158,2018,11,0,1,-3.0,0,42.0,1.0,1,11/18/18,New York Giants,Tampa Bay Buccaneers,NYG
+159,2018,11,0,0,-3.0,0,48.0,6.0,0,11/18/18,Washington Redskins,Houston Texans,HOU
+160,2018,11,0,1,-3.0,0,69.0,1.0,0,11/19/18,Los Angeles Rams,Kansas City Chiefs,LAR
+161,2018,12,0,1,-7.0,0,72.0,0.0,1,11/22/18,Dallas Cowboys,Washington Redskins,DAL
+162,2018,12,0,0,-3.0,0,72.0,0.0,0,11/22/18,Detroit Lions,Chicago Bears,CHI
+163,2018,12,0,1,-11.5,0,72.0,0.0,1,11/22/18,New Orleans Saints,Atlanta Falcons,NO
+164,2018,12,0,1,-13.0,0,60.0,7.0,1,11/25/18,Baltimore Ravens,Oakland Raiders,BAL
+165,2018,12,0,1,-3.0,0,44.0,12.0,0,11/25/18,Buffalo Bills,Jacksonville Jaguars,JAX
+166,2018,12,0,0,-3.0,0,57.0,1.0,1,11/25/18,Carolina Panthers,Seattle Seahawks,CAR
+167,2018,12,0,0,-1.0,0,44.0,4.0,0,11/25/18,Cincinnati Bengals,Cleveland Browns,CLE
+168,2018,12,0,1,-3.0,0,41.0,7.0,0,11/25/18,Denver Broncos,Pittsburgh Steelers,PIT
+169,2018,12,0,1,-9.0,0,72.0,0.0,1,11/25/18,Indianapolis Colts,Miami Dolphins,IND
+170,2018,12,0,1,-14.0,0,74.0,3.0,1,11/25/18,Los Angeles Chargers,Arizona Cardinals,LAC
+171,2018,12,0,1,-3.5,0,72.0,0.0,1,11/25/18,Minnesota Vikings,Green Bay Packers,MIN
+172,2018,12,0,0,-13.0,0,54.0,8.0,0,11/25/18,New York Jets,New England Patriots,NE
+173,2018,12,0,1,-4.5,0,56.0,10.0,1,11/25/18,Philadelphia Eagles,New York Giants,PHI
+174,2018,12,0,1,-1.5,0,77.0,7.0,1,11/25/18,Tampa Bay Buccaneers,San Francisco 49ers,TB
+175,2018,12,0,1,-3.5,0,72.0,0.0,1,11/26/18,Houston Texans,Tennessee Titans,HOU
+176,2018,13,0,1,-7.5,0,72.0,0.0,0,11/29/18,Dallas Cowboys,New Orleans Saints,NO
+177,2018,13,0,0,-2.5,0,72.0,0.0,1,12/2/18,Atlanta Falcons,Baltimore Ravens,ATL
+178,2018,13,0,0,-4.0,0,63.0,12.0,0,12/2/18,Cincinnati Bengals,Denver Broncos,DEN
+179,2018,13,0,0,-10.5,0,72.0,0.0,0,12/2/18,Detroit Lions,Los Angeles Rams,LAR
+180,2018,13,0,0,-13.5,0,34.0,20.0,1,12/2/18,Green Bay Packers,Arizona Cardinals,GB
+181,2018,13,0,1,-5.0,0,72.0,0.0,1,12/2/18,Houston Texans,Cleveland Browns,HOU
+182,2018,13,0,1,-4.0,0,78.0,13.0,0,12/2/18,Jacksonville Jaguars,Indianapolis Colts,IND
+183,2018,13,0,1,-3.5,0,86.0,15.0,0,12/2/18,Miami Dolphins,Buffalo Bills,MIA
+184,2018,13,0,1,-6.0,0,53.0,6.0,1,12/2/18,New England Patriots,Minnesota Vikings,NE
+185,2018,13,0,1,-4.0,0,52.0,3.0,0,12/2/18,New York Giants,Chicago Bears,CHI
+186,2018,13,0,0,-14.0,0,57.0,6.0,1,12/2/18,Oakland Raiders,Kansas City Chiefs,KC
+187,2018,13,0,0,-3.0,0,57.0,8.0,0,12/2/18,Pittsburgh Steelers,Los Angeles Chargers,PIT
+188,2018,13,0,1,-10.0,0,45.0,2.0,1,12/2/18,Seattle Seahawks,San Francisco 49ers,SEA
+189,2018,13,0,1,-3.5,0,81.0,15.0,0,12/2/18,Tampa Bay Buccaneers,Carolina Panthers,CAR
+190,2018,13,0,1,-10.5,0,70.0,13.0,1,12/2/18,Tennessee Titans,New York Jets,TEN
+191,2018,13,0,1,-5.5,0,36.0,15.0,1,12/3/18,Philadelphia Eagles,Washington Redskins,PHI
+192,2018,14,0,1,-5.5,0,44.0,5.0,1,12/6/18,Tennessee Titans,Jacksonville Jaguars,TEN
+193,2018,14,0,0,-2.5,0,72.0,0.0,1,12/9/18,Arizona Cardinals,Detroit Lions,DET
+194,2018,14,0,0,-4.5,0,31.0,12.0,1,12/9/18,Buffalo Bills,New York Jets,BUF
+195,2018,14,0,1,-3.0,0,29.0,4.0,0,12/9/18,Chicago Bears,Los Angeles Rams,LAR
+196,2018,14,0,1,-1.0,0,28.0,4.0,0,12/9/18,Cleveland Browns,Carolina Panthers,CAR
+197,2018,14,0,1,-3.5,0,72.0,0.0,0,12/9/18,Dallas Cowboys,Philadelphia Eagles,DAL
+198,2018,14,0,1,-4.0,0,25.0,10.0,1,12/9/18,Green Bay Packers,Atlanta Falcons,GB
+199,2018,14,0,0,-4.0,0,72.0,0.0,0,12/9/18,Houston Texans,Indianapolis Colts,HOU
+200,2018,14,0,1,-6.5,0,27.0,0.0,1,12/9/18,Kansas City Chiefs,Baltimore Ravens,KC
+201,2018,14,0,1,-17.0,0,70.0,1.0,1,12/9/18,Los Angeles Chargers,Cincinnati Bengals,LAC
+202,2018,14,0,1,-9.5,0,82.0,13.0,0,12/9/18,Miami Dolphins,New England Patriots,NE
+203,2018,14,0,1,-10.5,0,55.0,8.0,0,12/9/18,Oakland Raiders,Pittsburgh Steelers,PIT
+204,2018,14,0,1,-3.0,0,54.0,3.0,0,12/9/18,San Francisco 49ers,Denver Broncos,DEN
+205,2018,14,0,0,-10.0,0,71.0,7.0,0,12/9/18,Tampa Bay Buccaneers,New Orleans Saints,NO
+206,2018,14,0,0,-3.0,0,33.0,6.0,0,12/9/18,Washington Redskins,New York Giants,NYG
+207,2018,14,0,1,-3.0,0,48.0,9.0,1,12/10/18,Seattle Seahawks,Minnesota Vikings,SEA
+208,2018,15,0,0,-3.5,0,39.0,5.0,0,12/13/18,Kansas City Chiefs,Los Angeles Chargers,KC
+209,2018,15,0,0,-1.0,0,46.0,0.0,1,12/15/18,Denver Broncos,Cleveland Browns,DEN
+210,2018,15,0,0,-7.0,0,51.0,8.0,0,12/15/18,New York Jets,Houston Texans,HOU
+211,2018,15,0,1,-10.0,0,72.0,0.0,1,12/16/18,Atlanta Falcons,Arizona Cardinals,ATL
+212,2018,15,0,1,-8.5,0,43.0,10.0,1,12/16/18,Baltimore Ravens,Tampa Bay Buccaneers,BAL
+213,2018,15,0,1,-2.5,0,39.0,7.0,1,12/16/18,Buffalo Bills,Detroit Lions,BUF
+214,2018,15,0,1,-5.5,0,45.0,10.0,1,12/16/18,Chicago Bears,Green Bay Packers,CHI
+215,2018,15,0,1,-3.0,0,43.0,2.0,1,12/16/18,Cincinnati Bengals,Oakland Raiders,CIN
+216,2018,15,0,1,-3.0,0,72.0,0.0,1,12/16/18,Indianapolis Colts,Dallas Cowboys,IND
+217,2018,15,0,0,-7.5,0,64.0,12.0,1,12/16/18,Jacksonville Jaguars,Washington Redskins,JAX
+218,2018,15,0,0,-13.5,0,60.0,5.0,0,12/16/18,Los Angeles Rams,Philadelphia Eagles,LAR
+219,2018,15,0,1,-7.5,0,72.0,0.0,1,12/16/18,Minnesota Vikings,Miami Dolphins,MIN
+220,2018,15,0,0,-2.5,0,40.0,6.0,0,12/16/18,New York Giants,Tennessee Titans,TEN
+221,2018,15,0,1,-2.5,0,42.0,5.0,0,12/16/18,Pittsburgh Steelers,New England Patriots,NE
+222,2018,15,0,1,-3.5,0,61.0,11.0,0,12/16/18,San Francisco 49ers,Seattle Seahawks,SEA
+223,2018,15,0,0,-6.0,0,48.0,3.0,0,12/17/18,Carolina Panthers,New Orleans Saints,NO
+224,2018,16,0,0,-4.0,0,60.0,5.0,1,12/22/18,Los Angeles Chargers,Baltimore Ravens,LAC
+225,2018,16,0,1,-11.5,0,51.0,9.0,1,12/22/18,Tennessee Titans,Washington Redskins,TEN
+226,2018,16,0,0,-14.5,0,72.0,0.0,0,12/23/18,Arizona Cardinals,Los Angeles Rams,LAR
+227,2018,16,0,0,-3.0,0,52.0,7.0,0,12/23/18,Carolina Panthers,Atlanta Falcons,ATL
+228,2018,16,0,1,-10.0,0,37.0,9.0,0,12/23/18,Cleveland Browns,Cincinnati Bengals,CLE
+229,2018,16,0,1,-7.5,0,72.0,0.0,1,12/23/18,Dallas Cowboys,Tampa Bay Buccaneers,DAL
+230,2018,16,0,0,-6.5,0,72.0,0.0,0,12/23/18,Detroit Lions,Minnesota Vikings,MIN
+231,2018,16,0,1,-10.0,0,72.0,0.0,1,12/23/18,Indianapolis Colts,New York Giants,IND
+232,2018,16,0,0,-3.0,0,73.0,9.0,1,12/23/18,Miami Dolphins,Jacksonville Jaguars,MIA
+233,2018,16,0,1,-13.5,0,40.0,12.0,1,12/23/18,New England Patriots,Buffalo Bills,NE
+234,2018,16,0,1,-6.5,0,72.0,0.0,1,12/23/18,New Orleans Saints,Pittsburgh Steelers,NO
+235,2018,16,0,0,-3.0,0,43.0,8.0,0,12/23/18,New York Jets,Green Bay Packers,GB
+236,2018,16,0,1,-1.0,0,44.0,5.0,1,12/23/18,Philadelphia Eagles,Houston Texans,PHI
+237,2018,16,0,0,-4.0,0,50.0,5.0,0,12/23/18,San Francisco 49ers,Chicago Bears,CHI
+238,2018,16,0,1,-1.0,0,43.0,8.0,0,12/23/18,Seattle Seahawks,Kansas City Chiefs,KC
+239,2018,16,0,1,-2.5,0,58.0,14.0,0,12/24/18,Oakland Raiders,Denver Broncos,DEN
+240,2018,17,0,1,-7.0,0,48.0,2.0,1,12/30/18,Baltimore Ravens,Cleveland Browns,BAL
+241,2018,17,0,1,-5.5,0,33.0,9.0,1,12/30/18,Buffalo Bills,Miami Dolphins,BUF
+242,2018,17,0,0,-7.0,0,51.0,6.0,0,12/30/18,Denver Broncos,Los Angeles Chargers,LAC
+243,2018,17,0,0,-7.5,0,26.0,15.0,1,12/30/18,Green Bay Packers,Detroit Lions,GB
+244,2018,17,0,1,-7.0,0,72.0,0.0,1,12/30/18,Houston Texans,Jacksonville Jaguars,HOU
+245,2018,17,0,1,-14.5,0,45.0,15.0,1,12/30/18,Kansas City Chiefs,Oakland Raiders,KC
+246,2018,17,0,1,-10.5,0,65.0,3.0,0,12/30/18,Los Angeles Rams,San Francisco 49ers,LAR
+247,2018,17,0,0,-6.0,0,72.0,0.0,1,12/30/18,Minnesota Vikings,Chicago Bears,MIN
+248,2018,17,0,1,-14.5,0,33.0,2.0,1,12/30/18,New England Patriots,New York Jets,NE
+249,2018,17,0,0,-8.0,0,72.0,0.0,1,12/30/18,New Orleans Saints,Carolina Panthers,NO
+250,2018,17,0,0,-7.5,0,37.0,2.0,0,12/30/18,New York Giants,Dallas Cowboys,NYG
+251,2018,17,0,1,-14.0,0,42.0,9.0,1,12/30/18,Pittsburgh Steelers,Cincinnati Bengals,PIT
+252,2018,17,0,1,-14.0,0,45.0,5.0,1,12/30/18,Seattle Seahawks,Arizona Cardinals,SEA
+253,2018,17,0,0,-2.5,0,80.0,5.0,0,12/30/18,Tampa Bay Buccaneers,Atlanta Falcons,ATL
+254,2018,17,0,0,-5.5,0,53.0,4.0,0,12/30/18,Tennessee Titans,Indianapolis Colts,IND
+255,2018,17,0,0,-6.0,0,46.0,3.0,0,12/30/18,Washington Redskins,Philadelphia Eagles,PHI
+256,2018,18,1,0,-1.0,0,72.0,0.0,1,1/5/19,Houston Texans,Indianapolis Colts,HOU
+257,2018,18,1,1,-2.0,0,72.0,0.0,1,1/5/19,Dallas Cowboys,Seattle Seahawks,DAL
+258,2018,18,1,0,-6.0,0,37.0,11.0,1,1/6/19,Chicago Bears,Philadelphia Eagles,CHI
+259,2018,18,1,0,-3.0,0,43.0,12.0,1,1/6/19,Baltimore Ravens,Los Angeles Chargers,BAL
+260,2018,19,1,1,-4.5,0,34.0,9.0,1,1/12/19,Kansas City Chiefs,Indianapolis Colts,KAN
+261,2018,19,1,1,-7.0,0,60.0,0.0,0,1/12/19,Los Angeles Rams,Dallas Cowboys,LAR
+262,2018,19,1,1,-4.0,0,30.0,2.0,1,1/13/19,New England Patriots,Los Angeles Chargers,NE
+263,2018,19,1,1,-8.5,0,48.0,6.0,1,1/13/19,New Orleans Saints,Philadelphia Eagles,NO
+264,2018,20,1,0,-3.0,0,53.0,6.0,1,1/20/19,New Orleans Saints,Los Angeles Rams,NO
+265,2018,20,1,0,-3.0,0,24.0,9.0,1,1/20/19,Kansas City Chiefs,New England Patriots,KAN
+266,2018,21,1,0,-2.5,1,65.0,1.0,0,2/3/19,Los Angeles Rams,New England Patriots,NE

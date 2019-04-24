@@ -18,9 +18,6 @@ from sklearn.decomposition import PCA
 #import and convert train data from csv into dataframe
 data = pd.read_csv("alldata.csv")
 
-cols_to_drop = ['schedule_date', 'stadium', 'score_home', 'score_away']
-data = data.drop(cols_to_drop, axis=1)
-
 #change schedule_playoff to 0 and 1
 data.loc[data.schedule_playoff == False, 'schedule_playoff'] = 0
 data.loc[data.schedule_playoff == True, 'schedule_playoff'] = 1
@@ -39,11 +36,19 @@ data.loc[data.schedule_week == 'Superbowl', 'schedule_week'] = 21
 data.loc[data.stadium_neutral == False, 'stadium_neutral'] = 0
 data.loc[data.stadium_neutral == True, 'stadium_neutral'] = 1
 
+#drop uneccessary columns
+cols_to_drop = ['stadium', 'score_home', 'score_away']
+data = data.drop(cols_to_drop, axis=1)
+
 # #only take complete cases
 data.dropna(inplace=True)
 
 #save dataframe with names for later use
 dataWithNames = data[:]
+
+#drop schedule date after saving it in dataWithNames
+cols_to_drop = ['schedule_date']
+data = data.drop(cols_to_drop, axis=1)
 
 #converts columns into factors
 col_to_transform = ['team_home', 'team_away', 'team_favorite_id','weather_detail']
@@ -54,7 +59,7 @@ train_data = data[:]
 #get index of all rows where season is 2018
 index2018Names = train_data[ train_data['schedule_season'] == 2018 ].index
 
-#store all rows where season is 2018 and 2017
+#store all rows where season is 2018 into test_data
 test_data = train_data.loc[ train_data['schedule_season'] == 2018 ]
 dataWithNames = dataWithNames.loc[ dataWithNames['schedule_season'] == 2018 ]
 
@@ -112,11 +117,6 @@ train_undersample = train_home.sample(count_class1)
 down_train = pd.concat([train_undersample, train_away], axis=0)
 
 
-test_data.to_csv("testSet.csv")
-down_train.to_csv("trainingSet.csv")
-print down_train
-print test_data
-
 print("# of H and A values in train data after down sampling")
 print down_train.full_result.value_counts()
 #create X and y sets of training data
@@ -162,7 +162,6 @@ dtree_clf = dtree_clf.fit(X_train, y_train)
 
 #predict with dtree
 dtree_predict = dtree_clf.predict(X_test_data)
-
 
 #create linear discriminant analysis
 lin_clf = LinearDiscriminantAnalysis()
@@ -260,7 +259,7 @@ pred_data = pd.DataFrame(np.array(quad_predict), columns = ['predicted_result'])
 #get all data up to everything including weather wind
 newTest_data = test_data.loc[:, :'weather_wind_mph']
 
-name_data = dataWithNames[['team_home', 'team_away', 'team_favorite_id']]
+name_data = dataWithNames[['schedule_date', 'team_home', 'team_away', 'team_favorite_id']]
 
 newTest_data.reset_index(inplace=True)
 name_data.reset_index(inplace=True)
