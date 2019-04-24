@@ -1,0 +1,284 @@
+.parallax-container {
+    height: 700px;
+}
+
+.dropdown-content {
+  width: 250px !important;
+  top: 17% !important;
+left: 1150px !important;
+
+
+  position: absolute !important;
+}
+
+
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-size: 100%;
+  background-position: bottom;
+  background-color: white;
+  min-height: 100%;
+
+}
+
+form{
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+code {
+  font-family: "Roboto", sans-serif;
+}
+
+/*sets width of columns to fill the page*/
+.full-width {
+    height: 100%;
+    min-height: 1000px !important;
+}
+.full-width img {
+  width: 100%;
+  height: auto;
+}
+
+.full-width a {
+  position: absolute;
+top: 30%;
+left: 95%;
+width: 10%;
+transform: translate(-80%, -30%);
+background-color: teal;
+color: white;
+font-size: 16px;
+padding-right: 200px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+}
+
+.full-width a:hover {
+    background-color: purple;
+}
+
+.btn-floating{
+  font-size: 28px;
+  padding-top: 6px;
+  width:50px;
+  height:50px;
+}
+
+
+.signed-out-links a{
+  color: black;
+}
+.signed-in-links a{
+  color: black;
+}
+
+.team-container{
+  background-color: white;
+}
+
+.logo {
+  padding: 10px;
+}
+
+/*moves the team table on homepage */
+.team-table{
+  padding: 20px;
+  margin-top: 60px;
+}
+
+/* .nav-wrapper {
+  overflow: hidden;
+  line-height: 57px;
+} */
+/* .feature-links a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 21px;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 4px solid transparent;
+}
+
+.feature-links a:hover {
+  border-bottom: 4px solid white;
+}
+
+.feature-links a.active {
+    border-bottom: 20px solid white;
+} */
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+@media only screen and (max-width: 400px) {
+    .parallax-container {
+        height: 200px;
+    }
+}
+
+.custom-navbar{
+  background-color:#ffffff;
+  font-color:white;
+}
+
+
+/*     HOME PAGE   bitch    */
+
+.first-image{
+  z-index: 1;
+}
+
+.parallax{
+  position:none;
+}
+
+.parallax-container{
+  position:none;
+}
+
+.home-page-header-box{
+
+
+}
+
+.home-page-header-container{
+  color:black;
+
+  padding: 0vh 0vh 40vh 0vh;
+  font-size:2em;
+padding-left:8vw;
+padding-right:3vw;
+padding-top: 10vh;
+z-index:2;
+
+}
+
+.home-page-header-first-text{
+  font-weight:300;
+  margin-bottom: 0;
+
+}
+
+.home-page-header-second-text{
+  font-weight:700;
+  margin-bottom:0;
+  
+}
+
+.home-page-header-third-text{
+  font-weight:300;
+  margin-bottom: 8vh;
+  
+}
+
+.home-page-header-button{
+
+}
+
+.home-page-cards{
+
+}
+
+.home-page-card-image-container{
+  padding-top:10px;
+}
+
+.home-page-card-image-1{
+  padding-top:30px;
+  padding-bottom:20px;
+}
+
+.home-page-card-image-3{
+  padding-bottom:11px;
+}
+
+.home-page-header-image{
+  z-index:-9999;
+}
+
+.home-page-middle-section{
+  padding-top:10vh;
+  padding-bottom:10vh;
+  margin-left:0;
+  margin-right:0;
+  padding-left:10vw;
+  padding-right:10vw;
+}
+
+.home-page-submit-button{
+    background-color: #26a69a;
+    border-radius:0.1em;
+    padding-left:4.5vw;
+    padding-right:4.5vw;
+    padding-top:1.5vw;
+    padding-bottom:1.5vw;
+
+    margin-bottom:2vh;
+    font-weight:300;
+
+
+}
+
+
+
+.parallax-container{
+  height:70vh;
+  background-size:cover;
+}
+
+.block-34, .block-3 {
+  background: #fff;
+  -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2); }
+  .block-34 .home-page-card-image img, .block-3 .home-page-card-image img {
+    max-width: 100%; }
+  .block-34 .text, .block-3 .text {
+    padding: 30px; }
+    .block-34 .text .heading, .block-3 .text .heading {
+      font-size: 24px;
+      font-weight: 300; }
+    .block-34 .text .price, .block-3 .text .price {
+      font-size: 40px; }
+      .block-34 .text .price sup, .block-34 .text .price sub, .block-3 .text .price sup, .block-3 .text .price sub {
+        font-size: 16px; }
+      .block-34 .text .price sup, .block-3 .text .price sup {
+        top: -1em; }
+      .block-34 .text .price sub, .block-3 .text .price sub {
+        bottom: 0em; }
+    .block-34 .text .specs, .block-34 .text .specs li, .block-3 .text .specs, .block-3 .text .specs li {
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+    .block-34 .text .specs li, .block-3 .text .specs li {
+      color: gray;
+      line-height: 1.5;
+      margin-bottom: 10px; }
+      .block-34 .text .specs li strong, .block-3 .text .specs li strong {
+        color: #000; }
+
