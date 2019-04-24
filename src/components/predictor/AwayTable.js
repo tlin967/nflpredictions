@@ -8,7 +8,7 @@ const AwayTable = function() {
         <option value="" disabled selected>Choose Away Team</option>
         <option value="1">San Francisco - 49er's</option>
         <option value="2">Oakland - Raiders</option>
-        <option value="3">Green Bay - Packers</option>
+        <option value="3">Green Bays - Packers</option>
       </select>
     </div>
 
