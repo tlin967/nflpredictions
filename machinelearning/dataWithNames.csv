@@ -1,0 +1,268 @@
+,schedule_season,schedule_week,schedule_playoff,team_home,full_result,team_away,team_favorite_id,spread_favorite,stadium_neutral,weather_temperature,weather_wind_mph,weather_detail
+2136,2018,1,0,Philadelphia Eagles,1,Atlanta Falcons,PHI,-1.0,0,81.0,8.0,Rain
+2137,2018,1,0,Arizona Cardinals,0,Washington Redskins,ARI,-2.0,0,72.0,0.0,Dome
+2138,2018,1,0,Baltimore Ravens,1,Buffalo Bills,BAL,-7.5,0,61.0,12.0,Rain
+2139,2018,1,0,Carolina Panthers,1,Dallas Cowboys,CAR,-2.5,0,81.0,9.0,Rain
+2140,2018,1,0,Cleveland Browns,0,Pittsburgh Steelers,PIT,-3.5,0,58.0,11.0,Rain
+2141,2018,1,0,Denver Broncos,1,Seattle Seahawks,DEN,-3.0,0,84.0,5.0,Sunny
+2142,2018,1,0,Green Bay Packers,1,Chicago Bears,GB,-6.5,0,62.0,10.0,Sunny
+2143,2018,1,0,Indianapolis Colts,0,Cincinnati Bengals,CIN,-1.0,0,72.0,0.0,Dome
+2144,2018,1,0,Los Angeles Chargers,0,Kansas City Chiefs,LAC,-3.5,0,84.0,8.0,Sunny
+2145,2018,1,0,Miami Dolphins,1,Tennessee Titans,TEN,-1.0,0,89.0,7.0,Rain
+2146,2018,1,0,Minnesota Vikings,1,San Francisco 49ers,MIN,-6.0,0,72.0,0.0,Dome
+2147,2018,1,0,New England Patriots,1,Houston Texans,NE,-6.0,0,62.0,10.0,Sunny
+2148,2018,1,0,New Orleans Saints,0,Tampa Bay Buccaneers,NO,-10.0,0,72.0,0.0,Dome
+2149,2018,1,0,New York Giants,0,Jacksonville Jaguars,JAX,-2.5,0,59.0,7.0,Rain
+2150,2018,1,0,Detroit Lions,0,New York Jets,DET,-7.0,0,72.0,0.0,Dome
+2151,2018,1,0,Oakland Raiders,0,Los Angeles Rams,LAR,-6.5,0,69.0,10.0,Sunny
+2152,2018,2,0,Cincinnati Bengals,1,Baltimore Ravens,CIN,-1.0,0,82.0,3.0,Sunny
+2153,2018,2,0,Atlanta Falcons,1,Carolina Panthers,ATL,-5.5,0,72.0,0.0,Dome
+2154,2018,2,0,Buffalo Bills,0,Los Angeles Chargers,LAC,-7.5,0,83.0,6.0,Sunny
+2155,2018,2,0,Dallas Cowboys,1,New York Giants,DAL,-3.0,0,72.0,0.0,Dome
+2156,2018,2,0,Denver Broncos,1,Oakland Raiders,DEN,-5.5,0,92.0,4.0,Sunny
+2157,2018,2,0,Green Bay Packers,0,Minnesota Vikings,MIN,-2.0,0,80.0,5.0,Sunny
+2158,2018,2,0,Jacksonville Jaguars,1,New England Patriots,NE,-2.0,0,97.0,15.0,Rain
+2159,2018,2,0,Los Angeles Rams,1,Arizona Cardinals,LAR,-13.5,0,86.0,2.0,Sunny
+2160,2018,2,0,New Orleans Saints,1,Cleveland Browns,NO,-10.0,0,72.0,0.0,Dome
+2161,2018,2,0,New York Jets,0,Miami Dolphins,NYJ,-3.0,0,80.0,4.0,Sunny
+2162,2018,2,0,Pittsburgh Steelers,0,Kansas City Chiefs,PIT,-4.5,0,80.0,10.0,Sunny
+2163,2018,2,0,San Francisco 49ers,1,Detroit Lions,SF,-6.0,0,73.0,12.0,Sunny
+2164,2018,2,0,Tampa Bay Buccaneers,1,Philadelphia Eagles,PHI,-3.0,0,91.0,9.0,Sunny
+2165,2018,2,0,Tennessee Titans,1,Houston Texans,HOU,-3.5,0,81.0,12.0,Sunny
+2166,2018,2,0,Washington Redskins,0,Indianapolis Colts,WAS,-6.0,0,71.0,5.0,Sunny
+2167,2018,2,0,Chicago Bears,1,Seattle Seahawks,CHI,-4.5,0,79.0,2.0,Sunny
+2168,2018,3,0,Cleveland Browns,1,New York Jets,CLE,-3.0,0,83.0,11.0,Sunny
+2169,2018,3,0,Arizona Cardinals,0,Chicago Bears,CHI,-5.5,0,72.0,0.0,Dome
+2170,2018,3,0,Atlanta Falcons,0,New Orleans Saints,ATL,-1.5,0,72.0,0.0,Dome
+2171,2018,3,0,Baltimore Ravens,1,Denver Broncos,BAL,-5.5,0,61.0,5.0,Rain
+2172,2018,3,0,Carolina Panthers,1,Cincinnati Bengals,CAR,-2.5,0,80.0,3.0,Sunny
+2173,2018,3,0,Detroit Lions,1,New England Patriots,NE,-7.0,0,72.0,0.0,Dome
+2174,2018,3,0,Houston Texans,0,New York Giants,HOU,-6.5,0,72.0,0.0,Dome
+2175,2018,3,0,Jacksonville Jaguars,0,Tennessee Titans,JAX,-10.0,0,89.0,10.0,Sunny
+2176,2018,3,0,Kansas City Chiefs,1,San Francisco 49ers,KC,-5.5,0,70.0,4.0,Sunny
+2177,2018,3,0,Los Angeles Rams,1,Los Angeles Chargers,LAR,-7.5,0,80.0,5.0,Sunny
+2178,2018,3,0,Miami Dolphins,1,Oakland Raiders,MIA,-3.0,0,90.0,7.0,Sunny
+2179,2018,3,0,Minnesota Vikings,0,Buffalo Bills,MIN,-16.5,0,72.0,0.0,Dome
+2180,2018,3,0,Philadelphia Eagles,1,Indianapolis Colts,PHI,-6.5,0,61.0,5.0,Rain
+2181,2018,3,0,Seattle Seahawks,1,Dallas Cowboys,SEA,-1.0,0,61.0,4.0,Sunny
+2182,2018,3,0,Washington Redskins,1,Green Bay Packers,GB,-2.5,0,62.0,6.0,Rain
+2183,2018,3,0,Tampa Bay Buccaneers,0,Pittsburgh Steelers,PIT,-1.0,0,77.0,5.0,Sunny
+2184,2018,4,0,Los Angeles Rams,1,Minnesota Vikings,LAR,-7.5,0,75.0,3.0,Sunny
+2185,2018,4,0,Arizona Cardinals,0,Seattle Seahawks,SEA,-3.5,0,72.0,0.0,Dome
+2186,2018,4,0,Atlanta Falcons,0,Cincinnati Bengals,ATL,-3.5,0,72.0,0.0,Dome
+2187,2018,4,0,Chicago Bears,1,Tampa Bay Buccaneers,CHI,-3.0,0,66.0,5.0,Sunny
+2188,2018,4,0,Dallas Cowboys,1,Detroit Lions,DAL,-2.5,0,72.0,0.0,Dome
+2189,2018,4,0,Green Bay Packers,1,Buffalo Bills,GB,-8.5,0,49.0,9.0,Sunny
+2190,2018,4,0,Indianapolis Colts,0,Houston Texans,IND,-1.0,0,72.0,0.0,Dome
+2191,2018,4,0,Jacksonville Jaguars,1,New York Jets,JAX,-7.5,0,86.0,10.0,Sunny
+2192,2018,4,0,Los Angeles Chargers,1,San Francisco 49ers,LAC,-10.5,0,78.0,9.0,Sunny
+2193,2018,4,0,New England Patriots,1,Miami Dolphins,NE,-6.5,0,65.0,6.0,Sunny
+2194,2018,4,0,New York Giants,0,New Orleans Saints,NO,-3.5,0,71.0,7.0,Sunny
+2195,2018,4,0,Oakland Raiders,1,Cleveland Browns,OAK,-2.5,0,71.0,8.0,Sunny
+2196,2018,4,0,Pittsburgh Steelers,0,Baltimore Ravens,PIT,-3.0,0,69.0,2.0,Sunny
+2197,2018,4,0,Tennessee Titans,1,Philadelphia Eagles,PHI,-3.0,0,80.0,4.0,Sunny
+2198,2018,4,0,Denver Broncos,0,Kansas City Chiefs,KC,-3.5,0,65.0,5.0,Sunny
+2199,2018,5,0,New England Patriots,1,Indianapolis Colts,NE,-10.5,0,66.0,6.0,Sunny
+2200,2018,5,0,Buffalo Bills,1,Tennessee Titans,TEN,-6.0,0,62.0,8.0,Sunny
+2201,2018,5,0,Carolina Panthers,1,New York Giants,CAR,-7.0,0,80.0,3.0,Sunny
+2202,2018,5,0,Cincinnati Bengals,1,Miami Dolphins,CIN,-6.5,0,87.0,4.0,Sunny
+2203,2018,5,0,Cleveland Browns,1,Baltimore Ravens,BAL,-3.0,0,72.0,5.0,Sunny
+2204,2018,5,0,Detroit Lions,1,Green Bay Packers,GB,-1.0,0,72.0,0.0,Dome
+2205,2018,5,0,Houston Texans,1,Dallas Cowboys,HOU,-3.5,0,72.0,0.0,Dome
+2206,2018,5,0,Kansas City Chiefs,1,Jacksonville Jaguars,KC,-3.0,0,58.0,5.0,Rain
+2207,2018,5,0,Los Angeles Chargers,1,Oakland Raiders,LAC,-5.0,0,75.0,10.0,Sunny
+2208,2018,5,0,New York Jets,1,Denver Broncos,NYJ,-1.0,0,77.0,7.0,Sunny
+2209,2018,5,0,Philadelphia Eagles,0,Minnesota Vikings,PHI,-3.5,0,79.0,6.0,Sunny
+2210,2018,5,0,Pittsburgh Steelers,1,Atlanta Falcons,PIT,-3.5,0,83.0,5.0,Sunny
+2211,2018,5,0,San Francisco 49ers,0,Arizona Cardinals,SF,-3.0,0,79.0,15.0,Sunny
+2212,2018,5,0,Seattle Seahawks,0,Los Angeles Rams,LAR,-7.5,0,53.0,5.0,Sunny
+2213,2018,5,0,New Orleans Saints,1,Washington Redskins,NO,-5.5,0,72.0,0.0,Dome
+2214,2018,6,0,New York Giants,0,Philadelphia Eagles,PHI,-1.5,0,70.0,3.0,Rain
+2215,2018,6,0,Atlanta Falcons,1,Tampa Bay Buccaneers,ATL,-3.0,0,72.0,0.0,Dome
+2216,2018,6,0,Cincinnati Bengals,0,Pittsburgh Steelers,CIN,-1.5,0,51.0,6.0,Sunny
+2217,2018,6,0,Cleveland Browns,0,Los Angeles Chargers,CLE,-1.0,0,57.0,12.0,Sunny
+2218,2018,6,0,Dallas Cowboys,1,Jacksonville Jaguars,JAX,-3.0,0,72.0,0.0,Dome
+2219,2018,6,0,Denver Broncos,0,Los Angeles Rams,LAR,-7.0,0,25.0,6.0,Sunny
+2220,2018,6,0,Houston Texans,1,Buffalo Bills,HOU,-10.5,0,72.0,0.0,Dome
+2221,2018,6,0,Miami Dolphins,1,Chicago Bears,CHI,-7.5,0,89.0,8.0,Sunny
+2222,2018,6,0,Minnesota Vikings,1,Arizona Cardinals,MIN,-10.0,0,72.0,0.0,Dome
+2223,2018,6,0,New England Patriots,1,Kansas City Chiefs,NE,-3.5,0,45.0,0.0,Sunny
+2224,2018,6,0,New York Jets,1,Indianapolis Colts,NYJ,-2.5,0,60.0,7.0,Sunny
+2225,2018,6,0,Oakland Raiders,0,Seattle Seahawks,SEA,-3.0,1,50.0,12.0,Rain
+2226,2018,6,0,Tennessee Titans,0,Baltimore Ravens,BAL,-2.5,0,66.0,4.0,Sunny
+2227,2018,6,0,Washington Redskins,1,Carolina Panthers,CAR,-1.0,0,52.0,0.0,Sunny
+2228,2018,6,0,Green Bay Packers,1,San Francisco 49ers,GB,-9.0,0,37.0,5.0,Sunny
+2229,2018,7,0,Arizona Cardinals,0,Denver Broncos,DEN,-1.0,0,72.0,0.0,Dome
+2230,2018,7,0,Baltimore Ravens,0,New Orleans Saints,BAL,-2.5,0,54.0,15.0,Sunny
+2231,2018,7,0,Chicago Bears,0,New England Patriots,NE,-1.0,0,44.0,9.0,Sunny
+2232,2018,7,0,Indianapolis Colts,1,Buffalo Bills,IND,-7.0,0,72.0,0.0,Dome
+2233,2018,7,0,Jacksonville Jaguars,0,Houston Texans,JAX,-3.5,0,68.0,15.0,Sunny
+2234,2018,7,0,Kansas City Chiefs,1,Cincinnati Bengals,KC,-6.5,0,59.0,10.0,Sunny
+2235,2018,7,0,Los Angeles Chargers,1,Tennessee Titans,LAC,-6.5,1,66.0,6.0,Sunny
+2236,2018,7,0,Miami Dolphins,0,Detroit Lions,DET,-3.0,0,89.0,8.0,Sunny
+2237,2018,7,0,New York Jets,0,Minnesota Vikings,MIN,-3.5,0,46.0,16.0,Sunny
+2238,2018,7,0,Philadelphia Eagles,0,Carolina Panthers,PHI,-5.0,0,49.0,19.0,Sunny
+2239,2018,7,0,San Francisco 49ers,0,Los Angeles Rams,LAR,-8.0,0,62.0,5.0,Sunny
+2240,2018,7,0,Tampa Bay Buccaneers,1,Cleveland Browns,TB,-3.5,0,79.0,7.0,Sunny
+2241,2018,7,0,Washington Redskins,1,Dallas Cowboys,DAL,-1.0,0,52.0,12.0,Sunny
+2242,2018,7,0,Atlanta Falcons,1,New York Giants,ATL,-4.0,0,72.0,0.0,Dome
+2243,2018,8,0,Houston Texans,1,Miami Dolphins,HOU,-7.5,0,72.0,0.0,Dome
+2244,2018,8,0,Arizona Cardinals,1,San Francisco 49ers,ARI,-2.5,0,72.0,0.0,Dome
+2245,2018,8,0,Carolina Panthers,1,Baltimore Ravens,BAL,-2.5,0,61.0,10.0,Sunny
+2246,2018,8,0,Chicago Bears,1,New York Jets,CHI,-8.5,0,48.0,18.0,Sunny
+2247,2018,8,0,Cincinnati Bengals,1,Tampa Bay Buccaneers,CIN,-3.5,0,55.0,7.0,Sunny
+2248,2018,8,0,Detroit Lions,0,Seattle Seahawks,DET,-3.0,0,72.0,0.0,Dome
+2249,2018,8,0,Jacksonville Jaguars,0,Philadelphia Eagles,PHI,-3.5,1,48.0,12.0,Sunny
+2250,2018,8,0,Kansas City Chiefs,1,Denver Broncos,KC,-8.5,0,56.0,12.0,Sunny
+2251,2018,8,0,Los Angeles Rams,1,Green Bay Packers,LAR,-7.5,0,82.0,1.0,Sunny
+2252,2018,8,0,Minnesota Vikings,0,New Orleans Saints,MIN,-2.5,0,72.0,0.0,Dome
+2253,2018,8,0,New York Giants,0,Washington Redskins,WAS,-1.0,0,51.0,11.0,Sunny
+2254,2018,8,0,Oakland Raiders,0,Indianapolis Colts,IND,-3.5,0,69.0,8.0,Sunny
+2255,2018,8,0,Pittsburgh Steelers,1,Cleveland Browns,PIT,-8.5,0,47.0,11.0,Sunny
+2256,2018,8,0,Buffalo Bills,0,New England Patriots,NE,-13.5,0,46.0,16.0,Sunny
+2257,2018,9,0,San Francisco 49ers,1,Oakland Raiders,OAK,-1.5,0,82.0,8.0,Sunny
+2258,2018,9,0,Baltimore Ravens,0,Pittsburgh Steelers,BAL,-1.5,0,55.0,6.0,Sunny
+2259,2018,9,0,Buffalo Bills,0,Chicago Bears,CHI,-10.5,0,49.0,12.0,Sunny
+2260,2018,9,0,Carolina Panthers,1,Tampa Bay Buccaneers,CAR,-6.0,0,62.0,8.0,Sunny
+2261,2018,9,0,Cleveland Browns,0,Kansas City Chiefs,KC,-7.5,0,53.0,16.0,Sunny
+2262,2018,9,0,Denver Broncos,0,Houston Texans,DEN,-1.0,0,53.0,3.0,Sunny
+2263,2018,9,0,Miami Dolphins,1,New York Jets,MIA,-3.0,0,87.0,16.0,Sunny
+2264,2018,9,0,Minnesota Vikings,1,Detroit Lions,MIN,-4.5,0,72.0,0.0,Dome
+2265,2018,9,0,New England Patriots,1,Green Bay Packers,NE,-5.0,0,40.0,2.0,Sunny
+2266,2018,9,0,New Orleans Saints,1,Los Angeles Rams,LAR,-1.5,0,72.0,0.0,Dome
+2267,2018,9,0,Seattle Seahawks,0,Los Angeles Chargers,SEA,-1.0,0,56.0,4.0,Rain
+2268,2018,9,0,Washington Redskins,0,Atlanta Falcons,WAS,-1.5,0,55.0,5.0,Sunny
+2269,2018,9,0,Dallas Cowboys,0,Tennessee Titans,DAL,-4.5,0,72.0,0.0,Dome
+2270,2018,10,0,Pittsburgh Steelers,1,Carolina Panthers,PIT,-3.5,0,40.0,4.0,Sunny
+2271,2018,10,0,Chicago Bears,1,Detroit Lions,CHI,-7.5,0,37.0,12.0,Sunny
+2272,2018,10,0,Cincinnati Bengals,0,New Orleans Saints,NO,-6.0,0,39.0,6.0,Sunny
+2273,2018,10,0,Cleveland Browns,1,Atlanta Falcons,ATL,-5.5,0,36.0,9.0,Sunny
+2274,2018,10,0,Green Bay Packers,1,Miami Dolphins,GB,-11.0,0,33.0,6.0,Sunny
+2275,2018,10,0,Indianapolis Colts,1,Jacksonville Jaguars,IND,-3.0,0,72.0,0.0,Dome
+2276,2018,10,0,Kansas City Chiefs,1,Arizona Cardinals,KC,-16.5,0,43.0,5.0,Sunny
+2277,2018,10,0,Los Angeles Rams,1,Seattle Seahawks,LAR,-10.0,0,75.0,1.0,Sunny
+2278,2018,10,0,New York Jets,0,Buffalo Bills,NYJ,-7.0,0,46.0,10.0,Sunny
+2279,2018,10,0,Oakland Raiders,0,Los Angeles Chargers,LAC,-10.5,0,69.0,16.0,Sunny
+2280,2018,10,0,Philadelphia Eagles,0,Dallas Cowboys,PHI,-7.5,0,38.0,5.0,Sunny
+2281,2018,10,0,Tampa Bay Buccaneers,0,Washington Redskins,TB,-3.5,0,82.0,3.0,Sunny
+2282,2018,10,0,Tennessee Titans,1,New England Patriots,NE,-6.5,0,46.0,4.0,Sunny
+2283,2018,10,0,San Francisco 49ers,0,New York Giants,SF,-3.0,0,62.0,0.0,Sunny
+2284,2018,11,0,Seattle Seahawks,1,Green Bay Packers,SEA,-3.0,0,54.0,6.0,Sunny
+2285,2018,11,0,Arizona Cardinals,0,Oakland Raiders,ARI,-4.5,0,72.0,0.0,Dome
+2286,2018,11,0,Atlanta Falcons,0,Dallas Cowboys,ATL,-3.5,0,72.0,0.0,Dome
+2287,2018,11,0,Baltimore Ravens,1,Cincinnati Bengals,BAL,-6.5,0,48.0,8.0,Sunny
+2288,2018,11,0,Chicago Bears,1,Minnesota Vikings,CHI,-2.5,0,33.0,6.0,Sunny
+2289,2018,11,0,Detroit Lions,1,Carolina Panthers,CAR,-4.0,0,72.0,0.0,Dome
+2290,2018,11,0,Indianapolis Colts,1,Tennessee Titans,IND,-1.0,0,72.0,0.0,Dome
+2291,2018,11,0,Jacksonville Jaguars,0,Pittsburgh Steelers,PIT,-4.0,0,73.0,8.0,Sunny
+2292,2018,11,0,Los Angeles Chargers,0,Denver Broncos,LAC,-7.5,0,69.0,4.0,Sunny
+2293,2018,11,0,New Orleans Saints,1,Philadelphia Eagles,NO,-7.0,0,72.0,0.0,Dome
+2294,2018,11,0,New York Giants,1,Tampa Bay Buccaneers,NYG,-3.0,0,42.0,1.0,Sunny
+2295,2018,11,0,Washington Redskins,0,Houston Texans,HOU,-3.0,0,48.0,6.0,Sunny
+2296,2018,11,0,Los Angeles Rams,1,Kansas City Chiefs,LAR,-3.0,0,69.0,1.0,Sunny
+2297,2018,12,0,Dallas Cowboys,1,Washington Redskins,DAL,-7.0,0,72.0,0.0,Dome
+2298,2018,12,0,Detroit Lions,0,Chicago Bears,CHI,-3.0,0,72.0,0.0,Dome
+2299,2018,12,0,New Orleans Saints,1,Atlanta Falcons,NO,-11.5,0,72.0,0.0,Dome
+2300,2018,12,0,Baltimore Ravens,1,Oakland Raiders,BAL,-13.0,0,60.0,7.0,Sunny
+2301,2018,12,0,Buffalo Bills,1,Jacksonville Jaguars,JAX,-3.0,0,44.0,12.0,Sunny
+2302,2018,12,0,Carolina Panthers,0,Seattle Seahawks,CAR,-3.0,0,57.0,1.0,Sunny
+2303,2018,12,0,Cincinnati Bengals,0,Cleveland Browns,CLE,-1.0,0,44.0,4.0,Sunny
+2304,2018,12,0,Denver Broncos,1,Pittsburgh Steelers,PIT,-3.0,0,41.0,7.0,Sunny
+2305,2018,12,0,Indianapolis Colts,1,Miami Dolphins,IND,-9.0,0,72.0,0.0,Dome
+2306,2018,12,0,Los Angeles Chargers,1,Arizona Cardinals,LAC,-14.0,0,74.0,3.0,Sunny
+2307,2018,12,0,Minnesota Vikings,1,Green Bay Packers,MIN,-3.5,0,72.0,0.0,Dome
+2308,2018,12,0,New York Jets,0,New England Patriots,NE,-13.0,0,54.0,8.0,Sunny
+2309,2018,12,0,Philadelphia Eagles,1,New York Giants,PHI,-4.5,0,56.0,10.0,Sunny
+2310,2018,12,0,Tampa Bay Buccaneers,1,San Francisco 49ers,TB,-1.5,0,77.0,7.0,Sunny
+2311,2018,12,0,Houston Texans,1,Tennessee Titans,HOU,-3.5,0,72.0,0.0,Dome
+2312,2018,13,0,Dallas Cowboys,1,New Orleans Saints,NO,-7.5,0,72.0,0.0,Dome
+2313,2018,13,0,Atlanta Falcons,0,Baltimore Ravens,ATL,-2.5,0,72.0,0.0,Dome
+2314,2018,13,0,Cincinnati Bengals,0,Denver Broncos,DEN,-4.0,0,63.0,12.0,Sunny
+2315,2018,13,0,Detroit Lions,0,Los Angeles Rams,LAR,-10.5,0,72.0,0.0,Dome
+2316,2018,13,0,Green Bay Packers,0,Arizona Cardinals,GB,-13.5,0,34.0,20.0,Rain
+2317,2018,13,0,Houston Texans,1,Cleveland Browns,HOU,-5.0,0,72.0,0.0,Dome
+2318,2018,13,0,Jacksonville Jaguars,1,Indianapolis Colts,IND,-4.0,0,78.0,13.0,Rain
+2319,2018,13,0,Miami Dolphins,1,Buffalo Bills,MIA,-3.5,0,86.0,15.0,Sunny
+2320,2018,13,0,New England Patriots,1,Minnesota Vikings,NE,-6.0,0,53.0,6.0,Sunny
+2321,2018,13,0,New York Giants,1,Chicago Bears,CHI,-4.0,0,52.0,3.0,Sunny
+2322,2018,13,0,Oakland Raiders,0,Kansas City Chiefs,KC,-14.0,0,57.0,6.0,Sunny
+2323,2018,13,0,Pittsburgh Steelers,0,Los Angeles Chargers,PIT,-3.0,0,57.0,8.0,Sunny
+2324,2018,13,0,Seattle Seahawks,1,San Francisco 49ers,SEA,-10.0,0,45.0,2.0,Sunny
+2325,2018,13,0,Tampa Bay Buccaneers,1,Carolina Panthers,CAR,-3.5,0,81.0,15.0,Sunny
+2326,2018,13,0,Tennessee Titans,1,New York Jets,TEN,-10.5,0,70.0,13.0,Sunny
+2327,2018,13,0,Philadelphia Eagles,1,Washington Redskins,PHI,-5.5,0,36.0,15.0,Sunny
+2328,2018,14,0,Tennessee Titans,1,Jacksonville Jaguars,TEN,-5.5,0,44.0,5.0,Sunny
+2329,2018,14,0,Arizona Cardinals,0,Detroit Lions,DET,-2.5,0,72.0,0.0,Dome
+2330,2018,14,0,Buffalo Bills,0,New York Jets,BUF,-4.5,0,31.0,12.0,Sunny
+2331,2018,14,0,Chicago Bears,1,Los Angeles Rams,LAR,-3.0,0,29.0,4.0,Sunny
+2332,2018,14,0,Cleveland Browns,1,Carolina Panthers,CAR,-1.0,0,28.0,4.0,Sunny
+2333,2018,14,0,Dallas Cowboys,1,Philadelphia Eagles,DAL,-3.5,0,72.0,0.0,Dome
+2334,2018,14,0,Green Bay Packers,1,Atlanta Falcons,GB,-4.0,0,25.0,10.0,Sunny
+2335,2018,14,0,Houston Texans,0,Indianapolis Colts,HOU,-4.0,0,72.0,0.0,Dome
+2336,2018,14,0,Kansas City Chiefs,1,Baltimore Ravens,KC,-6.5,0,27.0,0.0,Sunny
+2337,2018,14,0,Los Angeles Chargers,1,Cincinnati Bengals,LAC,-17.0,0,70.0,1.0,Sunny
+2338,2018,14,0,Miami Dolphins,1,New England Patriots,NE,-9.5,0,82.0,13.0,Sunny
+2339,2018,14,0,Oakland Raiders,1,Pittsburgh Steelers,PIT,-10.5,0,55.0,8.0,Sunny
+2340,2018,14,0,San Francisco 49ers,1,Denver Broncos,DEN,-3.0,0,54.0,3.0,Sunny
+2341,2018,14,0,Tampa Bay Buccaneers,0,New Orleans Saints,NO,-10.0,0,71.0,7.0,Rain
+2342,2018,14,0,Washington Redskins,0,New York Giants,NYG,-3.0,0,33.0,6.0,Sunny
+2343,2018,14,0,Seattle Seahawks,1,Minnesota Vikings,SEA,-3.0,0,48.0,9.0,Sunny
+2344,2018,15,0,Kansas City Chiefs,0,Los Angeles Chargers,KC,-3.5,0,39.0,5.0,Rain
+2345,2018,15,0,Denver Broncos,0,Cleveland Browns,DEN,-1.0,0,46.0,0.0,Sunny
+2346,2018,15,0,New York Jets,0,Houston Texans,HOU,-7.0,0,51.0,8.0,Rain
+2347,2018,15,0,Atlanta Falcons,1,Arizona Cardinals,ATL,-10.0,0,72.0,0.0,Dome
+2348,2018,15,0,Baltimore Ravens,1,Tampa Bay Buccaneers,BAL,-8.5,0,43.0,10.0,Rain
+2349,2018,15,0,Buffalo Bills,1,Detroit Lions,BUF,-2.5,0,39.0,7.0,Rain
+2350,2018,15,0,Chicago Bears,1,Green Bay Packers,CHI,-5.5,0,45.0,10.0,Sunny
+2351,2018,15,0,Cincinnati Bengals,1,Oakland Raiders,CIN,-3.0,0,43.0,2.0,Sunny
+2352,2018,15,0,Indianapolis Colts,1,Dallas Cowboys,IND,-3.0,0,72.0,0.0,Dome
+2353,2018,15,0,Jacksonville Jaguars,0,Washington Redskins,JAX,-7.5,0,64.0,12.0,Sunny
+2354,2018,15,0,Los Angeles Rams,0,Philadelphia Eagles,LAR,-13.5,0,60.0,5.0,Sunny
+2355,2018,15,0,Minnesota Vikings,1,Miami Dolphins,MIN,-7.5,0,72.0,0.0,Dome
+2356,2018,15,0,New York Giants,0,Tennessee Titans,TEN,-2.5,0,40.0,6.0,Rain
+2357,2018,15,0,Pittsburgh Steelers,1,New England Patriots,NE,-2.5,0,42.0,5.0,Sunny
+2358,2018,15,0,San Francisco 49ers,1,Seattle Seahawks,SEA,-3.5,0,61.0,11.0,Sunny
+2359,2018,15,0,Carolina Panthers,0,New Orleans Saints,NO,-6.0,0,48.0,3.0,Sunny
+2360,2018,16,0,Los Angeles Chargers,0,Baltimore Ravens,LAC,-4.0,0,60.0,5.0,Sunny
+2361,2018,16,0,Tennessee Titans,1,Washington Redskins,TEN,-11.5,0,51.0,9.0,Sunny
+2362,2018,16,0,Arizona Cardinals,0,Los Angeles Rams,LAR,-14.5,0,72.0,0.0,Dome
+2363,2018,16,0,Carolina Panthers,0,Atlanta Falcons,ATL,-3.0,0,52.0,7.0,Sunny
+2364,2018,16,0,Cleveland Browns,1,Cincinnati Bengals,CLE,-10.0,0,37.0,9.0,Sunny
+2365,2018,16,0,Dallas Cowboys,1,Tampa Bay Buccaneers,DAL,-7.5,0,72.0,0.0,Dome
+2366,2018,16,0,Detroit Lions,0,Minnesota Vikings,MIN,-6.5,0,72.0,0.0,Dome
+2367,2018,16,0,Indianapolis Colts,1,New York Giants,IND,-10.0,0,72.0,0.0,Dome
+2368,2018,16,0,Miami Dolphins,0,Jacksonville Jaguars,MIA,-3.0,0,73.0,9.0,Sunny
+2369,2018,16,0,New England Patriots,1,Buffalo Bills,NE,-13.5,0,40.0,12.0,Sunny
+2370,2018,16,0,New Orleans Saints,1,Pittsburgh Steelers,NO,-6.5,0,72.0,0.0,Dome
+2371,2018,16,0,New York Jets,0,Green Bay Packers,GB,-3.0,0,43.0,8.0,Sunny
+2372,2018,16,0,Philadelphia Eagles,1,Houston Texans,PHI,-1.0,0,44.0,5.0,Sunny
+2373,2018,16,0,San Francisco 49ers,0,Chicago Bears,CHI,-4.0,0,50.0,5.0,Sunny
+2374,2018,16,0,Seattle Seahawks,1,Kansas City Chiefs,KC,-1.0,0,43.0,8.0,Sunny
+2375,2018,16,0,Oakland Raiders,1,Denver Broncos,DEN,-2.5,0,58.0,14.0,Rain
+2376,2018,17,0,Baltimore Ravens,1,Cleveland Browns,BAL,-7.0,0,48.0,2.0,Sunny
+2377,2018,17,0,Buffalo Bills,1,Miami Dolphins,BUF,-5.5,0,33.0,9.0,Sunny
+2378,2018,17,0,Denver Broncos,0,Los Angeles Chargers,LAC,-7.0,0,51.0,6.0,Sunny
+2379,2018,17,0,Green Bay Packers,0,Detroit Lions,GB,-7.5,0,26.0,15.0,Sunny
+2380,2018,17,0,Houston Texans,1,Jacksonville Jaguars,HOU,-7.0,0,72.0,0.0,Dome
+2381,2018,17,0,Kansas City Chiefs,1,Oakland Raiders,KC,-14.5,0,45.0,15.0,Sunny
+2382,2018,17,0,Los Angeles Rams,1,San Francisco 49ers,LAR,-10.5,0,65.0,3.0,Sunny
+2383,2018,17,0,Minnesota Vikings,0,Chicago Bears,MIN,-6.0,0,72.0,0.0,Dome
+2384,2018,17,0,New England Patriots,1,New York Jets,NE,-14.5,0,33.0,2.0,Sunny
+2385,2018,17,0,New Orleans Saints,0,Carolina Panthers,NO,-8.0,0,72.0,0.0,Dome
+2386,2018,17,0,New York Giants,0,Dallas Cowboys,NYG,-7.5,0,37.0,2.0,Sunny
+2387,2018,17,0,Pittsburgh Steelers,1,Cincinnati Bengals,PIT,-14.0,0,42.0,9.0,Sunny
+2388,2018,17,0,Seattle Seahawks,1,Arizona Cardinals,SEA,-14.0,0,45.0,5.0,Sunny
+2389,2018,17,0,Tampa Bay Buccaneers,0,Atlanta Falcons,ATL,-2.5,0,80.0,5.0,Sunny
+2390,2018,17,0,Tennessee Titans,0,Indianapolis Colts,IND,-5.5,0,53.0,4.0,Sunny
+2391,2018,17,0,Washington Redskins,0,Philadelphia Eagles,PHI,-6.0,0,46.0,3.0,Sunny
+2392,2018,18,1,Houston Texans,0,Indianapolis Colts,HOU,-1.0,0,72.0,0.0,Dome
+2393,2018,18,1,Dallas Cowboys,1,Seattle Seahawks,DAL,-2.0,0,72.0,0.0,Dome
+2394,2018,18,1,Chicago Bears,0,Philadelphia Eagles,CHI,-6.0,0,37.0,11.0,Sunny
+2395,2018,18,1,Baltimore Ravens,0,Los Angeles Chargers,BAL,-3.0,0,43.0,12.0,Sunny
+2396,2018,19,1,Kansas City Chiefs,1,Indianapolis Colts,KAN,-4.5,0,34.0,9.0,Sunny
+2397,2018,19,1,Los Angeles Rams,1,Dallas Cowboys,LAR,-7.0,0,60.0,0.0,Sunny
+2398,2018,19,1,New England Patriots,1,Los Angeles Chargers,NE,-4.0,0,30.0,2.0,Sunny
+2399,2018,19,1,New Orleans Saints,1,Philadelphia Eagles,NO,-8.5,0,48.0,6.0,Dome
+2400,2018,20,1,New Orleans Saints,0,Los Angeles Rams,NO,-3.0,0,53.0,6.0,Dome
+2401,2018,20,1,Kansas City Chiefs,0,New England Patriots,KAN,-3.0,0,24.0,9.0,Sunny
+2402,2018,21,1,Los Angeles Rams,0,New England Patriots,NE,-2.5,1,65.0,1.0,Dome
