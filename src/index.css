@@ -148,7 +148,7 @@ a:visited {
 }
 
 
-/*     HOME PAGE   bitch    */
+/*     HOME PAGE   */
 
 .first-image{
   z-index: 1;
@@ -281,4 +281,46 @@ z-index:2;
       margin-bottom: 10px; }
       .block-34 .text .specs li strong, .block-3 .text .specs li strong {
         color: #000; }
+
+/*   Prediction Page */
+
+.home-team-container{
+
+background:cover;
+}
+
+.home-team-image {
+  max-width:100%;
+max-height:100%;
+
+
+
+}
+
+.away-team-container{
+
+}
+
+.away-team-image {
+
+background:cover;
+
+}
+
+.predictor-image-container{
+  padding: 2em 2em 2em 2em;
+}
+
+.predictor-team-header{
+  font-size:2.5em;
+  font-weight:300;
+  max-height:100vh;
+}
+
+/* Page Footer */
+
+.page-footer{
+  background-color: #26a69a;
+
+}
 

@@ -99,9 +99,7 @@ class Homepage extends Component {
                            <li><strong>Bed Type:</strong> </li>                                     
                            <li><strong>Ammenities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
                            <li><strong>Capacity Per Room:</strong> </li>
-                           {/*<li><strong>Bed Number:</strong> {eachRoomResult.bed_number} </li>*/}
 
-                           {/*<a href="#child4">{eachRoomResult.room_number}</a>*/}
                       </ul>
                       <div >
                         <strong># Of Rooms </strong> 
@@ -154,37 +152,7 @@ class Homepage extends Component {
                     </div>
                 </div>
               </div>
-
           </div>
-
-          <div class="parallax-container">
-            <div class="parallax">
-              <img src="../homepage/home2.jpeg" alt="home2" class="responsive-img" />
-            </div>
-          </div>
-
-          <div class="container">
-            <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-            <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-          </div>
-
-
-          <div class="parallax-container">
-            <div class="parallax">
-              <img src="../homepage/home3.jpeg" alt="home3" class="responsive-img" />
-            </div>
-          </div>
-
     </div>
     )
   }
