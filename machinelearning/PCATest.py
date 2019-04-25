@@ -53,13 +53,13 @@ data = pd.get_dummies(data = data, columns=col_to_transform)
 data_y = data.loc[: , ['full_result','schedule_season']]
 data_x = data.drop(['full_result', 'schedule_season'], axis = 1)
 
-
 print(data_x)
 print(data_y)
 
 #TODO: Put data back full result back into data
 #Scaling and using PCA
-scale_train_data = StandardScaler().fit_transform(data_x)
+scaler = StandardScaler()
+scale_train_data = scaler.fit_transform(data_x)
 
 pca = PCA().fit(scale_train_data)
 
@@ -67,7 +67,7 @@ plt.figure()
 plt.plot(np.cumsum(pca.explained_variance_ratio_))
 plt.xlabel('Number of Components')
 plt.ylabel('Variance (%)') #for each component
-plt.title('Pulsar Dataset Explained Variance')
+plt.title('NFL Games Dataset')
 plt.show()
 
 pca = PCA(n_components=93)
@@ -88,12 +88,16 @@ print(data)
 
 #split data into train and test data
 train_data = data[:]
+
 #get index of all rows where season is 2018
-#index2018Names = train_data[ train_data['schedule_season'] == 2018 ].index
+index2018Names = train_data[ train_data['schedule_season'] == 2018 ].index
+#store all rows where season is 2018
+test_data = train_data.loc[ train_data['schedule_season'] == 2018]
 
-#store all rows where season is 2018 and 2017
-#test_data = train_data.loc[ train_data['schedule_season'] == 2018]
+train_data.drop(index2018Names , inplace=True)
 
+print train_data
+print test_data
 
 # #normalize data attributes for test and train data
 # x_train = train_data.values
@@ -106,27 +110,25 @@ train_data = data[:]
 # test_data = pd.DataFrame(x_test_scaled, columns=test_data.columns)
 
 
-##################################################
-# Used to split the training data into 2010-2016 #
-# And test data into 2017-2018                   #
-##################################################
-# #split data into train and test data
-# train_data = data[:]
-# #get index of all rows where season is 2018
-index2018Names = train_data[ train_data['schedule_season'] == 2018 ].index
-index2017Names = train_data[ train_data['schedule_season'] == 2016 ].index
-#
-# #store all rows where season is 2018 and 2017
-test_data = train_data.loc[ (train_data['schedule_season'] == 2018) | (train_data['schedule_season'] == 2016)]
+# ##################################################
+# # Used to split the training data into 2010-2016 #
+# # And test data into 2017-2018                   #
+# ##################################################
+# # #split data into train and test data
+# # train_data = data[:]
+# # #get index of all rows where season is 2018 and 2017
+# index2018Names = train_data[ train_data['schedule_season'] == 2018 ].index
+# index2017Names = train_data[ train_data['schedule_season'] == 2017 ].index
+# # #store all rows where season is 2018 and 2017
+# test_data = train_data.loc[ (train_data['schedule_season'] == 2018) | (train_data['schedule_season'] == 2017)]
 # dataWithNames = dataWithNames.loc[ (dataWithNames['schedule_season'] == 2018) | (dataWithNames['schedule_season'] == 2017)]
-#
-# # Delete these row indexes from dataFrame
+# # # Delete these row indexes from dataFrame
 # train_data.drop(index2018Names , inplace=True)
 # train_data.drop(index2017Names , inplace=True)
 #
-# train_data.to_csv("currentTrainingDataset.csv")
-# test_data.to_csv("currentTestDataset.csv")
-# dataWithNames.to_csv("dataWithNames.csv")
+# # train_data.to_csv("currentTrainingDataset.csv")
+# # test_data.to_csv("currentTestDataset.csv")
+# # dataWithNames.to_csv("dataWithNames.csv")
 
 
 #full_result 1 = Home Win, 0 = Away Win
@@ -153,10 +155,21 @@ y_train = down_train['full_result']
 X_test_data = test_data.drop(['full_result'], axis=1)
 y_test_data = test_data['full_result']
 
-test_data.to_csv("testSet.csv")
-down_train.to_csv("trainingSet.csv")
-print(down_train)
-print(test_data)
+#scale the schedule season column too
+x_train_scaled = scaler.fit_transform(X_train)
+x_test_scaled = scaler.fit_transform(X_test_data)
+
+X_train = pd.DataFrame(x_train_scaled)
+X_test_data = pd.DataFrame(x_test_scaled)
+
+# test_data.to_csv("testSet.csv")
+# down_train.to_csv("trainingSet.csv")
+
+print(X_train)
+print(X_test_data)
+
+x_train_scaled = scaler.fit_transform(X_train)
+x_test_scaled = scaler.fit_transform(X_test_data)
 
 print ("# of H and A values in test data: ")
 print(test_data.full_result.value_counts())
@@ -248,4 +261,3 @@ print ('Accuracy of ADA Boost classifier on test set: {:.3f}'.format(accuracy_sc
 
 #print results of quadratic
 print ('Accuracy of Quadratic classifier on test set: {:.3f}'.format(accuracy_score(y_test_data, quad_predict)))
-
