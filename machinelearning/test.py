@@ -119,9 +119,6 @@ down_train = pd.concat([train_undersample, train_away], axis=0)
 
 print("# of H and A values in train data after down sampling")
 print down_train.full_result.value_counts()
-#create X and y sets of training data
-X_train = down_train.drop(['full_result'], axis=1)
-y_train = down_train['full_result']
 
 #create X and y sets of training data
 X_train = down_train.drop(['full_result'], axis=1)

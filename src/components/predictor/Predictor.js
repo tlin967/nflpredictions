@@ -15,8 +15,10 @@ class Predictor extends Component {
 
   render() {
 
-    const { team, auth} = this.props;
+    //separate the predicted_results from this.props object
+    const { predicted_results, auth} = this.props;
 
+    //if uid in auth does not exist
     if(!auth.uid) {
       return <Redirect to='/signin' />
     }
@@ -38,13 +40,24 @@ class Predictor extends Component {
               <img src="../team-icons/raiders.png" alt="ATeam" width="350" class="responsive-img" />
             </div>
 
-            {/*result box*/}
-            <div class = "col s6 offset-s3 center card" classname="stats">
-              <div class="card-content black-text">
-              <span class="card-title">Result</span>
-                <p>The Greenbay Packers will lead the Oakland Raiders 38-34 </p>
-              </div>
-            </div>
+                {predicted_results && predicted_results.map(result => {
+                  return (
+
+                    <div class = "col s6 offset-s3 center card" classname="stats">
+                      <div class="card-content black-text">
+                        <span class="card-title">Game</span>
+                        <p>Date: {result.schedule_date}</p>
+                        <p>Week: {result.schedule_week}</p>
+                        <p>Home Team: {result.team_home}</p>
+                        <p>Away Team: {result.team_away} </p>
+                        <p>Predicted Result: {result.predicted_result === 0 ? 'Away Team Wins' : 'Home Team Wins'} </p>
+                        <p>Actual Result: {result.full_result === 0 ? 'Away Team Wins' : 'Home Team Wins'} </p>
+                      </div>
+                    </div>
+                  )
+                })}
+
+
 
             {/*importing the hometeam drop down table*/}
             <div class="col s6"><HomeTable /></div>
@@ -63,7 +76,7 @@ class Predictor extends Component {
 const mapStateToProps = (state) => {
   return {
     //gets state.team's object, and then that object's "teams" object
-    teams: state.firestore.ordered.teams,
+    predicted_results: state.firestore.ordered.predicted_results,
     auth: state.firebase.auth
   }
 }
@@ -71,6 +84,6 @@ const mapStateToProps = (state) => {
 export default compose(
     connect(mapStateToProps),
     firestoreConnect([
-      {collection: 'teams'} //specify which collection we want to sync
+      {collection: 'predicted_results', orderBy: ['schedule_date', 'desc']} //specify which collection we want to sync
     ])
   )(Predictor)
