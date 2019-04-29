@@ -59,6 +59,12 @@ componentDidMount = () => {
                 console.log("yes")
                 {this.ok = predicted_results}
                 console.log(this.ok)
+                this.setState({
+                    results:this.ok,
+                    stop : 1
+                })
+                console.log(this.state.results)
+
             }
         
     }
