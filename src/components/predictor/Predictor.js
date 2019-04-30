@@ -10,13 +10,14 @@ import M from 'materialize-css';
 
 class Predictor extends Component {
 constructor(props) {
-            
+
         super(props)
-        console.log(props)
+
+        console.dir(props.predicted_results)
         this.state = {
            week: 1,
-          results: {},
-          stop: 0
+           results: props.predicted_results,
+           stop: 0
         };
 
               this.handleResults = this.handleResults.bind(this);
@@ -29,15 +30,29 @@ componentDidMount = () => {
 
   }
 
+// componentWillReceiveProps(nextProps) {
+//    if(nextProps.predicted_results !== this.props.results) {
+//      this.setState({
+//        results: nextProps.predicted_results,
+//        week: 1
+//      });
+//    }
+//
+//  }
+
   handleWeek = (event) => {
     const target = event.target;
     const value = target.value;
     const name = target.name;
+    console.dir(this.props.predicted_results)
+    console.log(value)
+
     this.setState({
-        [name]: value
+        //[name]: value,
+        week: value,
+        results: this.props.predicted_results,
     });
 
-    console.log(value)
 
   }
 
@@ -50,24 +65,24 @@ componentDidMount = () => {
 
 
   render() {
-
+    console.log(this.state.results)
     const { predicted_results, auth} = this.props;
 
-    if(predicted_results != undefined){
-        console.log("no")
-            if (this.state.stop === 0){
-                console.log("yes")
-                {this.ok = predicted_results}
-                console.log(this.ok)
-                this.setState({
-                    results:this.ok,
-                    stop : 1
-                })
-                console.log(this.state.results)
-
-            }
-        
-    }
+    // if(predicted_results !== undefined) {
+    //     console.log("no")
+    //         if (this.state.stop === 0){
+    //             console.log("yes")
+    //             {this.ok = predicted_results}
+    //             console.log(this.ok)
+    //             this.setState({
+    //                 results:this.ok,
+    //                 stop : 1
+    //             })
+    //             console.log(this.state.results)
+    //
+    //         }
+    //
+    // }
 
     if(!auth.uid) {
       return <Redirect to='/signin' />
@@ -103,9 +118,9 @@ componentDidMount = () => {
                                                 <p>Actual Result: {result.full_result === 0 ? 'Away Team Wins' : 'Home Team Wins'} </p>
                                                 <p>{this.state.week}</p>
                                                 <div className="col-lg-6 home-team-container icon">
-                                                  <div className="card center predictor-team-header row"> 
+                                                  <div className="card center predictor-team-header row">
 
-                                                    <div> Home Team: {result.team_home} </div> 
+                                                    <div> Home Team: {result.team_home} </div>
 
                                                     <div className="predictor-image-container"><img src="../team-icons/packers.png" alt="team" class="home-team-image" /></div>
                                                     <hr></hr>
@@ -114,9 +129,9 @@ componentDidMount = () => {
                                                 </div>
 
                                                 <div className="col-lg-6 home-team-container icon">
-                                                  <div className="card center predictor-team-header row"> 
+                                                  <div className="card center predictor-team-header row">
 
-                                                    <div> Away Team: {result.team_away} </div> 
+                                                    <div> Away Team: {result.team_away} </div>
 
                                                     <div className="predictor-image-container"><img src="../team-icons/packers.png" alt="team" class="home-team-image" /></div>
                                                     <hr></hr>
@@ -131,22 +146,22 @@ componentDidMount = () => {
 
                                         })
 
-                    } 
+                    }
 
 
 
                     </div>
 
                     : <div> {this.state.week}</div>
-                  
+
 
                 }
 
             */}
                 <div className="col-lg-6 home-team-container icon">
-                  <div className="card center predictor-team-header row"> 
+                  <div className="card center predictor-team-header row">
 
-                    <div> Home </div> 
+                    <div> Home </div>
 
                     <div className="predictor-image-container"><img src="../team-icons/packers.png" alt="team" class="home-team-image" /></div>
                     <hr></hr>
@@ -157,9 +172,9 @@ componentDidMount = () => {
 
                 {/*icon for the away team lgo*/}
                 <div className="col-lg-6 home-team-container icon">
-                  <div className="card center predictor-team-header row"> 
+                  <div className="card center predictor-team-header row">
 
-                    <div> Home </div> 
+                    <div> Home </div>
 
                     <div className="predictor-image-container"><img src="../team-icons/packers.png" alt="team" class="home-team-image" /></div>
                     <hr></hr>
@@ -169,7 +184,7 @@ componentDidMount = () => {
 
 
                 {/*result box*/}
-                
+
 
                 {/*importing the hometeam drop down table*/}
                 <div class="container">
@@ -200,9 +215,9 @@ componentDidMount = () => {
                                     if(result.schedule_week === this.state.week){
                                         return(
                                         <option value="" disabled selected>Week {result.schedule_week}. {result.team_home} vs {result.team_away}</option>
-                                        
                                         )
                                     }
+
                                 })
 
                             }
@@ -215,7 +230,7 @@ componentDidMount = () => {
 
                         this.state.week === 1 ? <div> {
 
-                                          predicted_results && predicted_results.map(result => {
+                                          this.state.results && this.state.results.map(result => {
 
 
                                             if(result.schedule_week === 1){
@@ -239,13 +254,13 @@ componentDidMount = () => {
 
                                             })
 
-                        } 
+                        }
 
                         </div>
 
                         : <div> {this.state.week}</div>
 
-                      
+
 
                     }
 
@@ -263,14 +278,10 @@ componentDidMount = () => {
 const mapStateToProps = (state) => {
 
 
-
   return {
     //gets state.team's object, and then that object's "teams" object
     predicted_results: state.firestore.ordered.predicted_results,
     auth: state.firebase.auth
-
-
-
   }
 }
 
