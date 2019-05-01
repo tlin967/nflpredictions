@@ -17,7 +17,8 @@ constructor(props) {
         this.state = {
            week: 1,
            results: props.predicted_results,
-           stop: 0
+           stop: 0,
+           teamIndex: 0,
         };
 
               this.handleResults = this.handleResults.bind(this);
@@ -56,6 +57,19 @@ componentDidMount = () => {
 
   }
 
+  handleChange = (event) => {
+    const target = event.target;
+    const value = target.value;
+    const name = target.name;
+
+    this.setState({
+        //[name]: value,
+        [name]:value
+    });
+
+    console.log(this.state.teamIndex)
+  }
+
   handleResults(event) {
     this.setState({
         results: event,
@@ -67,7 +81,7 @@ componentDidMount = () => {
   render() {
     console.log(this.state.results)
     const { predicted_results, auth} = this.props;
-
+    console.log({predicted_results})
     // if(predicted_results !== undefined) {
     //     console.log("no")
     //         if (this.state.stop === 0){
@@ -96,20 +110,20 @@ componentDidMount = () => {
             {/*rest of the page container*/}
             <div class="col-lg-12 container row">
                 {/*icon for the hometeam logo*/}
-{/* IGNORE
+
                 {
 
-                    this.state.week === 0 ? <div> {
+                    this.state.week === 1 ? <div> {
 
-                                      predicted_results && predicted_results.map(result => {
+                                      predicted_results && predicted_results.map((result, index) => {
 
 
-                                        if(result.schedule_week === 1){
+                                        if(result.schedule_week === 1 && index === this.state.teamIndex ){
                                           return (
 
-                                            <div className="col-lg-12 row">
+                                            <div className="col-lg-12 header-team-container row">
 
-
+                                            {/*
                                             <p>Date: {result.schedule_date}</p>
                                                 <p>Week: {result.schedule_week}</p>
                                                 <p>Home Team: {result.team_home}</p>
@@ -117,25 +131,28 @@ componentDidMount = () => {
                                                 <p>Predicted Result: {result.predicted_result === 0 ? 'Away Team Wins' : 'Home Team Wins'} </p>
                                                 <p>Actual Result: {result.full_result === 0 ? 'Away Team Wins' : 'Home Team Wins'} </p>
                                                 <p>{this.state.week}</p>
-                                                <div className="col-lg-6 home-team-container icon">
+                                            */}
+                                                <div className="col-lg-6 team-container icon">
                                                   <div className="card center predictor-team-header row">
 
-                                                    <div> Home Team: {result.team_home} </div>
+                                                    <div> {result.team_home} </div>
 
-                                                    <div className="predictor-image-container"><img src="../team-icons/packers.png" alt="team" class="home-team-image" /></div>
+                                                    <div className="predictor-image-container"><img src="../team-icons/eagles.png" alt="team" class="home-team-image" /></div>
                                                     <hr></hr>
-                                                    <div> asd </div>
+                                                    <div> Home </div>
                                                   </div>
                                                 </div>
 
-                                                <div className="col-lg-6 home-team-container icon">
+
+
+                                                <div className="col-lg-6 team-container icon">
                                                   <div className="card center predictor-team-header row">
 
-                                                    <div> Away Team: {result.team_away} </div>
+                                                    <div> {result.team_away} </div>
 
-                                                    <div className="predictor-image-container"><img src="../team-icons/packers.png" alt="team" class="home-team-image" /></div>
+                                                    <div className="predictor-image-container"><img src="../team-icons/falcons.png" alt="team" class="home-team-image" /></div>
                                                     <hr></hr>
-                                                    <div> asd </div>
+                                                    <div> Away </div>
                                                   </div>
                                                 </div>
                                             </div>
@@ -143,13 +160,9 @@ componentDidMount = () => {
                                           )
                                         }
 
-
                                         })
 
                     }
-
-
-
                     </div>
 
                     : <div> {this.state.week}</div>
@@ -157,43 +170,11 @@ componentDidMount = () => {
 
                 }
 
-            */}
-                <div className="col-lg-6 home-team-container icon">
-                  <div className="card center predictor-team-header row">
-
-                    <div> Home </div>
-
-                    <div className="predictor-image-container"><img src="../team-icons/packers.png" alt="team" class="home-team-image" /></div>
-                    <hr></hr>
-                    <div> asd </div>
-                  </div>
-                </div>
-
-
-                {/*icon for the away team lgo*/}
-                <div className="col-lg-6 home-team-container icon">
-                  <div className="card center predictor-team-header row">
-
-                    <div> Home </div>
-
-                    <div className="predictor-image-container"><img src="../team-icons/packers.png" alt="team" class="home-team-image" /></div>
-                    <hr></hr>
-                    <div> asd </div>
-                  </div>
-                </div>
-
-
                 {/*result box*/}
 
 
                 {/*importing the hometeam drop down table*/}
                 <div class="container">
-                    <div class = "col-lg-12 center card" classname="stats">
-                        <div class="card-content black-text">
-                            <span class="card-title">Result</span>
-                            <p>The Greenbay Packers will lead the Oakland Raiders 38-34 </p>
-                        </div>
-                    </div>
 
                     <div class="col-lg-12 card">
                         <div class="input-field " classname="home-team container">
@@ -208,13 +189,13 @@ componentDidMount = () => {
 
                         <div class="input-field" classname="away-team container">
                             <div> Game Matchups </div>
-                                <select class="browser-default" name="awayteam">
+                                <select class="browser-default" name="teamIndex" value={this.state.teamIndex} onChange={this.handleChange}>
 
                             {
-                                predicted_results && predicted_results.map(result => {
+                                predicted_results && predicted_results.map((result,index) => {
                                     if(result.schedule_week === this.state.week){
                                         return(
-                                        <option value="" disabled selected>Week {result.schedule_week}. {result.team_home} vs {result.team_away}</option>
+                                        <option value={index} >Week {result.schedule_week}. {result.team_home} vs {result.team_away}</option>
                                         )
                                     }
 
@@ -224,6 +205,40 @@ componentDidMount = () => {
                                 </select>
                         </div>
                     </div>
+                    
+                    <div class = "col-lg-12 center card" classname="stats">
+                        <div class="card-content black-text">
+                            <span class="card-title">Result</span>
+                            {
+                                predicted_results && predicted_results.map((result, index) => {
+                                    if(result.schedule_week === this.state.week && index == this.state.teamIndex){
+                                        return(
+                                            <div className="col-lg-12 py-1">
+   
+                                                <div className="col-lg-12 row"> 
+                                                    <div className="col-lg-5" >Date: {result.schedule_date}</div>
+                                                    <div className="col-lg-5" >Week: {result.schedule_week}</div>
+                                                </div>
+                                                <div className="col-lg-12 row"> 
+                                                    <div className="col-lg-5" >Home Team: <br></br> {result.team_home} </div>
+                                                    <div className="col-lg-5" >Away Team: <br></br> {result.team_away}</div>
+                                                </div>
+                                                <hr></hr>
+                                                <div className="col-lg-12 row"> 
+                                                    <div className="col-lg-5" >Predicted Result: <br></br> {result.predicted_result === 0 ? 'Away Team Wins' : 'Home Team Wins'} </div>
+                                                    <div className="col-lg-5" >Actual Result: <br></br>{result.full_result === 0 ? 'Away Team Wins' : 'Home Team Wins'} </div>
+                                                </div>
+                                            </div>
+                                        )
+                                    }
+
+                                })
+
+                            }
+                        </div>
+                    </div>
+
+                   
 
 
                     {
