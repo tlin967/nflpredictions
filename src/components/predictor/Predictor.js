@@ -9,9 +9,45 @@ import M from 'materialize-css';
 
 
 class Predictor extends Component {
-  componentDidMount = () => {
+
+constructor(props) {
+
+        super(props)
+        this.state = {
+           week: 1,
+           results: [{}],
+           stop: 0
+        };
+
+
+}
+
+componentDidMount = () => {
       M.AutoInit();
+
+      // this.setState({
+      //     // [name]: value,
+      //     results: this.props.predicted_results,
+      // });
+
   }
+
+
+
+  handleWeek = (event) => {
+    const target = event.target;
+    const value = target.value;
+    const name = target.name;
+
+    this.setState({
+        // [name]: value,
+        week: value,
+        results: this.props.predicted_results,
+    });
+
+
+  }
+
 
   render() {
 
@@ -62,8 +98,7 @@ class Predictor extends Component {
             {/*importing the hometeam drop down table*/}
             <div class="col s6"><HomeTable /></div>
 
-            {/*importing the away team drop down table*/}
-            <div class="col s6"><AwayTable /></div>
+                                        }
 
            </div>
         </div>

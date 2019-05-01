@@ -266,6 +266,9 @@ name_data.drop('index', axis=1, inplace=True)
 
 final_data = pd.concat([newTest_data, pred_data, name_data], axis = 1)
 
+final_data.reset_index(inplace=True)
+final_data.rename(columns = {"index":"id"}, inplace=True)
+
 final_data.to_csv('predicted_result.csv')
 
 # #show impact of each column?
