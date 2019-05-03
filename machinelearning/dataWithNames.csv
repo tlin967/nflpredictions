@@ -1,268 +1,268 @@
-,schedule_date,schedule_season,schedule_week,schedule_playoff,team_home,full_result,team_away,team_favorite_id,spread_favorite,stadium_neutral,weather_temperature,weather_wind_mph,weather_detail
-2136,9/6/18,2018,1,0,Philadelphia Eagles,1,Atlanta Falcons,PHI,-1.0,0,81.0,8.0,Rain
-2137,9/9/18,2018,1,0,Arizona Cardinals,0,Washington Redskins,ARI,-2.0,0,72.0,0.0,Dome
-2138,9/9/18,2018,1,0,Baltimore Ravens,1,Buffalo Bills,BAL,-7.5,0,61.0,12.0,Rain
-2139,9/9/18,2018,1,0,Carolina Panthers,1,Dallas Cowboys,CAR,-2.5,0,81.0,9.0,Rain
-2140,9/9/18,2018,1,0,Cleveland Browns,0,Pittsburgh Steelers,PIT,-3.5,0,58.0,11.0,Rain
-2141,9/9/18,2018,1,0,Denver Broncos,1,Seattle Seahawks,DEN,-3.0,0,84.0,5.0,Sunny
-2142,9/9/18,2018,1,0,Green Bay Packers,1,Chicago Bears,GB,-6.5,0,62.0,10.0,Sunny
-2143,9/9/18,2018,1,0,Indianapolis Colts,0,Cincinnati Bengals,CIN,-1.0,0,72.0,0.0,Dome
-2144,9/9/18,2018,1,0,Los Angeles Chargers,0,Kansas City Chiefs,LAC,-3.5,0,84.0,8.0,Sunny
-2145,9/9/18,2018,1,0,Miami Dolphins,1,Tennessee Titans,TEN,-1.0,0,89.0,7.0,Rain
-2146,9/9/18,2018,1,0,Minnesota Vikings,1,San Francisco 49ers,MIN,-6.0,0,72.0,0.0,Dome
-2147,9/9/18,2018,1,0,New England Patriots,1,Houston Texans,NE,-6.0,0,62.0,10.0,Sunny
-2148,9/9/18,2018,1,0,New Orleans Saints,0,Tampa Bay Buccaneers,NO,-10.0,0,72.0,0.0,Dome
-2149,9/9/18,2018,1,0,New York Giants,0,Jacksonville Jaguars,JAX,-2.5,0,59.0,7.0,Rain
-2150,9/10/18,2018,1,0,Detroit Lions,0,New York Jets,DET,-7.0,0,72.0,0.0,Dome
-2151,9/10/18,2018,1,0,Oakland Raiders,0,Los Angeles Rams,LAR,-6.5,0,69.0,10.0,Sunny
-2152,9/13/18,2018,2,0,Cincinnati Bengals,1,Baltimore Ravens,CIN,-1.0,0,82.0,3.0,Sunny
-2153,9/16/18,2018,2,0,Atlanta Falcons,1,Carolina Panthers,ATL,-5.5,0,72.0,0.0,Dome
-2154,9/16/18,2018,2,0,Buffalo Bills,0,Los Angeles Chargers,LAC,-7.5,0,83.0,6.0,Sunny
-2155,9/16/18,2018,2,0,Dallas Cowboys,1,New York Giants,DAL,-3.0,0,72.0,0.0,Dome
-2156,9/16/18,2018,2,0,Denver Broncos,1,Oakland Raiders,DEN,-5.5,0,92.0,4.0,Sunny
-2157,9/16/18,2018,2,0,Green Bay Packers,0,Minnesota Vikings,MIN,-2.0,0,80.0,5.0,Sunny
-2158,9/16/18,2018,2,0,Jacksonville Jaguars,1,New England Patriots,NE,-2.0,0,97.0,15.0,Rain
-2159,9/16/18,2018,2,0,Los Angeles Rams,1,Arizona Cardinals,LAR,-13.5,0,86.0,2.0,Sunny
-2160,9/16/18,2018,2,0,New Orleans Saints,1,Cleveland Browns,NO,-10.0,0,72.0,0.0,Dome
-2161,9/16/18,2018,2,0,New York Jets,0,Miami Dolphins,NYJ,-3.0,0,80.0,4.0,Sunny
-2162,9/16/18,2018,2,0,Pittsburgh Steelers,0,Kansas City Chiefs,PIT,-4.5,0,80.0,10.0,Sunny
-2163,9/16/18,2018,2,0,San Francisco 49ers,1,Detroit Lions,SF,-6.0,0,73.0,12.0,Sunny
-2164,9/16/18,2018,2,0,Tampa Bay Buccaneers,1,Philadelphia Eagles,PHI,-3.0,0,91.0,9.0,Sunny
-2165,9/16/18,2018,2,0,Tennessee Titans,1,Houston Texans,HOU,-3.5,0,81.0,12.0,Sunny
-2166,9/16/18,2018,2,0,Washington Redskins,0,Indianapolis Colts,WAS,-6.0,0,71.0,5.0,Sunny
-2167,9/17/18,2018,2,0,Chicago Bears,1,Seattle Seahawks,CHI,-4.5,0,79.0,2.0,Sunny
-2168,9/20/18,2018,3,0,Cleveland Browns,1,New York Jets,CLE,-3.0,0,83.0,11.0,Sunny
-2169,9/23/18,2018,3,0,Arizona Cardinals,0,Chicago Bears,CHI,-5.5,0,72.0,0.0,Dome
-2170,9/23/18,2018,3,0,Atlanta Falcons,0,New Orleans Saints,ATL,-1.5,0,72.0,0.0,Dome
-2171,9/23/18,2018,3,0,Baltimore Ravens,1,Denver Broncos,BAL,-5.5,0,61.0,5.0,Rain
-2172,9/23/18,2018,3,0,Carolina Panthers,1,Cincinnati Bengals,CAR,-2.5,0,80.0,3.0,Sunny
-2173,9/23/18,2018,3,0,Detroit Lions,1,New England Patriots,NE,-7.0,0,72.0,0.0,Dome
-2174,9/23/18,2018,3,0,Houston Texans,0,New York Giants,HOU,-6.5,0,72.0,0.0,Dome
-2175,9/23/18,2018,3,0,Jacksonville Jaguars,0,Tennessee Titans,JAX,-10.0,0,89.0,10.0,Sunny
-2176,9/23/18,2018,3,0,Kansas City Chiefs,1,San Francisco 49ers,KC,-5.5,0,70.0,4.0,Sunny
-2177,9/23/18,2018,3,0,Los Angeles Rams,1,Los Angeles Chargers,LAR,-7.5,0,80.0,5.0,Sunny
-2178,9/23/18,2018,3,0,Miami Dolphins,1,Oakland Raiders,MIA,-3.0,0,90.0,7.0,Sunny
-2179,9/23/18,2018,3,0,Minnesota Vikings,0,Buffalo Bills,MIN,-16.5,0,72.0,0.0,Dome
-2180,9/23/18,2018,3,0,Philadelphia Eagles,1,Indianapolis Colts,PHI,-6.5,0,61.0,5.0,Rain
-2181,9/23/18,2018,3,0,Seattle Seahawks,1,Dallas Cowboys,SEA,-1.0,0,61.0,4.0,Sunny
-2182,9/23/18,2018,3,0,Washington Redskins,1,Green Bay Packers,GB,-2.5,0,62.0,6.0,Rain
-2183,9/24/18,2018,3,0,Tampa Bay Buccaneers,0,Pittsburgh Steelers,PIT,-1.0,0,77.0,5.0,Sunny
-2184,9/27/18,2018,4,0,Los Angeles Rams,1,Minnesota Vikings,LAR,-7.5,0,75.0,3.0,Sunny
-2185,9/30/18,2018,4,0,Arizona Cardinals,0,Seattle Seahawks,SEA,-3.5,0,72.0,0.0,Dome
-2186,9/30/18,2018,4,0,Atlanta Falcons,0,Cincinnati Bengals,ATL,-3.5,0,72.0,0.0,Dome
-2187,9/30/18,2018,4,0,Chicago Bears,1,Tampa Bay Buccaneers,CHI,-3.0,0,66.0,5.0,Sunny
-2188,9/30/18,2018,4,0,Dallas Cowboys,1,Detroit Lions,DAL,-2.5,0,72.0,0.0,Dome
-2189,9/30/18,2018,4,0,Green Bay Packers,1,Buffalo Bills,GB,-8.5,0,49.0,9.0,Sunny
-2190,9/30/18,2018,4,0,Indianapolis Colts,0,Houston Texans,IND,-1.0,0,72.0,0.0,Dome
-2191,9/30/18,2018,4,0,Jacksonville Jaguars,1,New York Jets,JAX,-7.5,0,86.0,10.0,Sunny
-2192,9/30/18,2018,4,0,Los Angeles Chargers,1,San Francisco 49ers,LAC,-10.5,0,78.0,9.0,Sunny
-2193,9/30/18,2018,4,0,New England Patriots,1,Miami Dolphins,NE,-6.5,0,65.0,6.0,Sunny
-2194,9/30/18,2018,4,0,New York Giants,0,New Orleans Saints,NO,-3.5,0,71.0,7.0,Sunny
-2195,9/30/18,2018,4,0,Oakland Raiders,1,Cleveland Browns,OAK,-2.5,0,71.0,8.0,Sunny
-2196,9/30/18,2018,4,0,Pittsburgh Steelers,0,Baltimore Ravens,PIT,-3.0,0,69.0,2.0,Sunny
-2197,9/30/18,2018,4,0,Tennessee Titans,1,Philadelphia Eagles,PHI,-3.0,0,80.0,4.0,Sunny
-2198,10/1/18,2018,4,0,Denver Broncos,0,Kansas City Chiefs,KC,-3.5,0,65.0,5.0,Sunny
-2199,10/4/18,2018,5,0,New England Patriots,1,Indianapolis Colts,NE,-10.5,0,66.0,6.0,Sunny
-2200,10/7/18,2018,5,0,Buffalo Bills,1,Tennessee Titans,TEN,-6.0,0,62.0,8.0,Sunny
-2201,10/7/18,2018,5,0,Carolina Panthers,1,New York Giants,CAR,-7.0,0,80.0,3.0,Sunny
-2202,10/7/18,2018,5,0,Cincinnati Bengals,1,Miami Dolphins,CIN,-6.5,0,87.0,4.0,Sunny
-2203,10/7/18,2018,5,0,Cleveland Browns,1,Baltimore Ravens,BAL,-3.0,0,72.0,5.0,Sunny
-2204,10/7/18,2018,5,0,Detroit Lions,1,Green Bay Packers,GB,-1.0,0,72.0,0.0,Dome
-2205,10/7/18,2018,5,0,Houston Texans,1,Dallas Cowboys,HOU,-3.5,0,72.0,0.0,Dome
-2206,10/7/18,2018,5,0,Kansas City Chiefs,1,Jacksonville Jaguars,KC,-3.0,0,58.0,5.0,Rain
-2207,10/7/18,2018,5,0,Los Angeles Chargers,1,Oakland Raiders,LAC,-5.0,0,75.0,10.0,Sunny
-2208,10/7/18,2018,5,0,New York Jets,1,Denver Broncos,NYJ,-1.0,0,77.0,7.0,Sunny
-2209,10/7/18,2018,5,0,Philadelphia Eagles,0,Minnesota Vikings,PHI,-3.5,0,79.0,6.0,Sunny
-2210,10/7/18,2018,5,0,Pittsburgh Steelers,1,Atlanta Falcons,PIT,-3.5,0,83.0,5.0,Sunny
-2211,10/7/18,2018,5,0,San Francisco 49ers,0,Arizona Cardinals,SF,-3.0,0,79.0,15.0,Sunny
-2212,10/7/18,2018,5,0,Seattle Seahawks,0,Los Angeles Rams,LAR,-7.5,0,53.0,5.0,Sunny
-2213,10/8/18,2018,5,0,New Orleans Saints,1,Washington Redskins,NO,-5.5,0,72.0,0.0,Dome
-2214,10/11/18,2018,6,0,New York Giants,0,Philadelphia Eagles,PHI,-1.5,0,70.0,3.0,Rain
-2215,10/14/18,2018,6,0,Atlanta Falcons,1,Tampa Bay Buccaneers,ATL,-3.0,0,72.0,0.0,Dome
-2216,10/14/18,2018,6,0,Cincinnati Bengals,0,Pittsburgh Steelers,CIN,-1.5,0,51.0,6.0,Sunny
-2217,10/14/18,2018,6,0,Cleveland Browns,0,Los Angeles Chargers,CLE,-1.0,0,57.0,12.0,Sunny
-2218,10/14/18,2018,6,0,Dallas Cowboys,1,Jacksonville Jaguars,JAX,-3.0,0,72.0,0.0,Dome
-2219,10/14/18,2018,6,0,Denver Broncos,0,Los Angeles Rams,LAR,-7.0,0,25.0,6.0,Sunny
-2220,10/14/18,2018,6,0,Houston Texans,1,Buffalo Bills,HOU,-10.5,0,72.0,0.0,Dome
-2221,10/14/18,2018,6,0,Miami Dolphins,1,Chicago Bears,CHI,-7.5,0,89.0,8.0,Sunny
-2222,10/14/18,2018,6,0,Minnesota Vikings,1,Arizona Cardinals,MIN,-10.0,0,72.0,0.0,Dome
-2223,10/14/18,2018,6,0,New England Patriots,1,Kansas City Chiefs,NE,-3.5,0,45.0,0.0,Sunny
-2224,10/14/18,2018,6,0,New York Jets,1,Indianapolis Colts,NYJ,-2.5,0,60.0,7.0,Sunny
-2225,10/14/18,2018,6,0,Oakland Raiders,0,Seattle Seahawks,SEA,-3.0,1,50.0,12.0,Rain
-2226,10/14/18,2018,6,0,Tennessee Titans,0,Baltimore Ravens,BAL,-2.5,0,66.0,4.0,Sunny
-2227,10/14/18,2018,6,0,Washington Redskins,1,Carolina Panthers,CAR,-1.0,0,52.0,0.0,Sunny
-2228,10/15/18,2018,6,0,Green Bay Packers,1,San Francisco 49ers,GB,-9.0,0,37.0,5.0,Sunny
-2229,10/18/18,2018,7,0,Arizona Cardinals,0,Denver Broncos,DEN,-1.0,0,72.0,0.0,Dome
-2230,10/21/18,2018,7,0,Baltimore Ravens,0,New Orleans Saints,BAL,-2.5,0,54.0,15.0,Sunny
-2231,10/21/18,2018,7,0,Chicago Bears,0,New England Patriots,NE,-1.0,0,44.0,9.0,Sunny
-2232,10/21/18,2018,7,0,Indianapolis Colts,1,Buffalo Bills,IND,-7.0,0,72.0,0.0,Dome
-2233,10/21/18,2018,7,0,Jacksonville Jaguars,0,Houston Texans,JAX,-3.5,0,68.0,15.0,Sunny
-2234,10/21/18,2018,7,0,Kansas City Chiefs,1,Cincinnati Bengals,KC,-6.5,0,59.0,10.0,Sunny
-2235,10/21/18,2018,7,0,Los Angeles Chargers,1,Tennessee Titans,LAC,-6.5,1,66.0,6.0,Sunny
-2236,10/21/18,2018,7,0,Miami Dolphins,0,Detroit Lions,DET,-3.0,0,89.0,8.0,Sunny
-2237,10/21/18,2018,7,0,New York Jets,0,Minnesota Vikings,MIN,-3.5,0,46.0,16.0,Sunny
-2238,10/21/18,2018,7,0,Philadelphia Eagles,0,Carolina Panthers,PHI,-5.0,0,49.0,19.0,Sunny
-2239,10/21/18,2018,7,0,San Francisco 49ers,0,Los Angeles Rams,LAR,-8.0,0,62.0,5.0,Sunny
-2240,10/21/18,2018,7,0,Tampa Bay Buccaneers,1,Cleveland Browns,TB,-3.5,0,79.0,7.0,Sunny
-2241,10/21/18,2018,7,0,Washington Redskins,1,Dallas Cowboys,DAL,-1.0,0,52.0,12.0,Sunny
-2242,10/22/18,2018,7,0,Atlanta Falcons,1,New York Giants,ATL,-4.0,0,72.0,0.0,Dome
-2243,10/25/18,2018,8,0,Houston Texans,1,Miami Dolphins,HOU,-7.5,0,72.0,0.0,Dome
-2244,10/28/18,2018,8,0,Arizona Cardinals,1,San Francisco 49ers,ARI,-2.5,0,72.0,0.0,Dome
-2245,10/28/18,2018,8,0,Carolina Panthers,1,Baltimore Ravens,BAL,-2.5,0,61.0,10.0,Sunny
-2246,10/28/18,2018,8,0,Chicago Bears,1,New York Jets,CHI,-8.5,0,48.0,18.0,Sunny
-2247,10/28/18,2018,8,0,Cincinnati Bengals,1,Tampa Bay Buccaneers,CIN,-3.5,0,55.0,7.0,Sunny
-2248,10/28/18,2018,8,0,Detroit Lions,0,Seattle Seahawks,DET,-3.0,0,72.0,0.0,Dome
-2249,10/28/18,2018,8,0,Jacksonville Jaguars,0,Philadelphia Eagles,PHI,-3.5,1,48.0,12.0,Sunny
-2250,10/28/18,2018,8,0,Kansas City Chiefs,1,Denver Broncos,KC,-8.5,0,56.0,12.0,Sunny
-2251,10/28/18,2018,8,0,Los Angeles Rams,1,Green Bay Packers,LAR,-7.5,0,82.0,1.0,Sunny
-2252,10/28/18,2018,8,0,Minnesota Vikings,0,New Orleans Saints,MIN,-2.5,0,72.0,0.0,Dome
-2253,10/28/18,2018,8,0,New York Giants,0,Washington Redskins,WAS,-1.0,0,51.0,11.0,Sunny
-2254,10/28/18,2018,8,0,Oakland Raiders,0,Indianapolis Colts,IND,-3.5,0,69.0,8.0,Sunny
-2255,10/28/18,2018,8,0,Pittsburgh Steelers,1,Cleveland Browns,PIT,-8.5,0,47.0,11.0,Sunny
-2256,10/29/18,2018,8,0,Buffalo Bills,0,New England Patriots,NE,-13.5,0,46.0,16.0,Sunny
-2257,11/1/18,2018,9,0,San Francisco 49ers,1,Oakland Raiders,OAK,-1.5,0,82.0,8.0,Sunny
-2258,11/4/18,2018,9,0,Baltimore Ravens,0,Pittsburgh Steelers,BAL,-1.5,0,55.0,6.0,Sunny
-2259,11/4/18,2018,9,0,Buffalo Bills,0,Chicago Bears,CHI,-10.5,0,49.0,12.0,Sunny
-2260,11/4/18,2018,9,0,Carolina Panthers,1,Tampa Bay Buccaneers,CAR,-6.0,0,62.0,8.0,Sunny
-2261,11/4/18,2018,9,0,Cleveland Browns,0,Kansas City Chiefs,KC,-7.5,0,53.0,16.0,Sunny
-2262,11/4/18,2018,9,0,Denver Broncos,0,Houston Texans,DEN,-1.0,0,53.0,3.0,Sunny
-2263,11/4/18,2018,9,0,Miami Dolphins,1,New York Jets,MIA,-3.0,0,87.0,16.0,Sunny
-2264,11/4/18,2018,9,0,Minnesota Vikings,1,Detroit Lions,MIN,-4.5,0,72.0,0.0,Dome
-2265,11/4/18,2018,9,0,New England Patriots,1,Green Bay Packers,NE,-5.0,0,40.0,2.0,Sunny
-2266,11/4/18,2018,9,0,New Orleans Saints,1,Los Angeles Rams,LAR,-1.5,0,72.0,0.0,Dome
-2267,11/4/18,2018,9,0,Seattle Seahawks,0,Los Angeles Chargers,SEA,-1.0,0,56.0,4.0,Rain
-2268,11/4/18,2018,9,0,Washington Redskins,0,Atlanta Falcons,WAS,-1.5,0,55.0,5.0,Sunny
-2269,11/5/18,2018,9,0,Dallas Cowboys,0,Tennessee Titans,DAL,-4.5,0,72.0,0.0,Dome
-2270,11/8/18,2018,10,0,Pittsburgh Steelers,1,Carolina Panthers,PIT,-3.5,0,40.0,4.0,Sunny
-2271,11/11/18,2018,10,0,Chicago Bears,1,Detroit Lions,CHI,-7.5,0,37.0,12.0,Sunny
-2272,11/11/18,2018,10,0,Cincinnati Bengals,0,New Orleans Saints,NO,-6.0,0,39.0,6.0,Sunny
-2273,11/11/18,2018,10,0,Cleveland Browns,1,Atlanta Falcons,ATL,-5.5,0,36.0,9.0,Sunny
-2274,11/11/18,2018,10,0,Green Bay Packers,1,Miami Dolphins,GB,-11.0,0,33.0,6.0,Sunny
-2275,11/11/18,2018,10,0,Indianapolis Colts,1,Jacksonville Jaguars,IND,-3.0,0,72.0,0.0,Dome
-2276,11/11/18,2018,10,0,Kansas City Chiefs,1,Arizona Cardinals,KC,-16.5,0,43.0,5.0,Sunny
-2277,11/11/18,2018,10,0,Los Angeles Rams,1,Seattle Seahawks,LAR,-10.0,0,75.0,1.0,Sunny
-2278,11/11/18,2018,10,0,New York Jets,0,Buffalo Bills,NYJ,-7.0,0,46.0,10.0,Sunny
-2279,11/11/18,2018,10,0,Oakland Raiders,0,Los Angeles Chargers,LAC,-10.5,0,69.0,16.0,Sunny
-2280,11/11/18,2018,10,0,Philadelphia Eagles,0,Dallas Cowboys,PHI,-7.5,0,38.0,5.0,Sunny
-2281,11/11/18,2018,10,0,Tampa Bay Buccaneers,0,Washington Redskins,TB,-3.5,0,82.0,3.0,Sunny
-2282,11/11/18,2018,10,0,Tennessee Titans,1,New England Patriots,NE,-6.5,0,46.0,4.0,Sunny
-2283,11/12/18,2018,10,0,San Francisco 49ers,0,New York Giants,SF,-3.0,0,62.0,0.0,Sunny
-2284,11/15/18,2018,11,0,Seattle Seahawks,1,Green Bay Packers,SEA,-3.0,0,54.0,6.0,Sunny
-2285,11/18/18,2018,11,0,Arizona Cardinals,0,Oakland Raiders,ARI,-4.5,0,72.0,0.0,Dome
-2286,11/18/18,2018,11,0,Atlanta Falcons,0,Dallas Cowboys,ATL,-3.5,0,72.0,0.0,Dome
-2287,11/18/18,2018,11,0,Baltimore Ravens,1,Cincinnati Bengals,BAL,-6.5,0,48.0,8.0,Sunny
-2288,11/18/18,2018,11,0,Chicago Bears,1,Minnesota Vikings,CHI,-2.5,0,33.0,6.0,Sunny
-2289,11/18/18,2018,11,0,Detroit Lions,1,Carolina Panthers,CAR,-4.0,0,72.0,0.0,Dome
-2290,11/18/18,2018,11,0,Indianapolis Colts,1,Tennessee Titans,IND,-1.0,0,72.0,0.0,Dome
-2291,11/18/18,2018,11,0,Jacksonville Jaguars,0,Pittsburgh Steelers,PIT,-4.0,0,73.0,8.0,Sunny
-2292,11/18/18,2018,11,0,Los Angeles Chargers,0,Denver Broncos,LAC,-7.5,0,69.0,4.0,Sunny
-2293,11/18/18,2018,11,0,New Orleans Saints,1,Philadelphia Eagles,NO,-7.0,0,72.0,0.0,Dome
-2294,11/18/18,2018,11,0,New York Giants,1,Tampa Bay Buccaneers,NYG,-3.0,0,42.0,1.0,Sunny
-2295,11/18/18,2018,11,0,Washington Redskins,0,Houston Texans,HOU,-3.0,0,48.0,6.0,Sunny
-2296,11/19/18,2018,11,0,Los Angeles Rams,1,Kansas City Chiefs,LAR,-3.0,0,69.0,1.0,Sunny
-2297,11/22/18,2018,12,0,Dallas Cowboys,1,Washington Redskins,DAL,-7.0,0,72.0,0.0,Dome
-2298,11/22/18,2018,12,0,Detroit Lions,0,Chicago Bears,CHI,-3.0,0,72.0,0.0,Dome
-2299,11/22/18,2018,12,0,New Orleans Saints,1,Atlanta Falcons,NO,-11.5,0,72.0,0.0,Dome
-2300,11/25/18,2018,12,0,Baltimore Ravens,1,Oakland Raiders,BAL,-13.0,0,60.0,7.0,Sunny
-2301,11/25/18,2018,12,0,Buffalo Bills,1,Jacksonville Jaguars,JAX,-3.0,0,44.0,12.0,Sunny
-2302,11/25/18,2018,12,0,Carolina Panthers,0,Seattle Seahawks,CAR,-3.0,0,57.0,1.0,Sunny
-2303,11/25/18,2018,12,0,Cincinnati Bengals,0,Cleveland Browns,CLE,-1.0,0,44.0,4.0,Sunny
-2304,11/25/18,2018,12,0,Denver Broncos,1,Pittsburgh Steelers,PIT,-3.0,0,41.0,7.0,Sunny
-2305,11/25/18,2018,12,0,Indianapolis Colts,1,Miami Dolphins,IND,-9.0,0,72.0,0.0,Dome
-2306,11/25/18,2018,12,0,Los Angeles Chargers,1,Arizona Cardinals,LAC,-14.0,0,74.0,3.0,Sunny
-2307,11/25/18,2018,12,0,Minnesota Vikings,1,Green Bay Packers,MIN,-3.5,0,72.0,0.0,Dome
-2308,11/25/18,2018,12,0,New York Jets,0,New England Patriots,NE,-13.0,0,54.0,8.0,Sunny
-2309,11/25/18,2018,12,0,Philadelphia Eagles,1,New York Giants,PHI,-4.5,0,56.0,10.0,Sunny
-2310,11/25/18,2018,12,0,Tampa Bay Buccaneers,1,San Francisco 49ers,TB,-1.5,0,77.0,7.0,Sunny
-2311,11/26/18,2018,12,0,Houston Texans,1,Tennessee Titans,HOU,-3.5,0,72.0,0.0,Dome
-2312,11/29/18,2018,13,0,Dallas Cowboys,1,New Orleans Saints,NO,-7.5,0,72.0,0.0,Dome
-2313,12/2/18,2018,13,0,Atlanta Falcons,0,Baltimore Ravens,ATL,-2.5,0,72.0,0.0,Dome
-2314,12/2/18,2018,13,0,Cincinnati Bengals,0,Denver Broncos,DEN,-4.0,0,63.0,12.0,Sunny
-2315,12/2/18,2018,13,0,Detroit Lions,0,Los Angeles Rams,LAR,-10.5,0,72.0,0.0,Dome
-2316,12/2/18,2018,13,0,Green Bay Packers,0,Arizona Cardinals,GB,-13.5,0,34.0,20.0,Rain
-2317,12/2/18,2018,13,0,Houston Texans,1,Cleveland Browns,HOU,-5.0,0,72.0,0.0,Dome
-2318,12/2/18,2018,13,0,Jacksonville Jaguars,1,Indianapolis Colts,IND,-4.0,0,78.0,13.0,Rain
-2319,12/2/18,2018,13,0,Miami Dolphins,1,Buffalo Bills,MIA,-3.5,0,86.0,15.0,Sunny
-2320,12/2/18,2018,13,0,New England Patriots,1,Minnesota Vikings,NE,-6.0,0,53.0,6.0,Sunny
-2321,12/2/18,2018,13,0,New York Giants,1,Chicago Bears,CHI,-4.0,0,52.0,3.0,Sunny
-2322,12/2/18,2018,13,0,Oakland Raiders,0,Kansas City Chiefs,KC,-14.0,0,57.0,6.0,Sunny
-2323,12/2/18,2018,13,0,Pittsburgh Steelers,0,Los Angeles Chargers,PIT,-3.0,0,57.0,8.0,Sunny
-2324,12/2/18,2018,13,0,Seattle Seahawks,1,San Francisco 49ers,SEA,-10.0,0,45.0,2.0,Sunny
-2325,12/2/18,2018,13,0,Tampa Bay Buccaneers,1,Carolina Panthers,CAR,-3.5,0,81.0,15.0,Sunny
-2326,12/2/18,2018,13,0,Tennessee Titans,1,New York Jets,TEN,-10.5,0,70.0,13.0,Sunny
-2327,12/3/18,2018,13,0,Philadelphia Eagles,1,Washington Redskins,PHI,-5.5,0,36.0,15.0,Sunny
-2328,12/6/18,2018,14,0,Tennessee Titans,1,Jacksonville Jaguars,TEN,-5.5,0,44.0,5.0,Sunny
-2329,12/9/18,2018,14,0,Arizona Cardinals,0,Detroit Lions,DET,-2.5,0,72.0,0.0,Dome
-2330,12/9/18,2018,14,0,Buffalo Bills,0,New York Jets,BUF,-4.5,0,31.0,12.0,Sunny
-2331,12/9/18,2018,14,0,Chicago Bears,1,Los Angeles Rams,LAR,-3.0,0,29.0,4.0,Sunny
-2332,12/9/18,2018,14,0,Cleveland Browns,1,Carolina Panthers,CAR,-1.0,0,28.0,4.0,Sunny
-2333,12/9/18,2018,14,0,Dallas Cowboys,1,Philadelphia Eagles,DAL,-3.5,0,72.0,0.0,Dome
-2334,12/9/18,2018,14,0,Green Bay Packers,1,Atlanta Falcons,GB,-4.0,0,25.0,10.0,Sunny
-2335,12/9/18,2018,14,0,Houston Texans,0,Indianapolis Colts,HOU,-4.0,0,72.0,0.0,Dome
-2336,12/9/18,2018,14,0,Kansas City Chiefs,1,Baltimore Ravens,KC,-6.5,0,27.0,0.0,Sunny
-2337,12/9/18,2018,14,0,Los Angeles Chargers,1,Cincinnati Bengals,LAC,-17.0,0,70.0,1.0,Sunny
-2338,12/9/18,2018,14,0,Miami Dolphins,1,New England Patriots,NE,-9.5,0,82.0,13.0,Sunny
-2339,12/9/18,2018,14,0,Oakland Raiders,1,Pittsburgh Steelers,PIT,-10.5,0,55.0,8.0,Sunny
-2340,12/9/18,2018,14,0,San Francisco 49ers,1,Denver Broncos,DEN,-3.0,0,54.0,3.0,Sunny
-2341,12/9/18,2018,14,0,Tampa Bay Buccaneers,0,New Orleans Saints,NO,-10.0,0,71.0,7.0,Rain
-2342,12/9/18,2018,14,0,Washington Redskins,0,New York Giants,NYG,-3.0,0,33.0,6.0,Sunny
-2343,12/10/18,2018,14,0,Seattle Seahawks,1,Minnesota Vikings,SEA,-3.0,0,48.0,9.0,Sunny
-2344,12/13/18,2018,15,0,Kansas City Chiefs,0,Los Angeles Chargers,KC,-3.5,0,39.0,5.0,Rain
-2345,12/15/18,2018,15,0,Denver Broncos,0,Cleveland Browns,DEN,-1.0,0,46.0,0.0,Sunny
-2346,12/15/18,2018,15,0,New York Jets,0,Houston Texans,HOU,-7.0,0,51.0,8.0,Rain
-2347,12/16/18,2018,15,0,Atlanta Falcons,1,Arizona Cardinals,ATL,-10.0,0,72.0,0.0,Dome
-2348,12/16/18,2018,15,0,Baltimore Ravens,1,Tampa Bay Buccaneers,BAL,-8.5,0,43.0,10.0,Rain
-2349,12/16/18,2018,15,0,Buffalo Bills,1,Detroit Lions,BUF,-2.5,0,39.0,7.0,Rain
-2350,12/16/18,2018,15,0,Chicago Bears,1,Green Bay Packers,CHI,-5.5,0,45.0,10.0,Sunny
-2351,12/16/18,2018,15,0,Cincinnati Bengals,1,Oakland Raiders,CIN,-3.0,0,43.0,2.0,Sunny
-2352,12/16/18,2018,15,0,Indianapolis Colts,1,Dallas Cowboys,IND,-3.0,0,72.0,0.0,Dome
-2353,12/16/18,2018,15,0,Jacksonville Jaguars,0,Washington Redskins,JAX,-7.5,0,64.0,12.0,Sunny
-2354,12/16/18,2018,15,0,Los Angeles Rams,0,Philadelphia Eagles,LAR,-13.5,0,60.0,5.0,Sunny
-2355,12/16/18,2018,15,0,Minnesota Vikings,1,Miami Dolphins,MIN,-7.5,0,72.0,0.0,Dome
-2356,12/16/18,2018,15,0,New York Giants,0,Tennessee Titans,TEN,-2.5,0,40.0,6.0,Rain
-2357,12/16/18,2018,15,0,Pittsburgh Steelers,1,New England Patriots,NE,-2.5,0,42.0,5.0,Sunny
-2358,12/16/18,2018,15,0,San Francisco 49ers,1,Seattle Seahawks,SEA,-3.5,0,61.0,11.0,Sunny
-2359,12/17/18,2018,15,0,Carolina Panthers,0,New Orleans Saints,NO,-6.0,0,48.0,3.0,Sunny
-2360,12/22/18,2018,16,0,Los Angeles Chargers,0,Baltimore Ravens,LAC,-4.0,0,60.0,5.0,Sunny
-2361,12/22/18,2018,16,0,Tennessee Titans,1,Washington Redskins,TEN,-11.5,0,51.0,9.0,Sunny
-2362,12/23/18,2018,16,0,Arizona Cardinals,0,Los Angeles Rams,LAR,-14.5,0,72.0,0.0,Dome
-2363,12/23/18,2018,16,0,Carolina Panthers,0,Atlanta Falcons,ATL,-3.0,0,52.0,7.0,Sunny
-2364,12/23/18,2018,16,0,Cleveland Browns,1,Cincinnati Bengals,CLE,-10.0,0,37.0,9.0,Sunny
-2365,12/23/18,2018,16,0,Dallas Cowboys,1,Tampa Bay Buccaneers,DAL,-7.5,0,72.0,0.0,Dome
-2366,12/23/18,2018,16,0,Detroit Lions,0,Minnesota Vikings,MIN,-6.5,0,72.0,0.0,Dome
-2367,12/23/18,2018,16,0,Indianapolis Colts,1,New York Giants,IND,-10.0,0,72.0,0.0,Dome
-2368,12/23/18,2018,16,0,Miami Dolphins,0,Jacksonville Jaguars,MIA,-3.0,0,73.0,9.0,Sunny
-2369,12/23/18,2018,16,0,New England Patriots,1,Buffalo Bills,NE,-13.5,0,40.0,12.0,Sunny
-2370,12/23/18,2018,16,0,New Orleans Saints,1,Pittsburgh Steelers,NO,-6.5,0,72.0,0.0,Dome
-2371,12/23/18,2018,16,0,New York Jets,0,Green Bay Packers,GB,-3.0,0,43.0,8.0,Sunny
-2372,12/23/18,2018,16,0,Philadelphia Eagles,1,Houston Texans,PHI,-1.0,0,44.0,5.0,Sunny
-2373,12/23/18,2018,16,0,San Francisco 49ers,0,Chicago Bears,CHI,-4.0,0,50.0,5.0,Sunny
-2374,12/23/18,2018,16,0,Seattle Seahawks,1,Kansas City Chiefs,KC,-1.0,0,43.0,8.0,Sunny
-2375,12/24/18,2018,16,0,Oakland Raiders,1,Denver Broncos,DEN,-2.5,0,58.0,14.0,Rain
-2376,12/30/18,2018,17,0,Baltimore Ravens,1,Cleveland Browns,BAL,-7.0,0,48.0,2.0,Sunny
-2377,12/30/18,2018,17,0,Buffalo Bills,1,Miami Dolphins,BUF,-5.5,0,33.0,9.0,Sunny
-2378,12/30/18,2018,17,0,Denver Broncos,0,Los Angeles Chargers,LAC,-7.0,0,51.0,6.0,Sunny
-2379,12/30/18,2018,17,0,Green Bay Packers,0,Detroit Lions,GB,-7.5,0,26.0,15.0,Sunny
-2380,12/30/18,2018,17,0,Houston Texans,1,Jacksonville Jaguars,HOU,-7.0,0,72.0,0.0,Dome
-2381,12/30/18,2018,17,0,Kansas City Chiefs,1,Oakland Raiders,KC,-14.5,0,45.0,15.0,Sunny
-2382,12/30/18,2018,17,0,Los Angeles Rams,1,San Francisco 49ers,LAR,-10.5,0,65.0,3.0,Sunny
-2383,12/30/18,2018,17,0,Minnesota Vikings,0,Chicago Bears,MIN,-6.0,0,72.0,0.0,Dome
-2384,12/30/18,2018,17,0,New England Patriots,1,New York Jets,NE,-14.5,0,33.0,2.0,Sunny
-2385,12/30/18,2018,17,0,New Orleans Saints,0,Carolina Panthers,NO,-8.0,0,72.0,0.0,Dome
-2386,12/30/18,2018,17,0,New York Giants,0,Dallas Cowboys,NYG,-7.5,0,37.0,2.0,Sunny
-2387,12/30/18,2018,17,0,Pittsburgh Steelers,1,Cincinnati Bengals,PIT,-14.0,0,42.0,9.0,Sunny
-2388,12/30/18,2018,17,0,Seattle Seahawks,1,Arizona Cardinals,SEA,-14.0,0,45.0,5.0,Sunny
-2389,12/30/18,2018,17,0,Tampa Bay Buccaneers,0,Atlanta Falcons,ATL,-2.5,0,80.0,5.0,Sunny
-2390,12/30/18,2018,17,0,Tennessee Titans,0,Indianapolis Colts,IND,-5.5,0,53.0,4.0,Sunny
-2391,12/30/18,2018,17,0,Washington Redskins,0,Philadelphia Eagles,PHI,-6.0,0,46.0,3.0,Sunny
-2392,1/5/19,2018,18,1,Houston Texans,0,Indianapolis Colts,HOU,-1.0,0,72.0,0.0,Dome
-2393,1/5/19,2018,18,1,Dallas Cowboys,1,Seattle Seahawks,DAL,-2.0,0,72.0,0.0,Dome
-2394,1/6/19,2018,18,1,Chicago Bears,0,Philadelphia Eagles,CHI,-6.0,0,37.0,11.0,Sunny
-2395,1/6/19,2018,18,1,Baltimore Ravens,0,Los Angeles Chargers,BAL,-3.0,0,43.0,12.0,Sunny
-2396,1/12/19,2018,19,1,Kansas City Chiefs,1,Indianapolis Colts,KAN,-4.5,0,34.0,9.0,Sunny
-2397,1/12/19,2018,19,1,Los Angeles Rams,1,Dallas Cowboys,LAR,-7.0,0,60.0,0.0,Sunny
-2398,1/13/19,2018,19,1,New England Patriots,1,Los Angeles Chargers,NE,-4.0,0,30.0,2.0,Sunny
-2399,1/13/19,2018,19,1,New Orleans Saints,1,Philadelphia Eagles,NO,-8.5,0,48.0,6.0,Dome
-2400,1/20/19,2018,20,1,New Orleans Saints,0,Los Angeles Rams,NO,-3.0,0,53.0,6.0,Dome
-2401,1/20/19,2018,20,1,Kansas City Chiefs,0,New England Patriots,KAN,-3.0,0,24.0,9.0,Sunny
-2402,2/3/19,2018,21,1,Los Angeles Rams,0,New England Patriots,NE,-2.5,1,65.0,1.0,Dome
+,schedule_date,schedule_season,schedule_week,schedule_playoff,team_home,full_result,team_away,team_favorite_id,spread_favorite,stadium_neutral,weather_temperature,weather_wind_mph,weather_detail,home_favorite,away_favorite
+2136,9/6/18,2018,1,0,PHI,1,ATL,PHI,1.0,0,81.0,8.0,Rain,1.0,0.0
+2137,9/9/18,2018,1,0,ARI,0,WAS,ARI,2.0,0,72.0,0.0,Dome,1.0,0.0
+2138,9/9/18,2018,1,0,BAL,1,BUF,BAL,7.5,0,61.0,12.0,Rain,1.0,0.0
+2139,9/9/18,2018,1,0,CAR,1,DAL,CAR,2.5,0,81.0,9.0,Rain,1.0,0.0
+2140,9/9/18,2018,1,0,CLE,0,PIT,PIT,3.5,0,58.0,11.0,Rain,0.0,1.0
+2141,9/9/18,2018,1,0,DEN,1,SEA,DEN,3.0,0,84.0,5.0,Sunny,1.0,0.0
+2142,9/9/18,2018,1,0,GB,1,CHI,GB,6.5,0,62.0,10.0,Sunny,1.0,0.0
+2143,9/9/18,2018,1,0,IND,0,CIN,CIN,1.0,0,72.0,0.0,Dome,0.0,1.0
+2144,9/9/18,2018,1,0,LAC,0,KC,LAC,3.5,0,84.0,8.0,Sunny,1.0,0.0
+2145,9/9/18,2018,1,0,MIA,1,TEN,TEN,1.0,0,89.0,7.0,Rain,0.0,1.0
+2146,9/9/18,2018,1,0,MIN,1,SF,MIN,6.0,0,72.0,0.0,Dome,1.0,0.0
+2147,9/9/18,2018,1,0,NE,1,HOU,NE,6.0,0,62.0,10.0,Sunny,1.0,0.0
+2148,9/9/18,2018,1,0,NO,0,TB,NO,10.0,0,72.0,0.0,Dome,1.0,0.0
+2149,9/9/18,2018,1,0,NYG,0,JAX,JAX,2.5,0,59.0,7.0,Rain,0.0,1.0
+2150,9/10/18,2018,1,0,DET,0,NYJ,DET,7.0,0,72.0,0.0,Dome,1.0,0.0
+2151,9/10/18,2018,1,0,OAK,0,LAR,LAR,6.5,0,69.0,10.0,Sunny,0.0,1.0
+2152,9/13/18,2018,2,0,CIN,1,BAL,CIN,1.0,0,82.0,3.0,Sunny,1.0,0.0
+2153,9/16/18,2018,2,0,ATL,1,CAR,ATL,5.5,0,72.0,0.0,Dome,1.0,0.0
+2154,9/16/18,2018,2,0,BUF,0,LAC,LAC,7.5,0,83.0,6.0,Sunny,0.0,1.0
+2155,9/16/18,2018,2,0,DAL,1,NYG,DAL,3.0,0,72.0,0.0,Dome,1.0,0.0
+2156,9/16/18,2018,2,0,DEN,1,OAK,DEN,5.5,0,92.0,4.0,Sunny,1.0,0.0
+2157,9/16/18,2018,2,0,GB,0,MIN,MIN,2.0,0,80.0,5.0,Sunny,0.0,1.0
+2158,9/16/18,2018,2,0,JAX,1,NE,NE,2.0,0,97.0,15.0,Rain,0.0,1.0
+2159,9/16/18,2018,2,0,LAR,1,ARI,LAR,13.5,0,86.0,2.0,Sunny,1.0,0.0
+2160,9/16/18,2018,2,0,NO,1,CLE,NO,10.0,0,72.0,0.0,Dome,1.0,0.0
+2161,9/16/18,2018,2,0,NYJ,0,MIA,NYJ,3.0,0,80.0,4.0,Sunny,1.0,0.0
+2162,9/16/18,2018,2,0,PIT,0,KC,PIT,4.5,0,80.0,10.0,Sunny,1.0,0.0
+2163,9/16/18,2018,2,0,SF,1,DET,SF,6.0,0,73.0,12.0,Sunny,1.0,0.0
+2164,9/16/18,2018,2,0,TB,1,PHI,PHI,3.0,0,91.0,9.0,Sunny,0.0,1.0
+2165,9/16/18,2018,2,0,TEN,1,HOU,HOU,3.5,0,81.0,12.0,Sunny,0.0,1.0
+2166,9/16/18,2018,2,0,WAS,0,IND,WAS,6.0,0,71.0,5.0,Sunny,1.0,0.0
+2167,9/17/18,2018,2,0,CHI,1,SEA,CHI,4.5,0,79.0,2.0,Sunny,1.0,0.0
+2168,9/20/18,2018,3,0,CLE,1,NYJ,CLE,3.0,0,83.0,11.0,Sunny,1.0,0.0
+2169,9/23/18,2018,3,0,ARI,0,CHI,CHI,5.5,0,72.0,0.0,Dome,0.0,1.0
+2170,9/23/18,2018,3,0,ATL,0,NO,ATL,1.5,0,72.0,0.0,Dome,1.0,0.0
+2171,9/23/18,2018,3,0,BAL,1,DEN,BAL,5.5,0,61.0,5.0,Rain,1.0,0.0
+2172,9/23/18,2018,3,0,CAR,1,CIN,CAR,2.5,0,80.0,3.0,Sunny,1.0,0.0
+2173,9/23/18,2018,3,0,DET,1,NE,NE,7.0,0,72.0,0.0,Dome,0.0,1.0
+2174,9/23/18,2018,3,0,HOU,0,NYG,HOU,6.5,0,72.0,0.0,Dome,1.0,0.0
+2175,9/23/18,2018,3,0,JAX,0,TEN,JAX,10.0,0,89.0,10.0,Sunny,1.0,0.0
+2176,9/23/18,2018,3,0,KC,1,SF,KC,5.5,0,70.0,4.0,Sunny,1.0,0.0
+2177,9/23/18,2018,3,0,LAR,1,LAC,LAR,7.5,0,80.0,5.0,Sunny,1.0,0.0
+2178,9/23/18,2018,3,0,MIA,1,OAK,MIA,3.0,0,90.0,7.0,Sunny,1.0,0.0
+2179,9/23/18,2018,3,0,MIN,0,BUF,MIN,16.5,0,72.0,0.0,Dome,1.0,0.0
+2180,9/23/18,2018,3,0,PHI,1,IND,PHI,6.5,0,61.0,5.0,Rain,1.0,0.0
+2181,9/23/18,2018,3,0,SEA,1,DAL,SEA,1.0,0,61.0,4.0,Sunny,1.0,0.0
+2182,9/23/18,2018,3,0,WAS,1,GB,GB,2.5,0,62.0,6.0,Rain,0.0,1.0
+2183,9/24/18,2018,3,0,TB,0,PIT,PIT,1.0,0,77.0,5.0,Sunny,0.0,1.0
+2184,9/27/18,2018,4,0,LAR,1,MIN,LAR,7.5,0,75.0,3.0,Sunny,1.0,0.0
+2185,9/30/18,2018,4,0,ARI,0,SEA,SEA,3.5,0,72.0,0.0,Dome,0.0,1.0
+2186,9/30/18,2018,4,0,ATL,0,CIN,ATL,3.5,0,72.0,0.0,Dome,1.0,0.0
+2187,9/30/18,2018,4,0,CHI,1,TB,CHI,3.0,0,66.0,5.0,Sunny,1.0,0.0
+2188,9/30/18,2018,4,0,DAL,1,DET,DAL,2.5,0,72.0,0.0,Dome,1.0,0.0
+2189,9/30/18,2018,4,0,GB,1,BUF,GB,8.5,0,49.0,9.0,Sunny,1.0,0.0
+2190,9/30/18,2018,4,0,IND,0,HOU,IND,1.0,0,72.0,0.0,Dome,1.0,0.0
+2191,9/30/18,2018,4,0,JAX,1,NYJ,JAX,7.5,0,86.0,10.0,Sunny,1.0,0.0
+2192,9/30/18,2018,4,0,LAC,1,SF,LAC,10.5,0,78.0,9.0,Sunny,1.0,0.0
+2193,9/30/18,2018,4,0,NE,1,MIA,NE,6.5,0,65.0,6.0,Sunny,1.0,0.0
+2194,9/30/18,2018,4,0,NYG,0,NO,NO,3.5,0,71.0,7.0,Sunny,0.0,1.0
+2195,9/30/18,2018,4,0,OAK,1,CLE,OAK,2.5,0,71.0,8.0,Sunny,1.0,0.0
+2196,9/30/18,2018,4,0,PIT,0,BAL,PIT,3.0,0,69.0,2.0,Sunny,1.0,0.0
+2197,9/30/18,2018,4,0,TEN,1,PHI,PHI,3.0,0,80.0,4.0,Sunny,0.0,1.0
+2198,10/1/18,2018,4,0,DEN,0,KC,KC,3.5,0,65.0,5.0,Sunny,0.0,1.0
+2199,10/4/18,2018,5,0,NE,1,IND,NE,10.5,0,66.0,6.0,Sunny,1.0,0.0
+2200,10/7/18,2018,5,0,BUF,1,TEN,TEN,6.0,0,62.0,8.0,Sunny,0.0,1.0
+2201,10/7/18,2018,5,0,CAR,1,NYG,CAR,7.0,0,80.0,3.0,Sunny,1.0,0.0
+2202,10/7/18,2018,5,0,CIN,1,MIA,CIN,6.5,0,87.0,4.0,Sunny,1.0,0.0
+2203,10/7/18,2018,5,0,CLE,1,BAL,BAL,3.0,0,72.0,5.0,Sunny,0.0,1.0
+2204,10/7/18,2018,5,0,DET,1,GB,GB,1.0,0,72.0,0.0,Dome,0.0,1.0
+2205,10/7/18,2018,5,0,HOU,1,DAL,HOU,3.5,0,72.0,0.0,Dome,1.0,0.0
+2206,10/7/18,2018,5,0,KC,1,JAX,KC,3.0,0,58.0,5.0,Rain,1.0,0.0
+2207,10/7/18,2018,5,0,LAC,1,OAK,LAC,5.0,0,75.0,10.0,Sunny,1.0,0.0
+2208,10/7/18,2018,5,0,NYJ,1,DEN,NYJ,1.0,0,77.0,7.0,Sunny,1.0,0.0
+2209,10/7/18,2018,5,0,PHI,0,MIN,PHI,3.5,0,79.0,6.0,Sunny,1.0,0.0
+2210,10/7/18,2018,5,0,PIT,1,ATL,PIT,3.5,0,83.0,5.0,Sunny,1.0,0.0
+2211,10/7/18,2018,5,0,SF,0,ARI,SF,3.0,0,79.0,15.0,Sunny,1.0,0.0
+2212,10/7/18,2018,5,0,SEA,0,LAR,LAR,7.5,0,53.0,5.0,Sunny,0.0,1.0
+2213,10/8/18,2018,5,0,NO,1,WAS,NO,5.5,0,72.0,0.0,Dome,1.0,0.0
+2214,10/11/18,2018,6,0,NYG,0,PHI,PHI,1.5,0,70.0,3.0,Rain,0.0,1.0
+2215,10/14/18,2018,6,0,ATL,1,TB,ATL,3.0,0,72.0,0.0,Dome,1.0,0.0
+2216,10/14/18,2018,6,0,CIN,0,PIT,CIN,1.5,0,51.0,6.0,Sunny,1.0,0.0
+2217,10/14/18,2018,6,0,CLE,0,LAC,CLE,1.0,0,57.0,12.0,Sunny,1.0,0.0
+2218,10/14/18,2018,6,0,DAL,1,JAX,JAX,3.0,0,72.0,0.0,Dome,0.0,1.0
+2219,10/14/18,2018,6,0,DEN,0,LAR,LAR,7.0,0,25.0,6.0,Sunny,0.0,1.0
+2220,10/14/18,2018,6,0,HOU,1,BUF,HOU,10.5,0,72.0,0.0,Dome,1.0,0.0
+2221,10/14/18,2018,6,0,MIA,1,CHI,CHI,7.5,0,89.0,8.0,Sunny,0.0,1.0
+2222,10/14/18,2018,6,0,MIN,1,ARI,MIN,10.0,0,72.0,0.0,Dome,1.0,0.0
+2223,10/14/18,2018,6,0,NE,1,KC,NE,3.5,0,45.0,0.0,Sunny,1.0,0.0
+2224,10/14/18,2018,6,0,NYJ,1,IND,NYJ,2.5,0,60.0,7.0,Sunny,1.0,0.0
+2225,10/14/18,2018,6,0,OAK,0,SEA,SEA,3.0,1,50.0,12.0,Rain,0.0,1.0
+2226,10/14/18,2018,6,0,TEN,0,BAL,BAL,2.5,0,66.0,4.0,Sunny,0.0,1.0
+2227,10/14/18,2018,6,0,WAS,1,CAR,CAR,1.0,0,52.0,0.0,Sunny,0.0,1.0
+2228,10/15/18,2018,6,0,GB,1,SF,GB,9.0,0,37.0,5.0,Sunny,1.0,0.0
+2229,10/18/18,2018,7,0,ARI,0,DEN,DEN,1.0,0,72.0,0.0,Dome,0.0,1.0
+2230,10/21/18,2018,7,0,BAL,0,NO,BAL,2.5,0,54.0,15.0,Sunny,1.0,0.0
+2231,10/21/18,2018,7,0,CHI,0,NE,NE,1.0,0,44.0,9.0,Sunny,0.0,1.0
+2232,10/21/18,2018,7,0,IND,1,BUF,IND,7.0,0,72.0,0.0,Dome,1.0,0.0
+2233,10/21/18,2018,7,0,JAX,0,HOU,JAX,3.5,0,68.0,15.0,Sunny,1.0,0.0
+2234,10/21/18,2018,7,0,KC,1,CIN,KC,6.5,0,59.0,10.0,Sunny,1.0,0.0
+2235,10/21/18,2018,7,0,LAC,1,TEN,LAC,6.5,1,66.0,6.0,Sunny,1.0,0.0
+2236,10/21/18,2018,7,0,MIA,0,DET,DET,3.0,0,89.0,8.0,Sunny,0.0,1.0
+2237,10/21/18,2018,7,0,NYJ,0,MIN,MIN,3.5,0,46.0,16.0,Sunny,0.0,1.0
+2238,10/21/18,2018,7,0,PHI,0,CAR,PHI,5.0,0,49.0,19.0,Sunny,1.0,0.0
+2239,10/21/18,2018,7,0,SF,0,LAR,LAR,8.0,0,62.0,5.0,Sunny,0.0,1.0
+2240,10/21/18,2018,7,0,TB,1,CLE,TB,3.5,0,79.0,7.0,Sunny,1.0,0.0
+2241,10/21/18,2018,7,0,WAS,1,DAL,DAL,1.0,0,52.0,12.0,Sunny,0.0,1.0
+2242,10/22/18,2018,7,0,ATL,1,NYG,ATL,4.0,0,72.0,0.0,Dome,1.0,0.0
+2243,10/25/18,2018,8,0,HOU,1,MIA,HOU,7.5,0,72.0,0.0,Dome,1.0,0.0
+2244,10/28/18,2018,8,0,ARI,1,SF,ARI,2.5,0,72.0,0.0,Dome,1.0,0.0
+2245,10/28/18,2018,8,0,CAR,1,BAL,BAL,2.5,0,61.0,10.0,Sunny,0.0,1.0
+2246,10/28/18,2018,8,0,CHI,1,NYJ,CHI,8.5,0,48.0,18.0,Sunny,1.0,0.0
+2247,10/28/18,2018,8,0,CIN,1,TB,CIN,3.5,0,55.0,7.0,Sunny,1.0,0.0
+2248,10/28/18,2018,8,0,DET,0,SEA,DET,3.0,0,72.0,0.0,Dome,1.0,0.0
+2249,10/28/18,2018,8,0,JAX,0,PHI,PHI,3.5,1,48.0,12.0,Sunny,0.0,1.0
+2250,10/28/18,2018,8,0,KC,1,DEN,KC,8.5,0,56.0,12.0,Sunny,1.0,0.0
+2251,10/28/18,2018,8,0,LAR,1,GB,LAR,7.5,0,82.0,1.0,Sunny,1.0,0.0
+2252,10/28/18,2018,8,0,MIN,0,NO,MIN,2.5,0,72.0,0.0,Dome,1.0,0.0
+2253,10/28/18,2018,8,0,NYG,0,WAS,WAS,1.0,0,51.0,11.0,Sunny,0.0,1.0
+2254,10/28/18,2018,8,0,OAK,0,IND,IND,3.5,0,69.0,8.0,Sunny,0.0,1.0
+2255,10/28/18,2018,8,0,PIT,1,CLE,PIT,8.5,0,47.0,11.0,Sunny,1.0,0.0
+2256,10/29/18,2018,8,0,BUF,0,NE,NE,13.5,0,46.0,16.0,Sunny,0.0,1.0
+2257,11/1/18,2018,9,0,SF,1,OAK,OAK,1.5,0,82.0,8.0,Sunny,0.0,1.0
+2258,11/4/18,2018,9,0,BAL,0,PIT,BAL,1.5,0,55.0,6.0,Sunny,1.0,0.0
+2259,11/4/18,2018,9,0,BUF,0,CHI,CHI,10.5,0,49.0,12.0,Sunny,0.0,1.0
+2260,11/4/18,2018,9,0,CAR,1,TB,CAR,6.0,0,62.0,8.0,Sunny,1.0,0.0
+2261,11/4/18,2018,9,0,CLE,0,KC,KC,7.5,0,53.0,16.0,Sunny,0.0,1.0
+2262,11/4/18,2018,9,0,DEN,0,HOU,DEN,1.0,0,53.0,3.0,Sunny,1.0,0.0
+2263,11/4/18,2018,9,0,MIA,1,NYJ,MIA,3.0,0,87.0,16.0,Sunny,1.0,0.0
+2264,11/4/18,2018,9,0,MIN,1,DET,MIN,4.5,0,72.0,0.0,Dome,1.0,0.0
+2265,11/4/18,2018,9,0,NE,1,GB,NE,5.0,0,40.0,2.0,Sunny,1.0,0.0
+2266,11/4/18,2018,9,0,NO,1,LAR,LAR,1.5,0,72.0,0.0,Dome,0.0,1.0
+2267,11/4/18,2018,9,0,SEA,0,LAC,SEA,1.0,0,56.0,4.0,Rain,1.0,0.0
+2268,11/4/18,2018,9,0,WAS,0,ATL,WAS,1.5,0,55.0,5.0,Sunny,1.0,0.0
+2269,11/5/18,2018,9,0,DAL,0,TEN,DAL,4.5,0,72.0,0.0,Dome,1.0,0.0
+2270,11/8/18,2018,10,0,PIT,1,CAR,PIT,3.5,0,40.0,4.0,Sunny,1.0,0.0
+2271,11/11/18,2018,10,0,CHI,1,DET,CHI,7.5,0,37.0,12.0,Sunny,1.0,0.0
+2272,11/11/18,2018,10,0,CIN,0,NO,NO,6.0,0,39.0,6.0,Sunny,0.0,1.0
+2273,11/11/18,2018,10,0,CLE,1,ATL,ATL,5.5,0,36.0,9.0,Sunny,0.0,1.0
+2274,11/11/18,2018,10,0,GB,1,MIA,GB,11.0,0,33.0,6.0,Sunny,1.0,0.0
+2275,11/11/18,2018,10,0,IND,1,JAX,IND,3.0,0,72.0,0.0,Dome,1.0,0.0
+2276,11/11/18,2018,10,0,KC,1,ARI,KC,16.5,0,43.0,5.0,Sunny,1.0,0.0
+2277,11/11/18,2018,10,0,LAR,1,SEA,LAR,10.0,0,75.0,1.0,Sunny,1.0,0.0
+2278,11/11/18,2018,10,0,NYJ,0,BUF,NYJ,7.0,0,46.0,10.0,Sunny,1.0,0.0
+2279,11/11/18,2018,10,0,OAK,0,LAC,LAC,10.5,0,69.0,16.0,Sunny,0.0,1.0
+2280,11/11/18,2018,10,0,PHI,0,DAL,PHI,7.5,0,38.0,5.0,Sunny,1.0,0.0
+2281,11/11/18,2018,10,0,TB,0,WAS,TB,3.5,0,82.0,3.0,Sunny,1.0,0.0
+2282,11/11/18,2018,10,0,TEN,1,NE,NE,6.5,0,46.0,4.0,Sunny,0.0,1.0
+2283,11/12/18,2018,10,0,SF,0,NYG,SF,3.0,0,62.0,0.0,Sunny,1.0,0.0
+2284,11/15/18,2018,11,0,SEA,1,GB,SEA,3.0,0,54.0,6.0,Sunny,1.0,0.0
+2285,11/18/18,2018,11,0,ARI,0,OAK,ARI,4.5,0,72.0,0.0,Dome,1.0,0.0
+2286,11/18/18,2018,11,0,ATL,0,DAL,ATL,3.5,0,72.0,0.0,Dome,1.0,0.0
+2287,11/18/18,2018,11,0,BAL,1,CIN,BAL,6.5,0,48.0,8.0,Sunny,1.0,0.0
+2288,11/18/18,2018,11,0,CHI,1,MIN,CHI,2.5,0,33.0,6.0,Sunny,1.0,0.0
+2289,11/18/18,2018,11,0,DET,1,CAR,CAR,4.0,0,72.0,0.0,Dome,0.0,1.0
+2290,11/18/18,2018,11,0,IND,1,TEN,IND,1.0,0,72.0,0.0,Dome,1.0,0.0
+2291,11/18/18,2018,11,0,JAX,0,PIT,PIT,4.0,0,73.0,8.0,Sunny,0.0,1.0
+2292,11/18/18,2018,11,0,LAC,0,DEN,LAC,7.5,0,69.0,4.0,Sunny,1.0,0.0
+2293,11/18/18,2018,11,0,NO,1,PHI,NO,7.0,0,72.0,0.0,Dome,1.0,0.0
+2294,11/18/18,2018,11,0,NYG,1,TB,NYG,3.0,0,42.0,1.0,Sunny,1.0,0.0
+2295,11/18/18,2018,11,0,WAS,0,HOU,HOU,3.0,0,48.0,6.0,Sunny,0.0,1.0
+2296,11/19/18,2018,11,0,LAR,1,KC,LAR,3.0,0,69.0,1.0,Sunny,1.0,0.0
+2297,11/22/18,2018,12,0,DAL,1,WAS,DAL,7.0,0,72.0,0.0,Dome,1.0,0.0
+2298,11/22/18,2018,12,0,DET,0,CHI,CHI,3.0,0,72.0,0.0,Dome,0.0,1.0
+2299,11/22/18,2018,12,0,NO,1,ATL,NO,11.5,0,72.0,0.0,Dome,1.0,0.0
+2300,11/25/18,2018,12,0,BAL,1,OAK,BAL,13.0,0,60.0,7.0,Sunny,1.0,0.0
+2301,11/25/18,2018,12,0,BUF,1,JAX,JAX,3.0,0,44.0,12.0,Sunny,0.0,1.0
+2302,11/25/18,2018,12,0,CAR,0,SEA,CAR,3.0,0,57.0,1.0,Sunny,1.0,0.0
+2303,11/25/18,2018,12,0,CIN,0,CLE,CLE,1.0,0,44.0,4.0,Sunny,0.0,1.0
+2304,11/25/18,2018,12,0,DEN,1,PIT,PIT,3.0,0,41.0,7.0,Sunny,0.0,1.0
+2305,11/25/18,2018,12,0,IND,1,MIA,IND,9.0,0,72.0,0.0,Dome,1.0,0.0
+2306,11/25/18,2018,12,0,LAC,1,ARI,LAC,14.0,0,74.0,3.0,Sunny,1.0,0.0
+2307,11/25/18,2018,12,0,MIN,1,GB,MIN,3.5,0,72.0,0.0,Dome,1.0,0.0
+2308,11/25/18,2018,12,0,NYJ,0,NE,NE,13.0,0,54.0,8.0,Sunny,0.0,1.0
+2309,11/25/18,2018,12,0,PHI,1,NYG,PHI,4.5,0,56.0,10.0,Sunny,1.0,0.0
+2310,11/25/18,2018,12,0,TB,1,SF,TB,1.5,0,77.0,7.0,Sunny,1.0,0.0
+2311,11/26/18,2018,12,0,HOU,1,TEN,HOU,3.5,0,72.0,0.0,Dome,1.0,0.0
+2312,11/29/18,2018,13,0,DAL,1,NO,NO,7.5,0,72.0,0.0,Dome,0.0,1.0
+2313,12/2/18,2018,13,0,ATL,0,BAL,ATL,2.5,0,72.0,0.0,Dome,1.0,0.0
+2314,12/2/18,2018,13,0,CIN,0,DEN,DEN,4.0,0,63.0,12.0,Sunny,0.0,1.0
+2315,12/2/18,2018,13,0,DET,0,LAR,LAR,10.5,0,72.0,0.0,Dome,0.0,1.0
+2316,12/2/18,2018,13,0,GB,0,ARI,GB,13.5,0,34.0,20.0,Rain,1.0,0.0
+2317,12/2/18,2018,13,0,HOU,1,CLE,HOU,5.0,0,72.0,0.0,Dome,1.0,0.0
+2318,12/2/18,2018,13,0,JAX,1,IND,IND,4.0,0,78.0,13.0,Rain,0.0,1.0
+2319,12/2/18,2018,13,0,MIA,1,BUF,MIA,3.5,0,86.0,15.0,Sunny,1.0,0.0
+2320,12/2/18,2018,13,0,NE,1,MIN,NE,6.0,0,53.0,6.0,Sunny,1.0,0.0
+2321,12/2/18,2018,13,0,NYG,1,CHI,CHI,4.0,0,52.0,3.0,Sunny,0.0,1.0
+2322,12/2/18,2018,13,0,OAK,0,KC,KC,14.0,0,57.0,6.0,Sunny,0.0,1.0
+2323,12/2/18,2018,13,0,PIT,0,LAC,PIT,3.0,0,57.0,8.0,Sunny,1.0,0.0
+2324,12/2/18,2018,13,0,SEA,1,SF,SEA,10.0,0,45.0,2.0,Sunny,1.0,0.0
+2325,12/2/18,2018,13,0,TB,1,CAR,CAR,3.5,0,81.0,15.0,Sunny,0.0,1.0
+2326,12/2/18,2018,13,0,TEN,1,NYJ,TEN,10.5,0,70.0,13.0,Sunny,1.0,0.0
+2327,12/3/18,2018,13,0,PHI,1,WAS,PHI,5.5,0,36.0,15.0,Sunny,1.0,0.0
+2328,12/6/18,2018,14,0,TEN,1,JAX,TEN,5.5,0,44.0,5.0,Sunny,1.0,0.0
+2329,12/9/18,2018,14,0,ARI,0,DET,DET,2.5,0,72.0,0.0,Dome,0.0,1.0
+2330,12/9/18,2018,14,0,BUF,0,NYJ,BUF,4.5,0,31.0,12.0,Sunny,1.0,0.0
+2331,12/9/18,2018,14,0,CHI,1,LAR,LAR,3.0,0,29.0,4.0,Sunny,0.0,1.0
+2332,12/9/18,2018,14,0,CLE,1,CAR,CAR,1.0,0,28.0,4.0,Sunny,0.0,1.0
+2333,12/9/18,2018,14,0,DAL,1,PHI,DAL,3.5,0,72.0,0.0,Dome,1.0,0.0
+2334,12/9/18,2018,14,0,GB,1,ATL,GB,4.0,0,25.0,10.0,Sunny,1.0,0.0
+2335,12/9/18,2018,14,0,HOU,0,IND,HOU,4.0,0,72.0,0.0,Dome,1.0,0.0
+2336,12/9/18,2018,14,0,KC,1,BAL,KC,6.5,0,27.0,0.0,Sunny,1.0,0.0
+2337,12/9/18,2018,14,0,LAC,1,CIN,LAC,17.0,0,70.0,1.0,Sunny,1.0,0.0
+2338,12/9/18,2018,14,0,MIA,1,NE,NE,9.5,0,82.0,13.0,Sunny,0.0,1.0
+2339,12/9/18,2018,14,0,OAK,1,PIT,PIT,10.5,0,55.0,8.0,Sunny,0.0,1.0
+2340,12/9/18,2018,14,0,SF,1,DEN,DEN,3.0,0,54.0,3.0,Sunny,0.0,1.0
+2341,12/9/18,2018,14,0,TB,0,NO,NO,10.0,0,71.0,7.0,Rain,0.0,1.0
+2342,12/9/18,2018,14,0,WAS,0,NYG,NYG,3.0,0,33.0,6.0,Sunny,0.0,1.0
+2343,12/10/18,2018,14,0,SEA,1,MIN,SEA,3.0,0,48.0,9.0,Sunny,1.0,0.0
+2344,12/13/18,2018,15,0,KC,0,LAC,KC,3.5,0,39.0,5.0,Rain,1.0,0.0
+2345,12/15/18,2018,15,0,DEN,0,CLE,DEN,1.0,0,46.0,0.0,Sunny,1.0,0.0
+2346,12/15/18,2018,15,0,NYJ,0,HOU,HOU,7.0,0,51.0,8.0,Rain,0.0,1.0
+2347,12/16/18,2018,15,0,ATL,1,ARI,ATL,10.0,0,72.0,0.0,Dome,1.0,0.0
+2348,12/16/18,2018,15,0,BAL,1,TB,BAL,8.5,0,43.0,10.0,Rain,1.0,0.0
+2349,12/16/18,2018,15,0,BUF,1,DET,BUF,2.5,0,39.0,7.0,Rain,1.0,0.0
+2350,12/16/18,2018,15,0,CHI,1,GB,CHI,5.5,0,45.0,10.0,Sunny,1.0,0.0
+2351,12/16/18,2018,15,0,CIN,1,OAK,CIN,3.0,0,43.0,2.0,Sunny,1.0,0.0
+2352,12/16/18,2018,15,0,IND,1,DAL,IND,3.0,0,72.0,0.0,Dome,1.0,0.0
+2353,12/16/18,2018,15,0,JAX,0,WAS,JAX,7.5,0,64.0,12.0,Sunny,1.0,0.0
+2354,12/16/18,2018,15,0,LAR,0,PHI,LAR,13.5,0,60.0,5.0,Sunny,1.0,0.0
+2355,12/16/18,2018,15,0,MIN,1,MIA,MIN,7.5,0,72.0,0.0,Dome,1.0,0.0
+2356,12/16/18,2018,15,0,NYG,0,TEN,TEN,2.5,0,40.0,6.0,Rain,0.0,1.0
+2357,12/16/18,2018,15,0,PIT,1,NE,NE,2.5,0,42.0,5.0,Sunny,0.0,1.0
+2358,12/16/18,2018,15,0,SF,1,SEA,SEA,3.5,0,61.0,11.0,Sunny,0.0,1.0
+2359,12/17/18,2018,15,0,CAR,0,NO,NO,6.0,0,48.0,3.0,Sunny,0.0,1.0
+2360,12/22/18,2018,16,0,LAC,0,BAL,LAC,4.0,0,60.0,5.0,Sunny,1.0,0.0
+2361,12/22/18,2018,16,0,TEN,1,WAS,TEN,11.5,0,51.0,9.0,Sunny,1.0,0.0
+2362,12/23/18,2018,16,0,ARI,0,LAR,LAR,14.5,0,72.0,0.0,Dome,0.0,1.0
+2363,12/23/18,2018,16,0,CAR,0,ATL,ATL,3.0,0,52.0,7.0,Sunny,0.0,1.0
+2364,12/23/18,2018,16,0,CLE,1,CIN,CLE,10.0,0,37.0,9.0,Sunny,1.0,0.0
+2365,12/23/18,2018,16,0,DAL,1,TB,DAL,7.5,0,72.0,0.0,Dome,1.0,0.0
+2366,12/23/18,2018,16,0,DET,0,MIN,MIN,6.5,0,72.0,0.0,Dome,0.0,1.0
+2367,12/23/18,2018,16,0,IND,1,NYG,IND,10.0,0,72.0,0.0,Dome,1.0,0.0
+2368,12/23/18,2018,16,0,MIA,0,JAX,MIA,3.0,0,73.0,9.0,Sunny,1.0,0.0
+2369,12/23/18,2018,16,0,NE,1,BUF,NE,13.5,0,40.0,12.0,Sunny,1.0,0.0
+2370,12/23/18,2018,16,0,NO,1,PIT,NO,6.5,0,72.0,0.0,Dome,1.0,0.0
+2371,12/23/18,2018,16,0,NYJ,0,GB,GB,3.0,0,43.0,8.0,Sunny,0.0,1.0
+2372,12/23/18,2018,16,0,PHI,1,HOU,PHI,1.0,0,44.0,5.0,Sunny,1.0,0.0
+2373,12/23/18,2018,16,0,SF,0,CHI,CHI,4.0,0,50.0,5.0,Sunny,0.0,1.0
+2374,12/23/18,2018,16,0,SEA,1,KC,KC,1.0,0,43.0,8.0,Sunny,0.0,1.0
+2375,12/24/18,2018,16,0,OAK,1,DEN,DEN,2.5,0,58.0,14.0,Rain,0.0,1.0
+2376,12/30/18,2018,17,0,BAL,1,CLE,BAL,7.0,0,48.0,2.0,Sunny,1.0,0.0
+2377,12/30/18,2018,17,0,BUF,1,MIA,BUF,5.5,0,33.0,9.0,Sunny,1.0,0.0
+2378,12/30/18,2018,17,0,DEN,0,LAC,LAC,7.0,0,51.0,6.0,Sunny,0.0,1.0
+2379,12/30/18,2018,17,0,GB,0,DET,GB,7.5,0,26.0,15.0,Sunny,1.0,0.0
+2380,12/30/18,2018,17,0,HOU,1,JAX,HOU,7.0,0,72.0,0.0,Dome,1.0,0.0
+2381,12/30/18,2018,17,0,KC,1,OAK,KC,14.5,0,45.0,15.0,Sunny,1.0,0.0
+2382,12/30/18,2018,17,0,LAR,1,SF,LAR,10.5,0,65.0,3.0,Sunny,1.0,0.0
+2383,12/30/18,2018,17,0,MIN,0,CHI,MIN,6.0,0,72.0,0.0,Dome,1.0,0.0
+2384,12/30/18,2018,17,0,NE,1,NYJ,NE,14.5,0,33.0,2.0,Sunny,1.0,0.0
+2385,12/30/18,2018,17,0,NO,0,CAR,NO,8.0,0,72.0,0.0,Dome,1.0,0.0
+2386,12/30/18,2018,17,0,NYG,0,DAL,NYG,7.5,0,37.0,2.0,Sunny,1.0,0.0
+2387,12/30/18,2018,17,0,PIT,1,CIN,PIT,14.0,0,42.0,9.0,Sunny,1.0,0.0
+2388,12/30/18,2018,17,0,SEA,1,ARI,SEA,14.0,0,45.0,5.0,Sunny,1.0,0.0
+2389,12/30/18,2018,17,0,TB,0,ATL,ATL,2.5,0,80.0,5.0,Sunny,0.0,1.0
+2390,12/30/18,2018,17,0,TEN,0,IND,IND,5.5,0,53.0,4.0,Sunny,0.0,1.0
+2391,12/30/18,2018,17,0,WAS,0,PHI,PHI,6.0,0,46.0,3.0,Sunny,0.0,1.0
+2392,1/5/19,2018,18,1,HOU,0,IND,HOU,1.0,0,72.0,0.0,Dome,1.0,0.0
+2393,1/5/19,2018,18,1,DAL,1,SEA,DAL,2.0,0,72.0,0.0,Dome,1.0,0.0
+2394,1/6/19,2018,18,1,CHI,0,PHI,CHI,6.0,0,37.0,11.0,Sunny,1.0,0.0
+2395,1/6/19,2018,18,1,BAL,0,LAC,BAL,3.0,0,43.0,12.0,Sunny,1.0,0.0
+2396,1/12/19,2018,19,1,KC,1,IND,KAN,4.5,0,34.0,9.0,Sunny,0.0,0.0
+2397,1/12/19,2018,19,1,LAR,1,DAL,LAR,7.0,0,60.0,0.0,Sunny,1.0,0.0
+2398,1/13/19,2018,19,1,NE,1,LAC,NE,4.0,0,30.0,2.0,Sunny,1.0,0.0
+2399,1/13/19,2018,19,1,NO,1,PHI,NO,8.5,0,48.0,6.0,Dome,1.0,0.0
+2400,1/20/19,2018,20,1,NO,0,LAR,NO,3.0,0,53.0,6.0,Dome,1.0,0.0
+2401,1/20/19,2018,20,1,KC,0,NE,KAN,3.0,0,24.0,9.0,Sunny,0.0,0.0
+2402,2/3/19,2018,21,1,LAR,0,NE,NE,2.5,1,65.0,1.0,Dome,0.0,1.0
