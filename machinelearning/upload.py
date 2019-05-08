@@ -21,7 +21,6 @@ db = firestore.client()
 
 #import the csv as a dataframe
 df = pd.read_csv("predicted_result.csv")
-df = df.head(48)
 print df
 
 for index, row in df.iterrows():

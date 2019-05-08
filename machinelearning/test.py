@@ -219,7 +219,8 @@ for i in range(test_data.shape[0]):
 
 
 #print results of log reg
-print('\nAccuracy of LR classifier on test set: {:.3f}'.format(np.mean(log_pred == y_test_data)))
+print("\n------Accuracies of Classifiers------")
+print('Accuracy of LR classifier on test set: {:.3f}'.format(np.mean(log_pred == y_test_data)))
 
 #print results of svm
 print ('Accuracy of SVM classifier on test set: {:.3f}'.format(accuracy_score(y_test_data, svm_predict)))

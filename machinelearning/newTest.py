@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn import datasets
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
+import seaborn as sns
 
 
 #import and convert train data from csv into dataframe
@@ -76,6 +77,17 @@ print("Home Wins Percentage: " + home_win + "%")
 print("Away Wins Percentage: " + away_win + "%")
 print("Spread Favorite Win Percentage: " + favored + "%")
 print "\n"
+
+
+#plot correlation between features and target
+x = pd.to_numeric(data.loc[:,'home_favorite'])
+y = data.loc[:,'full_result']
+plt.scatter(x, y)
+plt.show()
+
+#create correlatiion graph
+feature_cols = ['weather_temperature','weather_wind_mph', 'spread_favorite']
+ax2 = sns.heatmap(data.loc[:,feature_cols].corr(),vmin=-1,vmax=1,cmap=sns.diverging_palette(h_neg=220,h_pos=10,n=21))
 
 #drop uneccessary columns
 cols_to_drop = ['stadium', 'score_home', 'score_away', 'schedule_date', 'team_home', 'team_away', 'team_favorite_id']
@@ -192,12 +204,12 @@ print "\n"
 
 #Perform PCA
 pca = PCA().fit(scale_train_data)
-plt.figure()
-plt.plot(np.cumsum(pca.explained_variance_ratio_))
-plt.xlabel('Number of Components')
-plt.ylabel('Variance (%)') #for each component
-plt.title('NFL Games Dataset')
-plt.show()
+# plt.figure()
+# plt.plot(np.cumsum(pca.explained_variance_ratio_))
+# plt.xlabel('Number of Components')
+# plt.ylabel('Variance (%)') #for each component
+# plt.title('NFL Games Dataset')
+# plt.show()
 
 
 # initialize base model
@@ -280,24 +292,30 @@ naive_predict = naive_clf.fit(X_train, y_train).predict(X_test)
 neural_clf = MLPClassifier(alpha=1)
 neural_predict = neural_clf.fit(X_train, y_train).predict(X_test)
 
-print("------Accuracies of Multiple Classifiers------")
+print("------Accuracies of Classifiers------")
 #print results of log reg
-print('Accuracy of LR classifier on test set: {:.3f}'.format(accuracy_score(y_test, log_pred)))
+LR_acc = accuracy_score(y_test, log_pred)
+print('Accuracy of LR classifier on test set: {:.3f}'.format(LR_acc))
 
 #print results of svm
-print ('Accuracy of SVM classifier on test set: {:.3f}'.format(accuracy_score(y_test, svm_predict)))
+SVM_acc = accuracy_score(y_test, svm_predict)
+print ('Accuracy of SVM classifier on test set: {:.3f}'.format(SVM_acc))
 
 #print results of knn
-print ('Accuracy of K-NN classifier on test set: {:.3f}'.format(accuracy_score(y_test, knn_predict)))
+KNN_acc = accuracy_score(y_test, knn_predict)
+print ('Accuracy of K-NN classifier on test set: {:.3f}'.format(KNN_acc))
 
 #print results of dtree
-print ('Accuracy of Decision Tree classifier on test set: {:.3f}'.format(accuracy_score(y_test, dtree_predict)))
+DTREE_acc = accuracy_score(y_test, dtree_predict)
+print ('Accuracy of Decision Tree classifier on test set: {:.3f}'.format(DTREE_acc))
 
 #print results of naive
-print ('Accuracy of Naive classifier on test set: {:.3f}'.format(accuracy_score(y_test, naive_predict)))
+NAIVE_acc = accuracy_score(y_test, naive_predict)
+print ('Accuracy of Naive classifier on test set: {:.3f}'.format(NAIVE_acc))
 
 #print results of neural
-print ('Accuracy of Neural Net classifier on test set: {:.3f}'.format(accuracy_score(y_test, neural_predict)))
+NEUR_acc = accuracy_score(y_test, neural_predict)
+print ('Accuracy of Neural Net classifier on test set: {:.3f}'.format(NEUR_acc))
 print "\n"
 
 #print columns with their respective weights in logistic regressions
@@ -317,37 +335,50 @@ for col in X_train:
 print "\n"
 
 #Plot ROC curve
-import sklearn.metrics as metrics
-# calculate the fpr and tpr for all thresholds of the classification
-probs = svc.predict_proba(X_test)
-preds = probs[:,1]
-fpr, tpr, threshold = metrics.roc_curve(y_test, preds)
-roc_auc = metrics.auc(fpr, tpr)
+# import sklearn.metrics as metrics
+# # calculate the fpr and tpr for all thresholds of the classification
+# probs = svc.predict_proba(X_test)
+# preds = probs[:,1]
+# fpr, tpr, threshold = metrics.roc_curve(y_test, preds)
+# roc_auc = metrics.auc(fpr, tpr)
 
 import matplotlib.pyplot as plt
-plt.title('ROC Graph With SVM')
-plt.plot(fpr, tpr, 'b', label = 'AUC = %0.2f' % roc_auc)
-plt.legend(loc = 'lower right')
-plt.plot([0, 1], [0, 1],'r--')
-plt.xlim([0, 1])
-plt.ylim([0, 1])
-plt.ylabel('True Positive Rate')
-plt.xlabel('False Positive Rate')
+# plt.title('ROC Graph With SVM')
+# plt.plot(fpr, tpr, 'b', label = 'AUC = %0.2f' % roc_auc)
+# plt.legend(loc = 'lower right')
+# plt.plot([0, 1], [0, 1],'r--')
+# plt.xlim([0, 1])
+# plt.ylim([0, 1])
+# plt.ylabel('True Positive Rate')
+# plt.xlabel('False Positive Rate')
 # plt.show()
 
 #ROC with LOGREG
 # calculate the fpr and tpr for all thresholds of the classification
-probs = logreg.predict_proba(X_test)
-preds = probs[:,1]
-fpr, tpr, threshold = metrics.roc_curve(y_test, preds)
-roc_auc = metrics.auc(fpr, tpr)
+# probs = logreg.predict_proba(X_test)
+# preds = probs[:,1]
+# fpr, tpr, threshold = metrics.roc_curve(y_test, preds)
+# roc_auc = metrics.auc(fpr, tpr)
 
-plt.title('ROC Graph With LR')
-plt.plot(fpr, tpr, 'b', label = 'AUC = %0.2f' % roc_auc)
-plt.legend(loc = 'lower right')
-plt.plot([0, 1], [0, 1],'r--')
-plt.xlim([0, 1])
-plt.ylim([0, 1])
-plt.ylabel('True Positive Rate')
-plt.xlabel('False Positive Rate')
+# plt.title('ROC Graph With LR')
+# plt.plot(fpr, tpr, 'b', label = 'AUC = %0.2f' % roc_auc)
+# plt.legend(loc = 'lower right')
+# plt.plot([0, 1], [0, 1],'r--')
+# plt.xlim([0, 1])
+# plt.ylim([0, 1])
+# plt.ylabel('True Positive Rate')
+# plt.xlabel('False Positive Rate')
+# plt.show()
+
+
+# #create bar graph of Accuracies
+# label = ['Logistic Regression', 'Support Vector Machines', 'K-Nearest Neighboors', 'Decision Tree','Naive Bayes','Neural Nets']
+# acc_vals = [LR_acc, SVM_acc, KNN_acc, DTREE_acc, NAIVE_acc, NEUR_acc]
+# index = np.arange(len(label))
+#
+# plt.bar(index, acc_vals)
+# plt.xlabel('Classifiers', fontsize=10)
+# plt.ylabel('Percentages', fontsize=10)
+# plt.xticks(index, label, fontsize=8, rotation=30)
+# plt.title('Bar Graph of All Classifiers and Percentages')
 # plt.show()
