@@ -79,11 +79,11 @@ print("Spread Favorite Win Percentage: " + favored + "%")
 print "\n"
 
 
-#plot correlation between features and target
-x = pd.to_numeric(data.loc[:,'home_favorite'])
-y = data.loc[:,'full_result']
-plt.scatter(x, y)
-plt.show()
+# #plot correlation between features and target
+# x = pd.to_numeric(data.loc[:,'home_favorite'])
+# y = data.loc[:,'full_result']
+# plt.scatter(x, y)
+# plt.show()
 
 #create correlatiion graph
 feature_cols = ['weather_temperature','weather_wind_mph', 'spread_favorite']
@@ -239,6 +239,8 @@ X_train = X_train[[
     'weather_detail_Rain',
     'weather_detail_Snow',
     'weather_detail_Sunny']]
+
+X_train.to_csv("X_train.csv")
 
 X_test = X_test[[
     'schedule_playoff',
