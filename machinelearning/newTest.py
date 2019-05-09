@@ -25,9 +25,9 @@ import seaborn as sns
 data = pd.read_csv("alldata.csv")
 teams = pd.read_csv("nfl_teams.csv")
 
-print "------Initial Dataset------"
-print data.head(10)
-print "\n"
+print("------Initial Dataset------")
+print(data.head(10))
+print("\n")
 
 # map team_id to the correct teams
 data['team_home'] = data.team_home.map(teams.set_index('team_name')['team_id'].to_dict())
@@ -60,9 +60,9 @@ data.loc[data.schedule_week == 'Superbowl', 'schedule_week'] = 21
 #take absolute value of spread
 data['spread_favorite'] = data['spread_favorite'].abs()
 
-print "------After Data Cleaning------"
-print data.head(10)
-print "\n"
+print ("------After Data Cleaning------")
+print (data.head(10))
+print ("\n")
 
 #calculate percentages to consider
 home_win = "{:.2f}".format((sum((data.full_result == 1) & (data.stadium_neutral == 0)) / float(len(data))) * 100)
@@ -76,7 +76,7 @@ print("Number of Games: " + str(len(data)))
 print("Home Wins Percentage: " + home_win + "%")
 print("Away Wins Percentage: " + away_win + "%")
 print("Spread Favorite Win Percentage: " + favored + "%")
-print "\n"
+print ("\n")
 
 
 # #plot correlation between features and target
@@ -94,29 +94,29 @@ cols_to_drop = ['stadium', 'score_home', 'score_away', 'schedule_date', 'team_ho
 data = data.drop(cols_to_drop, axis=1)
 
 print("------After Dropping Unnecessary Columns------")
-print data.head(10)
-print "\n"
+print (data.head(10))
+print ("\n")
 
 
-print "------View Number of Columns with NULL Values------"
-print data.isnull().sum(axis=0)
-print "\n"
+print ("------View Number of Columns with NULL Values------")
+print (data.isnull().sum(axis=0))
+print ("\n")
 
 #calculate means of weather temperature and weather wind mph columns for filling
-print "------Calculate Means of Columns And Fill Columns------"
+print ("------Calculate Means of Columns And Fill Columns------")
 weatherTempMean = data[['weather_temperature']].mean(axis=0)
-print weatherTempMean
+print (weatherTempMean)
 weatherWindMphMean = data[['weather_wind_mph']].mean(axis=0)
-print weatherWindMphMean
-print "\n"
+print (weatherWindMphMean)
+print ("\n")
 
 # #fill na spaces with the means of the column
 data[['weather_temperature']] = data[['weather_temperature']].fillna(value=weatherTempMean)
 data[['weather_wind_mph']] = data[['weather_wind_mph']].fillna(value=weatherWindMphMean)
 
-print "------View Number of Columns with NULL Values Again------"
-print data.isnull().sum(axis=0)
-print "\n"
+print ("------View Number of Columns with NULL Values Again------")
+print (data.isnull().sum(axis=0))
+print ("\n")
 
 # #save dataframe with names for later use
 # dataWithNames = data.copy()
@@ -129,9 +129,9 @@ print "\n"
 col_to_transform = ['weather_detail']
 data = pd.get_dummies(data = data, columns=col_to_transform)
 
-print "------Convert Categorical Variable Into Dummy Variables------"
-print data.head(10)
-print "\n"
+print ("------Convert Categorical Variable Into Dummy Variables------")
+print (data.head(10))
+print ("\n")
 
 #split data into train and test data, copy data
 train_data = data.copy()
@@ -141,21 +141,21 @@ train_data = train_data.loc[train_data['schedule_season'] < 2018]
 test_data = test_data.loc[test_data['schedule_season'] > 2017]
 # dataWithNames = dataWithNames.loc[dataWithNames['schedule_season'] > 2017]
 
-print "------Last 10 Rows in Train Data------"
-print train_data.tail(10)
-print "\n"
+print ("------Last 10 Rows in Train Data------")
+print (train_data.tail(10))
+print ("\n")
 
-print "------First 10 Rows in Test Data------"
-print test_data.head(10)
-print "\n"
+print ("------First 10 Rows in Test Data------")
+print (test_data.head(10))
+print ("\n")
 
 train_data.to_csv("currentTrainingDataset.csv")
 test_data.to_csv("currentTestDataset.csv")
 # dataWithNames.to_csv("dataWithNames.csv")
 
-print "------Number of H and A Values in Train Data------"
-print train_data.full_result.value_counts()
-print "\n"
+print ("------Number of H and A Values in Train Data------")
+print (train_data.full_result.value_counts())
+print ("\n")
 
 # Down Sample
 count_class0, count_class1 = train_data.full_result.value_counts()
@@ -166,8 +166,8 @@ train_undersample = train_home.sample(count_class1)
 down_train = pd.concat([train_undersample, train_away], axis=0)
 
 print("------Number of H and A Values in Train Data After Undersampling------")
-print down_train.full_result.value_counts()
-print "\n"
+print (down_train.full_result.value_counts())
+print ("\n")
 
 #create X and y sets of training data
 X_train = down_train.drop(['full_result'], axis=1)
@@ -175,19 +175,19 @@ y_train = down_train['full_result']
 
 print ("------Number of H and A Values In Test Data------")
 print(test_data.full_result.value_counts())
-print "\n"
+print ("\n")
 
 #create X and y sets of test data
 X_test = test_data.drop(['full_result'], axis=1)
 y_test = test_data['full_result']
 
 print ("------First 10 rows of Randomized Training Data------")
-print X_train.head(10)
-print "\n"
+print (X_train.head(10))
+print ("\n")
 
 print ("------First 10 rows of Test Data------")
-print X_test.head(10)
-print "\n"
+print (X_test.head(10))
+print ("\n")
 
 #Scaling
 scaler = StandardScaler()
@@ -199,8 +199,8 @@ scale_test_data = scaler.fit_transform(X_test.astype(float))
 scaled_test_data = pd.DataFrame(scale_test_data, columns=X_test.columns)
 
 print ("------First 10 rows of Train Data After Normalizing------")
-print scaled_train_data.head(10)
-print "\n"
+print (scaled_train_data.head(10))
+print ("\n")
 
 #Perform PCA
 pca = PCA().fit(scale_train_data)
@@ -222,10 +222,10 @@ rfe = rfe.fit(X_train, y_train)
 columnApprovals = rfe.support_
 # print(rfe.ranking_)
 
-print "------Best 10 Features Chosen by RFE------"
+print ("------Best 10 Features Chosen by RFE------")
 for i, colName in enumerate(X_train):
     print ("%s: %s" % (colName, columnApprovals[i]))
-print "\n"
+print ("\n")
 
 #remake the training sets with the best 10 columns
 X_train = X_train[[
@@ -255,8 +255,8 @@ X_test = X_test[[
     'weather_detail_Sunny']]
 
 print ("------Training Data With Best 10 Columns------")
-print X_train.head(10)
-print "\n"
+print (X_train.head(10))
+print ("\n")
 
 #create logistic model
 logreg = LogisticRegression(random_state=0, solver='lbfgs', max_iter=10000, class_weight='balanced')
@@ -318,23 +318,23 @@ print ('Accuracy of Naive classifier on test set: {:.3f}'.format(NAIVE_acc))
 #print results of neural
 NEUR_acc = accuracy_score(y_test, neural_predict)
 print ('Accuracy of Neural Net classifier on test set: {:.3f}'.format(NEUR_acc))
-print "\n"
+print ("\n")
 
 #print columns with their respective weights in logistic regressions
-print "------Columns and Their Weights For Logistic Regression------"
+print ("------Columns and Their Weights For Logistic Regression------")
 i = 0
 for col in X_train:
     print ("%s : %s" % (col, logreg.coef_[0][i]))
     i = i + 1
-print "\n"
+print ("\n")
 
 #print columns with their respective weights in svm
-print "------Columns and Their Weights For SVM------"
+print ("------Columns and Their Weights For SVM------")
 i = 0
 for col in X_train:
     print ("%s : %s" % (col, svc.coef_[0][i]))
     i = i + 1
-print "\n"
+print ("\n")
 
 #Plot ROC curve
 # import sklearn.metrics as metrics
