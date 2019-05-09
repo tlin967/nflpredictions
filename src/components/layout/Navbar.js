@@ -37,7 +37,6 @@ const Navbar = function(props) {
           <li><img src="../homepage/logo.png" alt="logo" width="150" class=" responsive-img" /></li>
 
           <li><a href='/'><i class="small material-icons left">home</i>Home</a></li>
-          <li><a href='/teams'><i class="small material-icons left">insert_chart</i>Team Stats</a></li>
           <li><a href='/predictor'><i class="small material-icons left">storage</i>Predictor</a></li>
         </ul>
 

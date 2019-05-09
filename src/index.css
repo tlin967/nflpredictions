@@ -148,7 +148,7 @@ a:visited {
 }
 
 
-/*     HOME PAGE   bitch    */
+/*     HOME PAGE   */
 
 .first-image{
   z-index: 1;
@@ -252,33 +252,83 @@ z-index:2;
   background-size:cover;
 }
 
-.block-34, .block-3 {
+.home-card, .home-card-2 {
   background: #fff;
   -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2); }
-  .block-34 .home-page-card-image img, .block-3 .home-page-card-image img {
+  .home-card .home-page-card-image img, .home-card-2 .home-page-card-image img {
     max-width: 100%; }
-  .block-34 .text, .block-3 .text {
-    padding: 30px; }
-    .block-34 .text .heading, .block-3 .text .heading {
+  .home-card .text, .home-card-2 .text {
+    padding: 30px;
+    padding-top:5px; }
+    .home-card .text .heading, .home-card-2 .text .heading {
       font-size: 24px;
       font-weight: 300; }
-    .block-34 .text .price, .block-3 .text .price {
+    .home-card .text .price, .home-card-2 .text .price {
       font-size: 40px; }
-      .block-34 .text .price sup, .block-34 .text .price sub, .block-3 .text .price sup, .block-3 .text .price sub {
+      .home-card .text .price sup, .home-card .text .price sub, .home-card-2 .text .price sup, .home-card-2 .text .price sub {
         font-size: 16px; }
-      .block-34 .text .price sup, .block-3 .text .price sup {
+      .home-card .text .price sup, .home-card-2 .text .price sup {
         top: -1em; }
-      .block-34 .text .price sub, .block-3 .text .price sub {
+      .home-card .text .price sub, .home-card-2 .text .price sub {
         bottom: 0em; }
-    .block-34 .text .specs, .block-34 .text .specs li, .block-3 .text .specs, .block-3 .text .specs li {
+    .home-card .text .specs, .home-card .text .specs li, .home-card-2 .text .specs, .home-card-2 .text .specs li {
       padding: 0;
       margin: 0;
       list-style: none; }
-    .block-34 .text .specs li, .block-3 .text .specs li {
+    .home-card .text .specs li, .home-card-2 .text .specs li {
       color: gray;
       line-height: 1.5;
       margin-bottom: 10px; }
-      .block-34 .text .specs li strong, .block-3 .text .specs li strong {
+      .home-card .text .specs li strong, .home-card-2 .text .specs li strong {
         color: #000; }
+
+/*   Prediction Page */
+
+
+
+.header-team-container{
+  margin-top:5vh;
+
+}
+
+.team-container{
+
+background:cover;
+}
+
+.home-team-image {
+  position:relative;
+  height:30vh;
+
+
+
+}
+
+.away-team-container{
+
+}
+
+.away-team-image {
+
+background:cover;
+
+}
+
+.predictor-image-container{
+  padding: 2em 2em 2em 2em;
+}
+
+.predictor-team-header{
+  font-size:2.5em;
+  font-weight:300;
+  max-height:100vh;
+}
+
+/* Page Footer */
+
+.page-footer{
+  background-color: #26a69a;
+
+}
 

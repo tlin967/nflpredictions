@@ -11,7 +11,7 @@ class AllTeams extends Component {
   componentDidMount = () => {
       M.AutoInit();
   }
-  
+
   render() {
 
     //separate the teams data from this.props object
