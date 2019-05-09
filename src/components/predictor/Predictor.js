@@ -264,6 +264,19 @@ componentWillReceiveProps(nextProps){
                                 <option value="6">Week 6</option>
                                 <option value="7">Week 7</option>
                                 <option value="8">Week 8</option>
+                                <option value="9">Week 9</option>
+                                <option value="10">Week 10</option>
+                                <option value="11">Week 11</option>
+                                <option value="12">Week 12</option>
+                                <option value="13">Week 13</option>
+                                <option value="14">Week 14</option>
+                                <option value="15">Week 15</option>
+                                <option value="16">Week 16</option>
+                                <option value="17">Week 17</option>
+                                <option value="18">Wildcard</option>
+                                <option value="19">Division</option>
+                                <option value="20">Conference</option>
+                                <option value="21">Superbowl</option>
                             </select>
                         </div>
 
@@ -275,7 +288,7 @@ componentWillReceiveProps(nextProps){
                                 this.state.predicted_results && this.state.predicted_results.map((result,index) => {
                                     if(result.schedule_week == this.state.week){
                                             return(
-                                                <option value={index} >Week {result.schedule_week}. {result.team_home} vs {result.team_away}</option>
+                                                <option value={index}> {result.team_home} vs {result.team_away}</option>
                                             )
                                         }
 
