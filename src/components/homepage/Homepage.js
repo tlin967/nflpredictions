@@ -54,33 +54,17 @@ class Homepage extends Component {
 
           <div class="home-page-middle-section col-lg-12 row">
               <div className="room-page-room-item col-lg-4 mb-5">
-                <div className="block-34"  style={{ cursor: "pointer" }}>
+                <div className="home-card"  style={{ cursor: "pointer" }}>
                     <div className="home-page-card-image home-page-card-image-1">
                         <a href="#child4"><img src="../homepage/home-card-1.jpeg"  alt="Placeholder"/></a>
                     </div>
                     <div className="text">
-                      <h2 className="heading">Presidential Room</h2>
-                      <div className="price"><sup className="room-page-room-price">$</sup><span className="room-page-room-price"></span><sub>/per night</sub></div>
-                      <ul className="specs">
-                           <li><strong>Bed Type:</strong> </li>                                     
-                           <li><strong>Ammenities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                           <li><strong>Capacity Per Room:</strong> </li>
-                           {/*<li><strong>Bed Number:</strong> {eachRoomResult.bed_number} </li>*/}
+                      <h2 className="heading">Model Development</h2>
+                      <div className="">
+                        Through the utilization of machine learning algorithms, methodologies, data collecion and preprocessing, are we able to develop a model that achieves nearly a 65% accuracy.
 
-                           {/*<a href="#child4">{eachRoomResult.room_number}</a>*/}
-                      </ul>
-                      <div >
-                        <strong># Of Rooms </strong> 
-                        <input type="text" name="numbers" list="numbers">
-                        </input>
-                        <datalist id="numbers">
-                          <option value="1"></option>
-                          <option value="2"></option>
-                          <option value="3"></option>
-                          <option value="4"></option>
-                          <option value="5"></option>
-                        </datalist>
                       </div>
+                      
                             {/*<p><a href="#" className="btn btn-primary py-3 px-5">Read More</a></p>*/}
 
                     </div>
@@ -88,65 +72,30 @@ class Homepage extends Component {
               </div>
 
               <div className="room-page-room-item col-lg-4 mb-5">
-                <div className="block-34"  style={{ cursor: "pointer" }}>
+                <div className="home-card"  style={{ cursor: "pointer" }}>
                     <div className="home-page-card-image home-page-card-image-2">
                         <a href="#child4"><img src="../homepage/home-card-2.jpeg"  alt="Placeholder"/></a>
                     </div>
                     <div className="text">
-                      <h2 className="heading">Presidential Room</h2>
-                      <div className="price"><sup className="room-page-room-price">$</sup><span className="room-page-room-price"></span><sub>/per night</sub></div>
-                      <ul className="specs">
-                           <li><strong>Bed Type:</strong> </li>                                     
-                           <li><strong>Ammenities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                           <li><strong>Capacity Per Room:</strong> </li>
-
-                      </ul>
-                      <div >
-                        <strong># Of Rooms </strong> 
-                        <input type="text" name="numbers" list="numbers">
-                        </input>
-                        <datalist id="numbers">
-                          <option value="1"></option>
-                          <option value="2"></option>
-                          <option value="3"></option>
-                          <option value="4"></option>
-                          <option value="5"></option>
-                        </datalist>
+                      <h2 className="heading">Predictions</h2>
+                      <div>
+                        Our model is based on the matchups of previous games, which provides our model insight into how to predict the outcome of future games.
                       </div>
-                            {/*<p><a href="#" className="btn btn-primary py-3 px-5">Read More</a></p>*/}
 
                     </div>
                 </div>
               </div>
 
               <div className="room-page-room-item col-lg-4 mb-5">
-                <div className="block-34"  style={{ cursor: "pointer" }}>
+                <div className="home-card"  style={{ cursor: "pointer" }}>
                     <div className="home-page-card-image home-page-card-image-3">
                         <a href="#child4"><img src="../homepage/home-card-3.jpeg"  alt="Placeholder"/></a>
                     </div>
                     <div className="text">
-                      <h2 className="heading">Presidential Room</h2>
-                      <div className="price"><sup className="room-page-room-price">$</sup><span className="room-page-room-price"></span><sub>/per night</sub></div>
-                      <ul className="specs">
-                           <li><strong>Bed Type:</strong> </li>                                     
-                           <li><strong>Ammenities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                           <li><strong>Capacity Per Room:</strong> </li>
-                           {/*<li><strong>Bed Number:</strong> {eachRoomResult.bed_number} </li>*/}
-
-                           {/*<a href="#child4">{eachRoomResult.room_number}</a>*/}
-                      </ul>
-                      <div >
-                        <strong># Of Rooms </strong> 
-                        <input type="text" name="numbers" list="numbers">
-                        </input>
-                        <datalist id="numbers">
-                          <option value="1"></option>
-                          <option value="2"></option>
-                          <option value="3"></option>
-                          <option value="4"></option>
-                          <option value="5"></option>
-                        </datalist>
+                      <h2 className="heading">Utility</h2>
+                      <div className="price">
                       </div>
+                        Having the ability to predict outcomes provides analytics, sports fanatics, and coaches the means to gain insight on their favorite teams and how they would fare against other teams.
                             {/*<p><a href="#" className="btn btn-primary py-3 px-5">Read More</a></p>*/}
 
                     </div>
