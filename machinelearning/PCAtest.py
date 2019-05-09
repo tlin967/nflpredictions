@@ -13,10 +13,14 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.decomposition import PCA
-
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
 
 #import and convert train data from csv into dataframe
 data = pd.read_csv("alldata.csv")
+
+cols_to_drop = ['schedule_date', 'stadium', 'score_home', 'score_away']
+data = data.drop(cols_to_drop, axis=1)
 
 #change schedule_playoff to 0 and 1
 data.loc[data.schedule_playoff == False, 'schedule_playoff'] = 0
@@ -36,39 +40,64 @@ data.loc[data.schedule_week == 'Superbowl', 'schedule_week'] = 21
 data.loc[data.stadium_neutral == False, 'stadium_neutral'] = 0
 data.loc[data.stadium_neutral == True, 'stadium_neutral'] = 1
 
-#drop uneccessary columns
-cols_to_drop = ['stadium', 'score_home', 'score_away']
-data = data.drop(cols_to_drop, axis=1)
-
 # #only take complete cases
 data.dropna(inplace=True)
 
 #save dataframe with names for later use
 dataWithNames = data[:]
 
-#drop schedule date after saving it in dataWithNames
-cols_to_drop = ['schedule_date']
-data = data.drop(cols_to_drop, axis=1)
-
 #converts columns into factors
 col_to_transform = ['team_home', 'team_away', 'team_favorite_id','weather_detail']
 data = pd.get_dummies(data = data, columns=col_to_transform)
 
+data_y = data.loc[: , ['full_result','schedule_season']]
+data_x = data.drop(['full_result', 'schedule_season'], axis = 1)
+
+print(data_x)
+print(data_y)
+
+#TODO: Put data back full result back into data
+#Scaling and using PCA
+scaler = StandardScaler()
+scale_train_data = scaler.fit_transform(data_x)
+
+pca = PCA().fit(scale_train_data)
+
+plt.figure()
+plt.plot(np.cumsum(pca.explained_variance_ratio_))
+plt.xlabel('Number of Components')
+plt.ylabel('Variance (%)') #for each component
+plt.title('NFL Games Dataset')
+plt.show()
+
+pca = PCA(n_components=93)
+new_train_data = pca.fit_transform(scale_train_data)
+
+data_x = pd.DataFrame(new_train_data)
+
+print(data_x)
+
+data_x.reset_index(inplace=True)
+data_y.reset_index(inplace=True)
+
+data_x.drop('index',axis=1,inplace=True)
+data_y.drop('index', axis=1, inplace=True)
+
+data = pd.concat([data_x, data_y], axis = 1)
+print(data)
+
 #split data into train and test data
 train_data = data[:]
+
 #get index of all rows where season is 2018
 index2018Names = train_data[ train_data['schedule_season'] == 2018 ].index
+#store all rows where season is 2018
+test_data = train_data.loc[ train_data['schedule_season'] == 2018]
 
-#store all rows where season is 2018 into test_data
-test_data = train_data.loc[ train_data['schedule_season'] == 2018 ]
-dataWithNames = dataWithNames.loc[ dataWithNames['schedule_season'] == 2018 ]
-
-# Delete these row indexes from dataFrame
 train_data.drop(index2018Names , inplace=True)
 
-train_data.to_csv("currentTrainingDataset.csv")
-test_data.to_csv("currentTestDataset.csv")
-dataWithNames.to_csv("dataWithNames.csv")
+print train_data
+print test_data
 
 # #normalize data attributes for test and train data
 # x_train = train_data.values
@@ -81,27 +110,25 @@ dataWithNames.to_csv("dataWithNames.csv")
 # test_data = pd.DataFrame(x_test_scaled, columns=test_data.columns)
 
 
-##################################################
-# Used to split the training data into 2010-2016 #
-# And test data into 2017-2018                   #
-##################################################
-# #split data into train and test data
-# train_data = data[:]
-# #get index of all rows where season is 2018
+# ##################################################
+# # Used to split the training data into 2010-2016 #
+# # And test data into 2017-2018                   #
+# ##################################################
+# # #split data into train and test data
+# # train_data = data[:]
+# # #get index of all rows where season is 2018 and 2017
 # index2018Names = train_data[ train_data['schedule_season'] == 2018 ].index
 # index2017Names = train_data[ train_data['schedule_season'] == 2017 ].index
-#
-# #store all rows where season is 2018 and 2017
+# # #store all rows where season is 2018 and 2017
 # test_data = train_data.loc[ (train_data['schedule_season'] == 2018) | (train_data['schedule_season'] == 2017)]
 # dataWithNames = dataWithNames.loc[ (dataWithNames['schedule_season'] == 2018) | (dataWithNames['schedule_season'] == 2017)]
-#
-# # Delete these row indexes from dataFrame
+# # # Delete these row indexes from dataFrame
 # train_data.drop(index2018Names , inplace=True)
 # train_data.drop(index2017Names , inplace=True)
 #
-# train_data.to_csv("currentTrainingDataset.csv")
-# test_data.to_csv("currentTestDataset.csv")
-# dataWithNames.to_csv("dataWithNames.csv")
+# # train_data.to_csv("currentTrainingDataset.csv")
+# # test_data.to_csv("currentTestDataset.csv")
+# # dataWithNames.to_csv("dataWithNames.csv")
 
 
 #full_result 1 = Home Win, 0 = Away Win
@@ -114,11 +141,11 @@ train_home = train_data[train_data['full_result'] == 1]
 
 # Down Sample
 train_undersample = train_home.sample(count_class1)
+
 down_train = pd.concat([train_undersample, train_away], axis=0)
 
-
 print("# of H and A values in train data after down sampling")
-print down_train.full_result.value_counts()
+print(down_train.full_result.value_counts())
 
 #create X and y sets of training data
 X_train = down_train.drop(['full_result'], axis=1)
@@ -128,6 +155,21 @@ y_train = down_train['full_result']
 X_test_data = test_data.drop(['full_result'], axis=1)
 y_test_data = test_data['full_result']
 
+#scale the schedule season column too
+x_train_scaled = scaler.fit_transform(X_train)
+x_test_scaled = scaler.fit_transform(X_test_data)
+
+X_train = pd.DataFrame(x_train_scaled)
+X_test_data = pd.DataFrame(x_test_scaled)
+
+# test_data.to_csv("testSet.csv")
+# down_train.to_csv("trainingSet.csv")
+
+print(X_train)
+print(X_test_data)
+
+x_train_scaled = scaler.fit_transform(X_train)
+x_test_scaled = scaler.fit_transform(X_test_data)
 
 print ("# of H and A values in test data: ")
 print(test_data.full_result.value_counts())
@@ -160,6 +202,7 @@ dtree_clf = dtree_clf.fit(X_train, y_train)
 #predict with dtree
 dtree_predict = dtree_clf.predict(X_test_data)
 
+
 #create linear discriminant analysis
 lin_clf = LinearDiscriminantAnalysis()
 lin_clf.fit(X_train, y_train)
@@ -187,40 +230,10 @@ ada_predict = ada_clf.fit(X_train, y_train).predict(X_test_data)
 quad_clf = QuadraticDiscriminantAnalysis()
 quad_predict = quad_clf.fit(X_train, y_train).predict(X_test_data)
 
-for i in range(test_data.shape[0]):
-    #find name of team that is home
-    result = ''
-    predicted_res = ''
-    week = ''
-
-    if quad_predict[i] == 0:
-        predicted_res = dataWithNames.iloc[i]['team_away']
-    else:
-        predicted_res = dataWithNames.iloc[i]['team_home']
-
-
-    if test_data.iloc[i]['full_result'] == 0:
-        result = dataWithNames.iloc[i]['team_away']
-    else:
-        result = dataWithNames.iloc[i]['team_home']
-
-    if test_data.iloc[i]['schedule_week'] == 21:
-        week = 'Superbowl'
-    elif test_data.iloc[i]['schedule_week'] == 20:
-        week = 'Conference'
-    elif test_data.iloc[i]['schedule_week'] == 19:
-        week = 'Division'
-    elif test_data.iloc[i]['schedule_week'] == 18:
-        week = 'Wildcard'
-    else:
-        week = test_data.iloc[i]['schedule_week']
-
-    print ("Year: %s, Week: %s\n  Team 1: %s\n  Team 2: %s\n    Predicted: %s\n    Actual: %s" % (dataWithNames.iloc[i]['schedule_season'], week, dataWithNames.iloc[i]['team_home'], dataWithNames.iloc[i]['team_away'], predicted_res, result))
 
 
 #print results of log reg
-print("\n------Accuracies of Classifiers------")
-print('Accuracy of LR classifier on test set: {:.3f}'.format(np.mean(log_pred == y_test_data)))
+print('\nAccuracy of LR classifier on test set: {:.3f}'.format(np.mean(log_pred == y_test_data)))
 
 #print results of svm
 print ('Accuracy of SVM classifier on test set: {:.3f}'.format(accuracy_score(y_test_data, svm_predict)))
@@ -248,32 +261,3 @@ print ('Accuracy of ADA Boost classifier on test set: {:.3f}'.format(accuracy_sc
 
 #print results of quadratic
 print ('Accuracy of Quadratic classifier on test set: {:.3f}'.format(accuracy_score(y_test_data, quad_predict)))
-
-#################################################
-#Used to make the csv file for predicted results#
-#################################################
-pred_data = pd.DataFrame(np.array(quad_predict), columns = ['predicted_result'])
-
-#get all data up to everything including weather wind
-newTest_data = test_data.loc[:, :'weather_wind_mph']
-
-name_data = dataWithNames[['schedule_date', 'team_home', 'team_away', 'team_favorite_id']]
-
-newTest_data.reset_index(inplace=True)
-name_data.reset_index(inplace=True)
-
-newTest_data.drop('index',axis=1,inplace=True)
-name_data.drop('index', axis=1, inplace=True)
-
-final_data = pd.concat([newTest_data, pred_data, name_data], axis = 1)
-
-final_data.reset_index(inplace=True)
-final_data.rename(columns = {"index":"id"}, inplace=True)
-
-final_data.to_csv('predicted_result.csv')
-
-# #show impact of each column?
-# i = 0
-# for col in X_train:
-#     print ("%s : %s" % (col, logreg.coef_[0][i]))
-#     i = i + 1

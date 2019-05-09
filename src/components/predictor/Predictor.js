@@ -50,7 +50,7 @@ componentWillReceiveProps(nextProps){
         console.log(this.state.predicted_results)
         console.log(this.state.stop)
     }
-    
+
     }
 
 // componentWillReceiveProps(nextProps) {
@@ -161,7 +161,7 @@ componentWillReceiveProps(nextProps){
         var imageName = "../team-icons/Arizona-Cardinals.png"
     if (imageName == "Washington Redskins")
         var imageName = "../team-icons/Washington-Redskins.png"
-    
+
 
     return imageName
   }
@@ -187,6 +187,7 @@ componentWillReceiveProps(nextProps){
     //
     // }
 
+    //if uid in auth does not exist
     if(!auth.uid) {
       return <Redirect to='/signin' />
     }
@@ -198,7 +199,7 @@ componentWillReceiveProps(nextProps){
     else
     {
         console.log(this.state.predicted_results)
-    
+
     return(
         /*general home page container*/
         <div className="predictor container " class="row">
@@ -209,8 +210,8 @@ componentWillReceiveProps(nextProps){
 
                 {
 
-              
-                        
+
+
 
                         this.state.predicted_results && this.state.predicted_results.map((result, index) => {
                             if(result.schedule_week == this.state.week && index == this.state.teamIndex){
@@ -237,8 +238,8 @@ componentWillReceiveProps(nextProps){
                               )
                             }
                          })
-                        
-                    
+
+
 
 
 
@@ -298,7 +299,7 @@ componentWillReceiveProps(nextProps){
                                 </select>
                         </div>
                     </div>
-                    
+
                     <div class = "col-lg-12 center card" classname="stats">
                         <div class="card-content black-text">
                             <span class="card-title">Result</span>
@@ -307,17 +308,17 @@ componentWillReceiveProps(nextProps){
                                     if(result.schedule_week == this.state.week && index == this.state.teamIndex){
                                         return(
                                             <div className="col-lg-12 py-1">
-   
-                                                <div className="col-lg-12 row"> 
+
+                                                <div className="col-lg-12 row">
                                                     <div className="col-lg-5" >Date: {result.schedule_date}</div>
                                                     <div className="col-lg-5" >Week: {result.schedule_week}</div>
                                                 </div>
-                                                <div className="col-lg-12 row"> 
+                                                <div className="col-lg-12 row">
                                                     <div className="col-lg-5" >Home Team: <br></br> {result.team_home} </div>
                                                     <div className="col-lg-5" >Away Team: <br></br> {result.team_away}</div>
                                                 </div>
                                                 <hr></hr>
-                                                <div className="col-lg-12 row"> 
+                                                <div className="col-lg-12 row">
                                                     <div className="col-lg-5" >Predicted Result: <br></br> {result.predicted_result == 0 ? 'Away Team Wins' : 'Home Team Wins'} </div>
                                                     <div className="col-lg-5" >Actual Result: <br></br>{result.full_result == 0 ? 'Away Team Wins' : 'Home Team Wins'} </div>
                                                 </div>
