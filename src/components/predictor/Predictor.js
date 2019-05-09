@@ -112,7 +112,7 @@ componentWillReceiveProps(nextProps){
     if (imageName == "Cleveland Browns")
         var imageName = "../team-icons/Cleveland-Browns.png"
     if (imageName == "Pittsburgh Steelers")
-        var imageName = "../team-icons/Pittsburgh Steelers.png"
+        var imageName = "../team-icons/Pittsburgh-Steelers.png"
     if (imageName == "Denver Broncos")
         var imageName = "../team-icons/Denver-Broncos.png"
     if (imageName == "Seattle Seahawks")
@@ -153,70 +153,15 @@ componentWillReceiveProps(nextProps){
         var imageName = "../team-icons/Detroit-Lions.png"
     if (imageName == "New York Jets")
         var imageName = "../team-icons/New-York-Jets.png"
-    if (imageName == "Oakland-Raiders")
+    if (imageName == "Oakland Raiders")
         var imageName = "../team-icons/Oakland-Raiders.png"
     if (imageName == "Los Angeles Rams")
         var imageName = "../team-icons/Los-Angeles-Rams.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
-    if (imageName == "Atlanta Falcons")
-        var imageName = "../team-icons/eagles.png"
+    if (imageName == "Arizona Cardinals")
+        var imageName = "../team-icons/Arizona-Cardinals.png"
+    if (imageName == "Washington Redskins")
+        var imageName = "../team-icons/Washington-Redskins.png"
+    
 
     return imageName
   }
@@ -256,21 +201,21 @@ componentWillReceiveProps(nextProps){
     
     return(
         /*general home page container*/
-        <div className="predictor container" class="row">
+        <div className="predictor container " class="row">
 
             {/*rest of the page container*/}
-            <div class="col-lg-12 container row">
+            <div class="col-lg-12 header-team-container row ">
                 {/*icon for the hometeam logo*/}
 
                 {
 
-                    <div> 
-                        {
+              
+                        
 
                         this.state.predicted_results && this.state.predicted_results.map((result, index) => {
                             if(result.schedule_week == this.state.week && index == this.state.teamIndex){
                               return (
-                                <div className="col-lg-12 header-team-container row">
+                                <div className="col-lg-12 container row">
                                     <div className="col-lg-6 team-container icon">
                                       <div className="card center predictor-team-header row">
                                         <div> {result.team_home} </div>
@@ -292,9 +237,8 @@ componentWillReceiveProps(nextProps){
                               )
                             }
                          })
-                        }
+                        
                     
-                    </div>
 
 
 
@@ -315,6 +259,11 @@ componentWillReceiveProps(nextProps){
                                 <option value="1">Week 1</option>
                                 <option value="2">Week 2</option>
                                 <option value="3">Week 3</option>
+                                <option value="4">Week 4</option>
+                                <option value="5">Week 5</option>
+                                <option value="6">Week 6</option>
+                                <option value="7">Week 7</option>
+                                <option value="8">Week 8</option>
                             </select>
                         </div>
 

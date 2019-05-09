@@ -288,16 +288,12 @@ z-index:2;
 
 .header-team-container{
   margin-top:5vh;
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  padding-left:15vw;
+
 }
 
 .team-container{
 
 background:cover;
-min-width:33vw;
 }
 
 .home-team-image {
